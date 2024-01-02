@@ -1,0 +1,55 @@
+# yaml-language-server: $schema=../../Schemas/dungeons.json
+
+# Config file for the various Zelda dungeons with collectable treasure in them
+
+# Example:
+# - Dungeon: Palace of Darkness
+#   Name:
+#   - Text: Palace of Darkness
+#   - Text: Dark Palace
+#     Weight: 0.1
+#   Boss:
+#   - Text: Helmasaur King
+#   - Text: The Helmasaur King
+#     Weight: 0.1
+# 
+
+- Dungeon: Eastern Palace
+  Name: 
+  Boss: 
+- Dungeon: Desert Palace
+  Name: 
+  Boss: 
+- Dungeon: Tower of Hera
+  Name: 
+  Boss: 
+- Dungeon: Palace of Darkness
+  Name: 
+  Boss: 
+- Dungeon: Swamp Palace
+  Name: 
+  Boss: 
+- Dungeon: Skull Woods
+  Name: 
+  Boss: 
+- Dungeon: Thieves' Town
+  Name: 
+  Boss: 
+- Dungeon: Ice Palace
+  Name: 
+  Boss: 
+- Dungeon: Misery Mire
+  Name: 
+  Boss: 
+- Dungeon: Turtle Rock
+  Name: 
+  Boss: 
+- Dungeon: Ganon's Tower
+  Name: 
+  Boss: 
+- Dungeon: Hyrule Castle
+  Name: 
+  Boss: 
+- Dungeon: Castle Tower
+  Name: 
+  Boss: 

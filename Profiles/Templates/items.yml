@@ -1,0 +1,1618 @@
+# yaml-language-server: $schema=../../Schemas/items.json
+
+# Config file for item names and various tracker responses when picking up items
+
+# Example:
+# - Item: Half Magic
+#   Name:
+#   - Text: Half Magic
+#   - Text: 50% off magic coupon
+#     Weight: 0.1
+#   ArticledName:
+#   - Text: the Half Magic
+#   - Text: the 50% off magic coupon
+#   Article: 
+#   Plural: 
+#   Multiple: false
+#   Stages:
+#     1:
+#     - Text: Half Magic
+#     2:
+#     - Text: Quarter Magic
+#   WhenTracked:
+#     1:
+#     - Text: Custom message when tracking half magic
+#     2:
+#     - Text: Custom message when tracking quarter magic
+#   Image: 
+#   Hints:
+#   - Text: It's green
+#   - Text: It's an upgrade
+#   PedestalHints:
+#   - Text: The ability to do more magical things
+# - Item: Custom Item
+#   Name:
+#   - Text: Custom Item
+#   - Text: Another custom item
+#     Weight: 0.1
+#   ArticledName:
+#   - Text: a custom item
+#   Article: 
+#   Plural: 
+#   Multiple: true
+#   Stages: 
+#   WhenTracked:
+#     1:
+#     - Text: Message when tracking it the first 3 times
+#     4:
+#     - Text: Message when tracking it 4-7 times, 8-11 will fall back to default messages
+#     8: 
+#     12:
+#     - Text: Message when tracking it 12+ times
+#   Image: 
+#   Hints: 
+#   PedestalHints: 
+# 
+
+- Item: Nothing
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Content
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Death
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Duck
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Fire Rod
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Ice Rod
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Hammer
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Hookshot
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Bow
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Blue Boomerang
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Magic Powder
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Bombos
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Ether
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Quake
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Lamp
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Shovel
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Flute
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Cane of Somaria
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Bottle
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Bee bottle
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Gold bee bottle
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Fairy bottle
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Blue potion bottle
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Green potion bottle
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Red potion bottle
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Heart piece
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Cane of Byrna
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Magic Cape
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Magic Mirror
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Book of Mudora
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Zora's Flippers
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Moon Pearl
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Bug Catching Net
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Bombs
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Mushroom
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Red Boomerang
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: One Rupee
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Five Rupees
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Twenty Rupees
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Heart Container
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Heart Container Refill
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: One Hundred Rupees
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Fifty Rupees
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Single Arrow
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Ten Arrows
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Three Hundred Rupees
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Pegasus Boots
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Half Magic
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: +5 Bomb Capacity
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: +5 Arrow Capacity
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Silver Arrows
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Sword
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Shield
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Mail
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Gloves
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Ganons Tower Map
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Turtle Rock Map
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Thieves Town Map
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Tower of Hera Map
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Ice Palace Map
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Skull Woods Map
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Misery Mire Map
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Palace of Darkness Map
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Swamp Palace Map
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Desert Palace Map
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Eastern Palace Map
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Hyrule Castle Map
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Ganons Tower Compass
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Turtle Rock Compass
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Thieves Town Compass
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Tower of Hera Compass
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Ice Palace Compass
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Skull Woods Compass
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Misery Mire Compass
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Palace of Darkness Compass
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Swamp Palace Compass
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Desert Palace Compass
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Eastern Palace Compass
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Ganons Tower Big Key
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Turtle Rock Big Key
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Thieves Town Big Key
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Tower of Hera Big Key
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Ice Palace Big Key
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Skull Woods Big Key
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Misery Mire Big Key
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Palace of Darkness Big Key
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Swamp Palace Big Key
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Desert Palace Big Key
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Eastern Palace Big Key
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Sewer Key
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Desert Palace Key
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Castle Tower Key
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Swamp Palace Key
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Palace of Darkness Key
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Misery Mire Key
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Skull Woods Key
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Ice Palace Key
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Tower of Hera Key
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Thieves Town Key
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Turtle Rock Key
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Ganons Tower Key
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Small Key
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Big Key
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Map
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Compass
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Grappling Beam
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: X-Ray Scope
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Varia Suit
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Spring Ball
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Morphing Ball
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Screw Attack
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Gravity Suit
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Hi-Jump Boots
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Space Jump
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Morph Bombs
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Speed Booster
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Charge Beam
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Ice Beam
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Wave Beam
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Spazer
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Plasma Beam
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Energy Tank
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Reserve Tank
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Missile
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Super Missile
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Power Bomb
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Crateria Level 1 Keycard
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Crateria Level 2 Keycard
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Crateria Boss Keycard
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Brinstar Level 1 Keycard
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Brinstar Level 2 Keycard
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Brinstar Boss Keycard
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Norfair Level 1 Keycard
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Norfair Level 2 Keycard
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Norfair Boss Keycard
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Maridia Level 1 Keycard
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Maridia Level 2 Keycard
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Maridia Boss Keycard
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Wrecked Ship Level 1 Keycard
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Wrecked Ship Boss Keycard
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Lower Norfair Level 1 Keycard
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Lower Norfair Boss Keycard
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 

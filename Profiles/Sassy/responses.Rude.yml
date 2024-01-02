@@ -1,0 +1,7 @@
+# yaml-language-server: $schema=../../Schemas/responses.json
+StoppedTracking:
+- Text: Don't let the door hit you on the way out.
+  Weight: 0.005
+StoppedTrackingPostGoMode:
+- Text: Don't let the door hit you on the way out.
+  Weight: 0.005

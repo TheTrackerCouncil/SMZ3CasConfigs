@@ -1,0 +1,40 @@
+# yaml-language-server: $schema=../../Schemas/game.json
+
+# Config file for lines that will be injected into the game upon creation.
+# Note that all lines in game need to be no more than 19 characters.
+
+# Example:
+# GanonIntro:
+# - Text: >-
+#     In game text with
+# 
+#     each line being
+# 
+#     19 characters
+# 
+#     or less
+# - Text: >-
+#     Another example
+# 
+#     of in game text
+#   Weight: 0.1
+# 
+
+GanonIntro: 
+BlindIntro: 
+TriforceRoom: 
+HintLocationIsMandatory: 
+HintLocationHasUsefulItem: 
+HintDungeonMedallion: 
+HintLocationHasSword: 
+HintLocationEmpty: 
+HintLocationHasItem: 
+KingZora: 
+BottleMerchant: 
+ChoiceYes: 
+ChoiceNo: 
+GanonSilversHint: 
+GanonNoSilvers: 
+SahasrahlaReveal: 
+BombShopReveal: 
+TavernMan: 

@@ -1,0 +1,77 @@
+# yaml-language-server: $schema=../../Schemas/bosses.json
+
+# Config file for the various Metroid Bosses and other things that should be beatable
+
+# Example:
+# - Boss: Bomb Torizo
+#   Name:
+#   - Text: Bomb Torizo
+#   - Text: Bomb Chozo
+#   - Text: Bozo
+#     Weight: 0.1
+#   WhenTracked:
+#   - Text: Message when clearing the boss
+#   - Text: Another message when clearing the boss
+#     Weight: 0.1
+#   WhenDefeated:
+#   - Text: Message when defeating the boss
+#   - Text: Another message when defeating the boss
+#     Weight: 0.1
+#   Image: 
+# 
+
+- Boss: Spore Spawn
+  Name: 
+  WhenTracked: 
+  WhenDefeated: 
+  Image: 
+- Boss: Botwoon
+  Name: 
+  WhenTracked: 
+  WhenDefeated: 
+  Image: 
+- Boss: Kraid
+  Name: 
+  WhenTracked: 
+  WhenDefeated: 
+  Image: 
+- Boss: Crocomire
+  Name: 
+  WhenTracked: 
+  WhenDefeated: 
+  Image: 
+- Boss: Phantoon
+  Name: 
+  WhenTracked: 
+  WhenDefeated: 
+  Image: 
+- Boss: Shaktool
+  Name: 
+  WhenTracked: 
+  WhenDefeated: 
+  Image: 
+- Boss: Draygon
+  Name: 
+  WhenTracked: 
+  WhenDefeated: 
+  Image: 
+- Boss: Ridley
+  Name: 
+  WhenTracked: 
+  WhenDefeated: 
+  Image: 
+- Boss: Mother Brain
+  Name: 
+  WhenTracked: 
+  WhenDefeated: 
+  Image: 
+- Boss: Bomb Torizo
+  Name: 
+  WhenTracked: 
+  WhenDefeated: 
+  Image: 
+- Boss: Golden Torizo
+  Name: 
+  WhenTracked: 
+  WhenDefeated: 
+  Image: 

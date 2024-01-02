@@ -1,0 +1,45 @@
+# yaml-language-server: $schema=../../Schemas/rewards.json
+
+# Config file for dungeon reward names
+
+# Example:
+# - Reward: Red Crystal
+#   Name:
+#   - Text: Red Crystal
+#   - Text: Blood red crystal
+#     Weight: 0.1
+#   ArticledName:
+#   - Text: a Red Crystal
+#   - Text: a blood red crystal
+#     Weight: 0.1
+#   Article: 
+# 
+
+- Reward: Unknown
+  Name: 
+  ArticledName: 
+  Article: 
+- Reward: Crystal
+  Name: 
+  ArticledName: 
+  Article: 
+- Reward: Red Crystal
+  Name: 
+  ArticledName: 
+  Article: 
+- Reward: Green Pendant
+  Name: 
+  ArticledName: 
+  Article: 
+- Reward: Red Pendant
+  Name: 
+  ArticledName: 
+  Article: 
+- Reward: Blue Pendant
+  Name: 
+  ArticledName: 
+  Article: 
+- Reward: Agahnim
+  Name: 
+  ArticledName: 
+  Article: 

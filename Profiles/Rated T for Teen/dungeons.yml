@@ -1,0 +1,5 @@
+﻿# yaml-language-server: $schema=../../Schemas/dungeons.json
+- Dungeon: Eastern Palace
+  Name:
+  - Text: Easturd Palace
+

@@ -1,0 +1,149 @@
+# yaml-language-server: $schema=../../Schemas/regions.json
+- Region: Blue Brinstar
+  Name:
+  - Text: Blue Brinstar
+  Hints:
+  - Text: Samus might have been there before.
+- Region: Green Brinstar
+  Name:
+  - Text: Green Brinstar
+- Region: Kraid's Lair
+  Name:
+  - Text: Kraid's Lair
+- Region: Pink Brinstar
+  Name:
+  - Text: Pink Brinstar
+- Region: Red Brinstar
+  Name:
+  - Text: Red Brinstar
+- Region: Central Crateria
+  Name:
+  - Text: Central Crateria
+- Region: East Crateria
+  Name:
+  - Text: East Crateria
+- Region: West Crateria
+  Name:
+  - Text: West Crateria
+- Region: Inner Maridia
+  Name:
+  - Text: Inner Maridia
+  Hints:
+  - Text: You should go see Shaktool when you're in the area.
+  - Text: It's in a wet place.
+- Region: Outer Maridia
+  Name:
+  - Text: Outer Maridia
+  Hints:
+  - Text: It's in a wet place.
+- Region: Lower Norfair, East
+  Name:
+  - Text: Lower Norfair, East
+  Hints:
+  - Text: I heard Ridley hangs out around there.
+- Region: Lower Norfair, West
+  Name:
+  - Text: Lower Norfair, West
+- Region: Upper Norfair, Crocomire
+  Name:
+  - Text: Upper Norfair, Crocomire
+- Region: Upper Norfair, East
+  Name:
+  - Text: Upper Norfair, East
+- Region: Upper Norfair, West
+  Name:
+  - Text: Upper Norfair, West
+- Region: Wrecked Ship
+  Name:
+  - Text: Wrecked Ship
+- Region: Castle Tower
+  Name:
+  - Text: Castle Tower
+  - Text: Agahnim's Tower
+  - Text: Hyrule Castle Tower
+- Region: Dark World Mire
+  Name:
+  - Text: Dark World Mire
+  Hints:
+  - Text: It's in a wet place.
+- Region: Dark World North East
+  Name:
+  - Text: Dark World North East
+- Region: Dark World North West
+  Name:
+  - Text: Dark World North West
+  Hints:
+  - Text: Check around the villages.
+- Region: Dark World South
+  Name:
+  - Text: Dark World South
+- Region: Dark World Death Mountain East
+  Name:
+  - Text: Dark World Death Mountain East
+- Region: Dark World Death Mountain West
+  Name:
+  - Text: Dark World Death Mountain West
+- Region: Desert Palace
+  Name:
+  - Text: Desert Palace
+- Region: Eastern Palace
+  Name:
+  - Text: Eastern Palace
+- Region: Ganon's Tower
+  Name:
+  - Text: Ganon's Tower
+  Hints:
+  - Text: I hope you don't need it.
+- Region: Hyrule Castle
+  Name:
+  - Text: Hyrule Castle
+- Region: Ice Palace
+  Name:
+  - Text: Ice Palace
+- Region: Light World Death Mountain East
+  Name:
+  - Text: Light World Death Mountain East
+- Region: Light World Death Mountain West
+  Name:
+  - Text: Light World Death Mountain West
+- Region: Light World North East
+  Name:
+  - Text: Light World North East
+- Region: Light World North West
+  Name:
+  - Text: Light World North West
+  Hints:
+  - Text: Check around the villages.
+- Region: Light World South
+  Name:
+  - Text: Light World South
+- Region: Misery Mire
+  Name:
+  - Text: Misery Mire
+  Hints:
+  - Text: It's in a wet place.
+  - Text: You need a medallion to get in there.
+- Region: Palace of Darkness
+  Name:
+  - Text: Palace of Darkness
+- Region: Skull Woods
+  Name:
+  - Text: Skull Woods
+- Region: Swamp Palace
+  Name:
+  - Text: Swamp Palace
+  Hints:
+  - Text: It's in a wet place.
+- Region: Thieves' Town
+  Name:
+  - Text: Thieves' Town
+- Region: Tower of Hera
+  Name:
+  - Text: Tower of Hera
+- Region: Turtle Rock
+  Name:
+  - Text: Turtle Rock
+  - Text: Tortoise Rock
+    Weight: 0.1
+  Hints:
+  - Text: You need a medallion to get in there.

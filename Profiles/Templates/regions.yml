@@ -1,0 +1,219 @@
+# yaml-language-server: $schema=../../Schemas/regions.json
+
+# Config file for region names and various tracker responses when dying in particular locations
+
+# Example:
+# - Region: Turtle Rock
+#   Name:
+#   - Text: Turtle Rock
+#   - Text: Tortoise Rock
+#     Weight: 0.1
+#   Hints:
+#   - Text: A hint tracker will give when asking for where an item is
+#   WhenDiedInRoom:
+#     15:
+#     - Text: 'Message when dying in room/screen 15 of the region '
+#   OutOfLogic:
+#   - Text: Message tracker will state when getting items out of logic in this region
+# 
+
+- Region: Blue Brinstar
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Green Brinstar
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Kraid's Lair
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Pink Brinstar
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Red Brinstar
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Central Crateria
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: East Crateria
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: West Crateria
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Inner Maridia
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Outer Maridia
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Lower Norfair, East
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Lower Norfair, West
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Upper Norfair, Crocomire
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Upper Norfair, East
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Upper Norfair, West
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Wrecked Ship
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Castle Tower
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Dark World Mire
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Dark World North East
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Dark World North West
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Dark World South
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Dark World Death Mountain East
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Dark World Death Mountain West
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Desert Palace
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Eastern Palace
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Ganon's Tower
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Hyrule Castle
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Ice Palace
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Light World Death Mountain East
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Light World Death Mountain West
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Light World North East
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Light World North West
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Light World South
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Misery Mire
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Palace of Darkness
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Skull Woods
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Swamp Palace
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Thieves' Town
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Tower of Hera
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 
+- Region: Turtle Rock
+  Name: 
+  Hints: 
+  WhenDiedInRoom: 
+  OutOfLogic: 

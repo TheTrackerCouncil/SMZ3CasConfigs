@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../../Schemas/rewards.json
+- Reward: Unknown
+  Name:
+  - Text: Unknown
+- Reward: Crystal
+  Name:
+  - Text: Crystal
+  - Text: Blue Crystal
+  Article: a
+- Reward: Red Crystal
+  Name:
+  - Text: Red Crystal
+  Article: a
+- Reward: Green Pendant
+  Name:
+  - Text: Green Pendant
+  Article: the
+- Reward: Red Pendant
+  Name:
+  - Text: Red Pendant
+  Article: the
+- Reward: Blue Pendant
+  Name:
+  - Text: Blue Pendant
+  Article: the
+- Reward: Agahnim
+  Name:
+  - Text: Agahnim

@@ -1,0 +1,79 @@
+# yaml-language-server: $schema=../../Schemas/dungeons.json
+- Dungeon: Eastern Palace
+  Name:
+  - Text: Eastern Palace
+  Boss:
+  - Text: Armos Knights
+- Dungeon: Desert Palace
+  Name:
+  - Text: Desert Palace
+  Boss:
+  - Text: Lanmolas
+- Dungeon: Tower of Hera
+  Name:
+  - Text: Tower of Hera
+  Boss:
+  - Text: Moldorm
+- Dungeon: Palace of Darkness
+  Name:
+  - Text: Palace of Darkness
+  - Text: Dark Palace
+  Boss:
+  - Text: Helmasaur King
+  - Text: Helmasaur
+- Dungeon: Swamp Palace
+  Name:
+  - Text: Swamp Palace
+  Boss:
+  - Text: Arrghus
+- Dungeon: Skull Woods
+  Name:
+  - Text: Skull Woods
+  Boss:
+  - Text: Mothula
+    Weight: 0
+  - Text: MOTHyula
+- Dungeon: Thieves' Town
+  Name:
+  - Text: Thieves' Town
+  Boss:
+  - Text: Blind
+- Dungeon: Ice Palace
+  Name:
+  - Text: Ice Palace
+  Boss:
+  - Text: Kholdstare
+- Dungeon: Misery Mire
+  Name:
+  - Text: Misery Mire
+  Boss:
+  - Text: Vitreous
+- Dungeon: Turtle Rock
+  Name:
+  - Text: Turtle Rock
+  Boss:
+  - Text: Trinexx
+- Dungeon: Ganon's Tower
+  Name:
+  - Text: Ganon's Tower
+    Weight: 0
+  - Text: Gannon's Tower
+  Boss:
+  - Text: Ganon
+  - Text: Gannon
+  - Text: Gannondorf
+  - Text: Gaynon
+    Weight: 0
+- Dungeon: Hyrule Castle
+  Name:
+  - Text: Hyrule Castle
+  Boss:
+  - Text: Ball and Chain Soldier
+- Dungeon: Castle Tower
+  Name:
+  - Text: Agahnim's Tower
+  - Text: Castle Tower
+  Boss:
+  - Text: Agahnim
+    Weight: 0
+  - Text: Aganihm

@@ -1,0 +1,60 @@
+# yaml-language-server: $schema=../../Schemas/ui.json
+
+# Config file for the tracker window UI layouts showing items, dungeons, and bosses
+
+# Example:
+# - Name: Basic Example
+#   GridLocations:
+#   - Type: Items
+#     Row: 1
+#     Column: 1
+#     Image: 
+#     Identifiers:
+#     - Hookshot
+#   - Type: Items
+#     Row: 1
+#     Column: 2
+#     Image: 
+#     Identifiers:
+#     - Bow
+#     - Silver Arrows
+#   - Type: Dungeon
+#     Row: 2
+#     Column: 1
+#     Image: 
+#     Identifiers:
+#     - Desert Palace
+#   - Type: SMBoss
+#     Row: 2
+#     Column: 2
+#     Image: 
+#     Identifiers:
+#     - Kraid
+# - Name: Basic Keysanity Example
+#   GridLocations:
+#   - Type: Items
+#     Row: 1
+#     Column: 1
+#     Image: 
+#     Identifiers:
+#     - Desert Palace Key
+#     - Desert Palace Big Key
+#     - Desert Palace Map
+#   - Type: Items
+#     Row: 1
+#     Column: 2
+#     Image: CR.png
+#     Identifiers:
+#     - Crateria Level 1 Keycard
+#     - Crateria Level 2 Keycard
+#     - Crateria Boss Keycard
+# 
+
+- Name: Layout Name
+  GridLocations:
+  - Type: Items
+    Row: 1
+    Column: 1
+    Image: 
+    Identifiers:
+    - ''

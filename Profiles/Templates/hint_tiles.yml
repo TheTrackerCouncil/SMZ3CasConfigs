@@ -1,0 +1,57 @@
+# yaml-language-server: $schema=../../Schemas/hint_tiles.json
+
+# Config file for hint tiles location names and various tracker responses to viewing hint tiles
+
+# Example:
+# HintTiles:
+# - HintTileKey: telepathic_tile_south_east_darkworld_cave
+#   Name:
+#   - Text: Dark World Cave
+#   - Text: Dark World South East
+#   - Text: Maridia Cave
+#     Weight: 0.1
+# RequestedHintTile:
+# - Text: Example response for when asking what a hint tile says
+# - Text: Another example response for when asking what a hint tile says
+#   Weight: 0.1
+# 
+
+HintTiles:
+- HintTileKey: telepathic_tile_eastern_palace
+  Name: 
+- HintTileKey: telepathic_tile_tower_of_hera_floor_4
+  Name: 
+- HintTileKey: telepathic_tile_spectacle_rock
+  Name: 
+- HintTileKey: telepathic_tile_swamp_entrance
+  Name: 
+- HintTileKey: telepathic_tile_thieves_town_upstairs
+  Name: 
+- HintTileKey: telepathic_tile_misery_mire
+  Name: 
+- HintTileKey: telepathic_tile_palace_of_darkness
+  Name: 
+- HintTileKey: telepathic_tile_desert_bonk_torch_room
+  Name: 
+- HintTileKey: telepathic_tile_castle_tower
+  Name: 
+- HintTileKey: telepathic_tile_ice_large_room
+  Name: 
+- HintTileKey: telepathic_tile_turtle_rock
+  Name: 
+- HintTileKey: telepathic_tile_ice_entrance
+  Name: 
+- HintTileKey: telepathic_tile_ice_stalfos_knights_room
+  Name: 
+- HintTileKey: telepathic_tile_tower_of_hera_entrance
+  Name: 
+- HintTileKey: telepathic_tile_south_east_darkworld_cave
+  Name: 
+RequestedHintTile: 
+NoPreviousHintTile: 
+ClearHintTileFailed: 
+ViewedHintTile: 
+ViewedHintTileMandatory: 
+ViewedHintTileUseless: 
+ViewedHintTileAlreadyVisited: 
+NoHintTiles: 

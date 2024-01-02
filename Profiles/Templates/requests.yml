@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=../../Schemas/requests.json
+
+# Config file for custom tracker prompts that she will listen to and her responses to them.
+# Note that all prompts will automatically have "Hey tracker" added before them.
+
+# Example:
+# - Phrases:
+#   - first message tracker will listen for
+#   - second message tracker will listen for
+#   Response:
+#   - Text: First response tracker will respond with when saying "Hey tracker, first message tracker will listen for" or "Hey tracker, second message tracker will listen for"
+#   - Text: Another message tracker can respond with
+#     Weight: 0.1
+# - Phrases:
+#   - another request
+#   Response:
+#   - Text: another response
+# 
+
+- Phrases:
+  - ''
+  Response: 

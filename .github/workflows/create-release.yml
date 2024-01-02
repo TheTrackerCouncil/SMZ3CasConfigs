@@ -1,0 +1,139 @@
+name: json-yaml-validate 
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate Boss Yaml Files
+        id: json-yaml-validate-bosses
+        uses: thiagodnf/yaml-schema-checker@v0.0.10
+        with:
+          jsonSchemaFile: Schemas/bosses.json
+          yamlFiles: Profiles/**/bosses*.yml
+
+      - name: Validate Dungeon Yaml Files
+        id: json-yaml-validate-dungeons
+        uses: thiagodnf/yaml-schema-checker@v0.0.10
+        with:
+          jsonSchemaFile: Schemas/dungeons.json
+          yamlFiles: Profiles/**/dungeons*.yml
+
+      - name: Validate Game Yaml Files
+        id: json-yaml-validate-game
+        uses: thiagodnf/yaml-schema-checker@v0.0.10
+        with:
+          jsonSchemaFile: Schemas/game.json
+          yamlFiles: Profiles/**/game*.yml
+
+      - name: Validate Hint Tile Yaml Files
+        id: json-yaml-validate-hint-tiles
+        uses: thiagodnf/yaml-schema-checker@v0.0.10
+        with:
+          jsonSchemaFile: Schemas/hint_tiles.json
+          yamlFiles: Profiles/**/hint_tiles*.yml
+
+      - name: Validate Item Yaml Files
+        id: json-yaml-validate-items
+        uses: thiagodnf/yaml-schema-checker@v0.0.10
+        with:
+          jsonSchemaFile: Schemas/items.json
+          yamlFiles: Profiles/**/items*.yml
+
+      - name: Validate Location Yaml Files
+        id: json-yaml-validate-locations
+        uses: thiagodnf/yaml-schema-checker@v0.0.10
+        with:
+          jsonSchemaFile: Schemas/locations.json
+          yamlFiles: Profiles/**/locations*.yml
+
+      - name: Validate MSU Yaml Files
+        id: json-yaml-validate-msu
+        uses: thiagodnf/yaml-schema-checker@v0.0.10
+        with:
+          jsonSchemaFile: Schemas/msu.json
+          yamlFiles: Profiles/**/msu*.yml
+
+      - name: Validate Region Yaml Files
+        id: json-yaml-validate-regions
+        uses: thiagodnf/yaml-schema-checker@v0.0.10
+        with:
+          jsonSchemaFile: Schemas/regions.json
+          yamlFiles: Profiles/**/regions*.yml
+
+      - name: Validate Request Yaml Files
+        id: json-yaml-validate-requests
+        uses: thiagodnf/yaml-schema-checker@v0.0.10
+        with:
+          jsonSchemaFile: Schemas/requests.json
+          yamlFiles: Profiles/**/requests*.yml
+
+      - name: Validate Response Yaml Files
+        id: json-yaml-validate-responses
+        uses: thiagodnf/yaml-schema-checker@v0.0.10
+        with:
+          jsonSchemaFile: Schemas/responses.json
+          yamlFiles: Profiles/**/responses*.yml
+
+      - name: Validate Reward Yaml Files
+        id: json-yaml-validate-rewards
+        uses: thiagodnf/yaml-schema-checker@v0.0.10
+        with:
+          jsonSchemaFile: Schemas/rewards.json
+          yamlFiles: Profiles/**/rewards*.yml
+
+      - name: Validate Rooms Yaml Files
+        id: json-yaml-validate-rooms
+        uses: thiagodnf/yaml-schema-checker@v0.0.10
+        with:
+          jsonSchemaFile: Schemas/rooms.json
+          yamlFiles: Profiles/**/rooms*.yml
+
+      - name: Validate UI Yaml Files
+        id: json-yaml-validate-ui
+        uses: thiagodnf/yaml-schema-checker@v0.0.10
+        with:
+          jsonSchemaFile: Schemas/ui.json
+          yamlFiles: Profiles/**/ui*.yml
+
+      - name: Get Tag
+        if: ${{ github.event_name != 'pull_request' }}
+        id: get-tag
+        shell: pwsh
+        run: |
+          $time = (Get-Date).ToString("yyyyMMddHHmm")
+          Write-Host "tag=v$time"
+          Write-Output "tag=v$time" >> $env:GITHUB_OUTPUT
+
+      - name: Upload artifact
+        if: ${{ github.event_name != 'pull_request' }}
+        uses: actions/upload-artifact@v3
+        with:
+          path: Profiles/**
+          name: SMZ3CasProfiles_${{ steps.get-tag.outputs.tag }}
+
+      - name: Install zip
+        if: ${{ github.event_name != 'pull_request' }}
+        uses: montudor/action-zip@v1
+
+      - name: Zip output
+        if: ${{ github.event_name != 'pull_request' }}
+        run: zip -qq -r SMZ3CasProfiles_${{ steps.get-tag.outputs.tag }}.zip *
+        working-directory: Profiles
+
+      - uses: ncipollo/release-action@v1
+        if: ${{ github.event_name != 'pull_request' }}
+        with:
+          artifacts: "Profiles/SMZ3CasProfiles_${{ steps.get-tag.outputs.tag }}.zip"
+          tag: ${{ steps.get-tag.outputs.tag }}
+          omitBody: true

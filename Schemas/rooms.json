@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "ListOfRoomInfo",
+  "type": "array",
+  "description": "Config file for room names which contain multiple locations in them",
+  "items": {
+    "$ref": "#/definitions/RoomInfo"
+  },
+  "definitions": {
+    "RoomInfo": {
+      "type": "object",
+      "description": "Represents extra information about a room in SMZ3.",
+      "additionalProperties": false,
+      "properties": {
+        "Room": {
+          "type": "string",
+          "description": "Unique key to connect the RoomInfo with other configs"
+        },
+        "Name": {
+          "description": "Gets the possible names for the room.",
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/SchrodingersString"
+            }
+          ]
+        },
+        "Hints": {
+          "description": "Gets the possible hints for the room, if any are defined.",
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/SchrodingersString"
+            }
+          ]
+        },
+        "OutOfLogic": {
+          "description": "Gets the phrases to reply with when the room is out of logic",
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/SchrodingersString"
+            }
+          ]
+        }
+      }
+    },
+    "SchrodingersString": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Possibility"
+      }
+    },
+    "Possibility": {
+      "type": "object",
+      "description": "Represents one possibility of a SchrodingersString.",
+      "additionalProperties": false,
+      "properties": {
+        "Text": {
+          "type": "string",
+          "description": "Gets a string."
+        },
+        "Weight": {
+          "type": "number",
+          "description": "Gets the weight associated with the item.",
+          "format": "double",
+          "default": 1.0
+        }
+      }
+    }
+  }
+}

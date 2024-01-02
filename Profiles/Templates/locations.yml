@@ -1,0 +1,2554 @@
+# yaml-language-server: $schema=../../Schemas/locations.json
+
+# Config file for location names and various tracker responses when clearing and marking locations
+
+# Example:
+# - LocationNumber: 25
+#   LocationId: GreenBrinstarGreenHillZone
+#   Name:
+#   - Text: Green Hill Zone
+#   - Text: Jungle Slope
+#   - Text: Missile (green Brinstar pipe)
+#     Weight: 0.1
+#   Hints:
+#   - Text: Vague hint that could be said when asking where an item is
+#   WhenTrackingJunk:
+#   - Text: Message when tracking the location and there's nothing good there
+#   WhenTrackingProgression:
+#   - Text: Message when tracking the location and there's an item that's potentially progression there
+#   WhenMarkingJunk:
+#   - Text: Message when marking a junk item at the location
+#   WhenMarkingProgression:
+#   - Text: Message when marking an item that's potentially progression at the location
+#   OutOfLogic:
+#   - Text: Message when tracking an item at the location out of logic
+# 
+
+- LocationId: CrateriaPowerBomb
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: CrateriaWestOceanFloodedCavern
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: CrateriaWestOceanSky
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: CrateriaWestOceanMorphBallMaze
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: CrateriaMoat
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: CrateriaGauntletEnergyTank
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: CrateriaPit
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: CrateriaBombTorizo
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: CrateriaTerminator
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: CrateriaGauntletShaftRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: CrateriaGauntletShaftLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: CrateriaSuper
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: CrateriaFinalMissile
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GreenBrinstarMainShaft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: PinkBrinstarSporeSpawnSuper
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GreenBrinstarEarlySupersBottom
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GreenBrinstarEarlySupersTop
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GreenBrinstarReserveTankChozo
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GreenBrinstarReserveTankHidden
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GreenBrinstarReserveTankVisible
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: PinkBrinstarPinkShaftTop
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: PinkBrinstarPinkShaftBottom
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: PinkBrinstarPinkShaftChozo
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: PinkBrinstarPowerBomb
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GreenBrinstarGreenHillZone
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: BlueBrinstarMorphBallRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: BlueBrinstarMorphBallLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: BlueBrinstarFirstMissile
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: BlueBrinstarEnergyTankCeiling
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GreenBrinstarEtecoonEnergyTank
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GreenBrinstarEtecoonSuper
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: PinkBrinstarWaterwayEnergyTank
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: BlueBrinstarEnergyTankRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: PinkBrinstarHoptank
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: BlueBrinstarDoubleMissileVisible
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: BlueBrinstarDoubleMissileHidden
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: RedBrinstarXRayScope
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: RedBrinstarBetaPowerBomb
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: RedBrinstarAlphaPowerBombRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: RedBrinstarAlphaPowerBombLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: RedBrinstarSpazer
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: KraidsLairEnergyTank
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: KraidsLairKihunter
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: KraidsLairVariaSuit
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: UpperNorfairCathedral
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: UpperNorfairIceBeam
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: UpperNorfairCrumbleShaft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: UpperNorfairCrocomire
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: UpperNorfairHiJumpBoots
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: UpperNorfairCrocomireEscape
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: UpperNorfairHiJumpEnergyTankLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: UpperNorfairHiJumpEnergyTankRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: UpperNorfairPostCrocomirePowerBomb
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: UpperNorfairPostCrocomireMissile
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: UpperNorfairPostCrocomireJump
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: UpperNorfairGrappleBeam
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: UpperNorfairReserveTankChozo
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: UpperNorfairReserveTankHidden
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: UpperNorfairGreenBubblesMissile
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: UpperNorfairBubbleMountain
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: UpperNorfairSpeedBoosterHall
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: UpperNorfairSpeedBooster
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: UpperNorfairDoubleChamber
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: UpperNorfairWaveBeam
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: LowerNorfairGoldenTorizoVisible
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: LowerNorfairGoldenTorizoHidden
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: LowerNorfairMickeyMouse
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: LowerNorfairSpringBallMaze
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: LowerNorfairEscapePowerBomb
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: LowerNorfairWasteland
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: LowerNorfairThreeMusketeers
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: LowerNorfairRidleyTank
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: LowerNorfairScrewAttack
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: LowerNorfairFireflea
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: WreckedShipMainShaft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: WreckedShipBowlingAlleyTop
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: WreckedShipBowlingAlleyBottom
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: WreckedShipAssemblyLine
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: WreckedShipEnergyTank
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: WreckedShipWestSuper
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: WreckedShipEastSuper
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: WreckedShipGravitySuit
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: OuterMaridiaMainStreetBottom
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: OuterMaridiaMainStreetTop
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: OuterMaridiaMamaTurtleVisible
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: OuterMaridiaMamaTurtleHidden
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: InnerMaridiaWateringHoleLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: InnerMaridiaWateringHoleRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: InnerMaridiaPseudoPlasmaSpark
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: InnerMaridiaPlasma
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: InnerMaridiaWestSandHoleLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: InnerMaridiaWestSandHoleRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: InnerMaridiaEastSandHoleLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: InnerMaridiaEastSandHoleRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: InnerMaridiaAqueductLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: InnerMaridiaAqueductRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: InnerMaridiaSpringBall
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: InnerMaridiaPreciousRoom
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: InnerMaridiaBotwoon
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: InnerMaridiaSpaceJump
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: EtherTablet
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SpectacleRock
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SpectacleRockCave
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: OldMan
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: FloatingIsland
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SpiralCave
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: ParadoxCaveUpperLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: ParadoxCaveUpperRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: ParadoxCaveLowerFarLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: ParadoxCaveLowerLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: ParadoxCaveLowerMiddle
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: ParadoxCaveLowerRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: ParadoxCaveLowerFarRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: MimicCave
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: MasterSwordPedestal
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: Mushroom
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: LostWoodsHideout
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: LumberjackTree
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: PegasusRocks
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GraveyardLedge
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: KingsTomb
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: KakarikoWellTop
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: KakarikoWellLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: KakarikoWellMiddle
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: KakarikoWellRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: KakarikoWellBottom
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: BlindsHideoutTop
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: BlindsHideoutFarLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: BlindsHideoutLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: BlindsHideoutRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: BlindsHideoutFarRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: BottleMerchant
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SickKid
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: KakarikoTavern
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: MagicBat
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: KingZora
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: ZorasLedge
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: WaterfallFairyRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: PotionShop
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SahasrahlasHutLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SahasrahlasHutMiddle
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SahasrahlasHutRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: Sahasrahla
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: MazeRace
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: MiniMoldormCaveFarLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: MiniMoldormCaveLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: MiniMoldormCaveNpc
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: MiniMoldormCaveRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: BombosTablet
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: FloodgateChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SunkenTreasure
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: LakeHyliaIsland
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: Hobo
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: IceRodCave
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SpikeCave
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: HookshotCaveTopRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: HookshotCaveTopLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: HookshotCaveBottomLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: HookshotCaveBottomRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SuperbunnyCaveTop
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SuperbunnyCaveBottom
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: BumperCave
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: ChestGame
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: CShapedHouse
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: Brewery
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: HammerPegs
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: Blacksmith
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: PurpleChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: Catfish
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: Pyramid
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: PyramidFairyLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: PyramidFairyRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: DiggingGame
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: Stumpy
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: HypeCaveTop
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: HypeCaveMiddleRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: HypeCaveMiddleLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: HypeCaveBottom
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: HypeCaveNpc
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: MireShedLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: MireShedRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: Sanctuary
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SewersSecretRoomLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SewersSecretRoomMiddle
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SewersSecretRoomRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SewersDarkCross
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: HyruleCastleMapChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: HyruleCastleBoomerangChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: HyruleCastleZeldasCell
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: LinksUncle
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SecretPassage
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: CastleTowerFoyer
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: CastleTowerDarkMaze
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: EasternPalaceCannonballChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: EasternPalaceMapChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: EasternPalaceCompassChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: EasternPalaceBigChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: EasternPalaceBigKeyChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: EasternPalaceArmosKnights
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: DesertPalaceBigChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: DesertPalaceTorch
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: DesertPalaceMapChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: DesertPalaceBigKeyChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: DesertPalaceCompassChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: DesertPalaceLanmolas
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: TowerOfHeraBasementCage
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: TowerOfHeraMapChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: TowerOfHeraBigKeyChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: TowerOfHeraCompassChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: TowerOfHeraBigChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: TowerOfHeraMoldorm
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: PalaceOfDarknessShooterRoom
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: PalaceOfDarknessBigKeyChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: PalaceOfDarknessStalfosBasement
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: PalaceOfDarknessTheArenaBridge
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: PalaceOfDarknessTheArenaLedge
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: PalaceOfDarknessMapChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: PalaceOfDarknessCompassChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: PalaceOfDarknessHarmlessHellway
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: PalaceOfDarknessDarkBasementLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: PalaceOfDarknessDarkBasementRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: PalaceOfDarknessDarkMazeTop
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: PalaceOfDarknessDarkMazeBottom
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: PalaceOfDarknessBigChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: PalaceOfDarknessHelmasaurKing
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SwampPalaceEntrance
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SwampPalaceMapChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SwampPalaceBigChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SwampPalaceCompassChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SwampPalaceWestChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SwampPalaceBigKeyChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SwampPalaceFloodedRoomLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SwampPalaceFloodedRoomRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SwampPalaceWaterfallRoom
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SwampPalaceArrghus
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SkullWoodsPotPrison
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SkullWoodsCompassChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SkullWoodsBigChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SkullWoodsMapChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SkullWoodsPinballRoom
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SkullWoodsBigKeyChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SkullWoodsBridgeRoom
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SkullWoodsMothula
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: ThievesTownMapChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: ThievesTownAmbushChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: ThievesTownCompassChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: ThievesTownBigKeyChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: ThievesTownAttic
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: ThievesTownBlindsCell
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: ThievesTownBigChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: ThievesTownBlind
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: IcePalaceCompassChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: IcePalaceSpikeRoom
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: IcePalaceMapChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: IcePalaceBigKeyChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: IcePalaceIcedTRoom
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: IcePalaceFreezorChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: IcePalaceBigChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: IcePalaceKholdstare
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: MiseryMireMainLobby
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: MiseryMireMapChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: MiseryMireBridgeChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: MiseryMireSpikeChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: MiseryMireCompassChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: MiseryMireBigKeyChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: MiseryMireBigChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: MiseryMireVitreous
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: TurtleRockCompassChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: TurtleRockRollerRoomLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: TurtleRockRollerRoomRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: TurtleRockChainChomps
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: TurtleRockBigKeyChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: TurtleRockBigChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: TurtleRockCrystarollerRoom
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: TurtleRockEyeBridgeTopRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: TurtleRockEyeBridgeTopLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: TurtleRockEyeBridgeBottomRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: TurtleRockEyeBridgeBottomLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: TurtleRockTrinexx
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerBobsTorch
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerDMsRoomTopLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerDMsRoomTopRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerDMsRoomBottomLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerDMsRoomBottomRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerMapChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerFiresnakeRoom
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerRandomizerRoomTopLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerRandomizerRoomTopRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerRandomizerRoomBottomLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerRandomizerRoomBottomRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerHopeRoomLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerHopeRoomRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerTileRoom
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerCompassRoomTopLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerCompassRoomTopRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerCompassRoomBottomLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerCompassRoomBottomRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerBobsChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerBigChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerBigKeyChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerBigKeyRoomLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerBigKeyRoomRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerMiniHelmasaurRoomLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerMiniHelmasaurRoomRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerPreMoldormChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerMoldormChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: Library
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: FluteSpot
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: SouthOfGrove
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: LinksHouse
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: AginahsCave
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: ChickenHouse
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: MiniMoldormCaveFarRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: DesertLedge
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: CheckerboardCave
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: WaterfallFairyLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 

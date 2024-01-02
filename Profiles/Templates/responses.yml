@@ -1,0 +1,283 @@
+# yaml-language-server: $schema=../../Schemas/responses.json
+
+# Config file for various tracker responses to actions that happen
+
+# Example:
+# StartedTracking:
+# - Text: Message tracker will state when tracking started
+# - Text: Another message tracker will state when tracking started
+#   Weight: 0.1
+# TrackedNothingOutOfLogic:
+#   1:
+#   - Text: The only item left in the area {0} is out of logic.
+#   2:
+#   - Text: The only items left in area {0} are out of logic.
+# DungeonTreasureTracked:
+#   2:
+#   - Text: Message when there are {1} items left in dungeon {0}, and that number is at least 2
+#   1:
+#   - Text: Message when there is only 1 item left in dungeon {0}
+#   0:
+#   - Text: Message when there are no items left in dungeon {0}
+#   -1:
+#   - Text: Message when trying to track an item in dungeon {0} but all items have already been gotten
+# Idle:
+#   5m±2m:
+#   - Text: Tracker message when not having tracked anything between 3-7 minutes
+#   - Text: Another possible tracker message
+#     Weight: 0.1
+# Chat:
+#   RecognizedGreetings:
+#   - Possible chat greeting
+#   - Regex.*works.*here
+#   - (tracker|another name for tracker)
+#   - helloEmoteName tracker
+#   UserNamePronunciation:
+#     TwitchUserName: Corrected pronunciation
+#     AnotherTwitchUserName: Another corrected pronunciation
+# 
+
+StartedTracking: 
+StartingTrackingAlternate: 
+StoppedTracking: 
+StoppedTrackingPostGoMode: 
+Misheard: 
+TrackedItem: 
+TrackedTwoItems: 
+TrackedThreeItems: 
+TrackedManyItems: 
+TrackedItemByStage: 
+TrackedItemMultiple: 
+TrackedProgressiveItem: 
+TrackedOlderProgressiveItem: 
+TrackedTooManyOfAnItem: 
+TrackedAlreadyTrackedItem: 
+TrackedVanillaItem: 
+TrackedExactAmountDuplicate: 
+TrackedMultipleItems: 
+ClearedMultipleItems: 
+TrackedNothing: 
+TrackedNothingOutOfLogic: 
+UntrackedItem: 
+TrackedOutOfLogicItem: 
+TrackedOutOfLogicItemTooManyMissing: 
+UntrackedNothing: 
+UntrackedProgressiveItem: 
+UntrackedItemMultiple: 
+UntrackedItemMultipleLast: 
+ShaktoolAvailable: 
+PegWorldAvailable: 
+PegWorldModeOn: 
+PegWorldModePegged: 
+PegWorldModeDone: 
+DungeonRewardMarked: 
+RemainingDungeonsMarked: 
+NoRemainingDungeons: 
+DungeonCleared: 
+DungeonAlreadyCleared: 
+DungeonClearedWithInaccessibleItems: 
+DungeonClearedWithTooManyInaccessibleItems: 
+DungeonBossCleared: 
+DungeonBossAlreadyCleared: 
+DungeonBossUncleared: 
+DungeonBossNotYetCleared: 
+DungeonBossClearedAddContent: 
+DungeonRequirementMarked: 
+DungeonRequirementInvalid: 
+DungeonRequirementMismatch: 
+DungeonTreasureTracked: 
+DungeonTooManyTreasuresTracked: 
+ItemTrackedInIncorrectDungeon: 
+LocationMarked: 
+LocationMarkedAgain: 
+LocationMarkedAsBullshit: 
+LocationMarkedPreConfigured: 
+TrackedPreConfigured: 
+LocationHasDifferentItem: 
+LocationCleared: 
+LocationsCleared: 
+NoMarkedLocations: 
+LocationsClearedSameRegion: 
+GoModePrompts: 
+GoModeToggledOff: 
+AreaDoesNotHaveItem: 
+AreaHasMoreThanOneItem: 
+TrackedUselessItem: 
+Error: 
+ActionUndone: 
+NothingToUndo: 
+UndoExpired: 
+TrackerSettingChanged: 
+BossDefeated: 
+BossAlreadyDefeated: 
+BossUndefeated: 
+BossNotYetDefeated: 
+TimerResumed: 
+TimerReset: 
+TimerPaused: 
+Muted: 
+Unmuted: 
+BeatGame: 
+Idle: 
+Hints:
+  EnabledHints: 
+  DisabledHints: 
+  PromptEnableItemHints: 
+  PromptEnableLocationHints: 
+  NoApplicableHints: 
+  PlaythroughImpossible: 
+  ItemNotInLogic: 
+  ItemInSuperMetroid: 
+  ItemInALttP: 
+  ItemRequiresOtherItem: 
+  ItemRequiresManyOtherItems: 
+  ItemNotInArea: 
+  ItemInSphereZero: 
+  ItemInEarlySphere: 
+  ItemInLateSphere: 
+  ItemInPreviouslyVisitedDungeon: 
+  ItemInUnvisitedDungeon: 
+  ItemInPreviouslyVisitedRegion: 
+  ItemInUnvisitedRegion: 
+  ItemHasBadVanillaLocationName: 
+  ItemIsInVanillaJunkLocation: 
+  LocationAlreadyCleared: 
+  LocationAlreadyClearedSpoiler: 
+  LocationHasJunkItem: 
+  LocationHasUsefulItem: 
+  LocationHasSuperMetroidItem: 
+  LocationHasZeldaItem: 
+  AreaSuggestion: 
+  BookHint: 
+  AreaAlreadyCleared: 
+  AreaHasSomethingMandatory: 
+  AreaHasSomethingGood: 
+  AreaHasJunk: 
+  AreaHasJunkAndCrystal: 
+  AreaWorthComplicated: 
+  ItemInUnknownWorld: 
+  ItemInPlayerWorld: 
+  ItemInPlayerWorldALttP: 
+  ItemInPlayerWorldSuperMetroid: 
+  ItemInPlayerWorldRegionRoomPrefixHint: 
+Spoilers:
+  EnabledSpoilers: 
+  DisabledSpoilers: 
+  PromptEnableItemSpoilers: 
+  PromptEnableLocationSpoilers: 
+  TrackedAllItemsAlready: 
+  TrackedItemAlready: 
+  MarkedItem: 
+  MarkedLocation: 
+  EmptyLocation: 
+  ItemNotFound: 
+  ItemsNotFound: 
+  LocationsCleared: 
+  LocationHasItem: 
+  LocationHasItemOtherWorld: 
+  LocationHasItemOwnWorld: 
+  LocationHasUnknownItem: 
+  ItemIsAtLocation: 
+  ItemIsAtLocationOtherWorld: 
+  ItemIsAtLocationOwnWorld: 
+  ItemsAreAtLocation: 
+  ItemsAreAtLocationOtherWorld: 
+  ItemsAreAtLocationOwnWorld: 
+  ItemIsAtOutOfLogicLocation: 
+  ItemIsAtOutOfLogicLocationOtherWorld: 
+  ItemIsAtOutOfLogicLocationOwnWorld: 
+  ItemsAreAtOutOfLogicLocation: 
+  ItemsAreAtOutOfLogicLocationOtherWorld: 
+  ItemsAreAtOutOfLogicLocationOwnWorld: 
+  ItemsInArea: 
+Chat:
+  RecognizedGreetings: 
+  WhenConnected: 
+  WhenDisconnected: 
+  NoConnection: 
+  GreetingResponses: 
+  GreetedTwice: 
+  GreetedChannel: 
+  StartedGuessingGame: 
+  ClosedGuessingGame: 
+  ModeratorClosedGuessingGame: 
+  ClosedGuessingGameWhileClosed: 
+  ClosedGuessingGameBeforeStarting: 
+  ModeratorClosedGuessingGameWhileClosed: 
+  ModeratorClosedGuessingGameBeforeStarting: 
+  DeclareGuessingGameWinners: 
+  DeclareGuessingGameClosestButNotOverWinner: 
+  NobodyWonGuessingGame: 
+  TrackerGuess: 
+  TrackerGuessWon: 
+  TrackerGuessOnlyWinner: 
+  TrackerGuessFailed: 
+  UserNamePronunciation: 
+  AskChatAboutContent: 
+  AskChatAboutContentYes: 
+  AskChatAboutContentNo: 
+  PollComplete: 
+  PollOpened: 
+  PollError: 
+AutoTracker:
+  WhenConnected: 
+  WhenDisconnected: 
+  GameStarted: 
+  GameStartedMultiplayer: 
+  NearKraidsAwfulSon: 
+  NearShaktool: 
+  NearCrocomire: 
+  AtCrumbleShaft: 
+  FallFromMoldorm: 
+  FallFromGTMoldorm: 
+  FallFromGanon: 
+  HeraPot: 
+  IceBreaker: 
+  SpeckyClip: 
+  DiverDown: 
+  EnterHyruleCastleTower: 
+  EnterPendantDungeon: 
+  EnteredGTEarly: 
+  FakeFlippers: 
+  MockBall: 
+  SkipSporeSpawn: 
+  RidleyFace: 
+  LookedAtNothing: 
+  LightWorldAllCrystals: 
+  DarkWorldNoMedallions: 
+  GTKeyIsItemOne: 
+  GTKeyIsItemTwoToSeven: 
+  GTKeyIsItemEightToFifteen: 
+  GTKeyIsItemSixteenToTwentyOne: 
+  GTKeyIsItemTwentyTwo: 
+  GTKeyResponses: 
+  SwitchedToSMZ3Rom: 
+  SwitchedToOtherRom: 
+Map:
+  UpdateMap: 
+  ShowDarkRoomMap: 
+  NotInDarkRoom: 
+  HideDarkRoomMap: 
+  NoPrevDarkRoomMap: 
+  HasLamp: 
+Cheats:
+  EnabledCheats: 
+  DisabledCheats: 
+  PromptEnableCheats: 
+  PromptEnableAutoTracker: 
+  CheatPerformed: 
+  CheatFailed: 
+  CheatInvalidItem: 
+Multiplayer:
+  OtherPlayerTrackedItem: 
+  OtherPlayerClearedDungeonWithReward: 
+  OtherPlayerClearedDungeonWithoutReward: 
+  OtherPlayerDefeatedBoss: 
+  OtherPlayedDied: 
+  OtherPlayedDiedDeathLink: 
+  OtherPlayerBeatGame: 
+  OtherPlayerBeatGameNoItems: 
+  OtherPlayerForfeitGame: 
+  GiftedUsefulItemToOtherPlayer: 
+  ReceivedUsefulItemFromOtherPlayer: 
+  ReceivedJunkItemFromOtherPlayer: 

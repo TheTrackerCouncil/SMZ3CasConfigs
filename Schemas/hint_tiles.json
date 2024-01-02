@@ -1,0 +1,160 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "HintTileConfig",
+  "type": "object",
+  "description": "Config file for hint tiles location names and various tracker responses to viewing hint tiles",
+  "additionalProperties": false,
+  "properties": {
+    "HintTiles": {
+      "description": "The list of hint tiles and their details",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/HintTileList"
+        }
+      ]
+    },
+    "RequestedHintTile": {
+      "description": "The response for when asking for what a hint tile says \n{0} is a placeholder for the hint tile text",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
+    "NoPreviousHintTile": {
+      "description": "The response when trying to clear a hint tile despite not looking at a hint tile",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
+    "ClearHintTileFailed": {
+      "description": "The response when trying to clear an already cleared hint tile or one that has nothing to clear",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
+    "ViewedHintTile": {
+      "description": "The response for viewing a hint tile with multiple locations that are neither mandatory or useless",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
+    "ViewedHintTileMandatory": {
+      "description": "The response for viewing a hint tile for a place that's mandatory",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
+    "ViewedHintTileUseless": {
+      "description": "The response for viewing a hint tile for a place that's useless",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
+    "ViewedHintTileAlreadyVisited": {
+      "description": "The response for viewing a hint tile with multiple locations that have already been cleared",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
+    "NoHintTiles": {
+      "description": "The response for asking about a hint tile when there aren't any generated hint tiles (plando or no hints)",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    }
+  },
+  "definitions": {
+    "HintTileList": {
+      "type": "array",
+      "description": "List of all of the hint tiles",
+      "items": {
+        "$ref": "#/definitions/HintTile"
+      }
+    },
+    "HintTile": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "HintTileKey": {
+          "type": "string"
+        },
+        "Name": {
+          "description": "Possible names for the hint tile",
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/SchrodingersString"
+            }
+          ]
+        }
+      }
+    },
+    "SchrodingersString": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Possibility"
+      }
+    },
+    "Possibility": {
+      "type": "object",
+      "description": "Represents one possibility of a SchrodingersString.",
+      "additionalProperties": false,
+      "properties": {
+        "Text": {
+          "type": "string",
+          "description": "Gets a string."
+        },
+        "Weight": {
+          "type": "number",
+          "description": "Gets the weight associated with the item.",
+          "format": "double",
+          "default": 1.0
+        }
+      }
+    }
+  }
+}

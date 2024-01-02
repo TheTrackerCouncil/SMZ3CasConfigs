@@ -1,0 +1,71 @@
+# yaml-language-server: $schema=../../Schemas/hint_tiles.json
+HintTiles:
+- HintTileKey: telepathic_tile_eastern_palace
+  Name:
+  - Text: Eastern Palace
+- HintTileKey: telepathic_tile_tower_of_hera_floor_4
+  Name:
+  - Text: Tower of Hera Upstairs
+  - Text: Tower of Hera Floor 4
+- HintTileKey: telepathic_tile_spectacle_rock
+  Name:
+  - Text: Spectacle Rock
+  - Text: Spectacle Rock Cave
+- HintTileKey: telepathic_tile_swamp_entrance
+  Name:
+  - Text: Swamp Palace
+- HintTileKey: telepathic_tile_thieves_town_upstairs
+  Name:
+  - Text: Thieves Town
+- HintTileKey: telepathic_tile_misery_mire
+  Name:
+  - Text: Misery Mire
+- HintTileKey: telepathic_tile_palace_of_darkness
+  Name:
+  - Text: Palace of Darkness
+- HintTileKey: telepathic_tile_desert_bonk_torch_room
+  Name:
+  - Text: Desert Palace
+- HintTileKey: telepathic_tile_castle_tower
+  Name:
+  - Text: Castle Tower
+  - Text: Agahnim's Tower
+- HintTileKey: telepathic_tile_ice_large_room
+  Name:
+  - Text: Ice Palace Big Room
+  - Text: Ice Palace Tall Room
+- HintTileKey: telepathic_tile_turtle_rock
+  Name:
+  - Text: Turtle Rock
+- HintTileKey: telepathic_tile_ice_entrance
+  Name:
+  - Text: Ice Palace Entrance
+- HintTileKey: telepathic_tile_ice_stalfos_knights_room
+  Name:
+  - Text: Ice Palace Stalfos Knights Room
+  - Text: Ice Palace Stalfos Room
+- HintTileKey: telepathic_tile_tower_of_hera_entrance
+  Name:
+  - Text: Tower of Hera Entrance
+- HintTileKey: telepathic_tile_south_east_darkworld_cave
+  Name:
+  - Text: Dark World Cave
+  - Text: Maridia Cave
+  - Text: Dark World South East
+RequestedHintTile:
+- Text: That hint tile says that {0}
+NoPreviousHintTile:
+- Text: You haven't looked at any hint tiles yet
+ClearHintTileFailed:
+- Text: I can't do anything with that hint tile
+ViewedHintTile:
+- Text: Recorded that hint tile
+ViewedHintTileMandatory:
+- Text: Recorded that hint tile
+ViewedHintTileUseless:
+- Text: Recorded that hint tile
+ViewedHintTileAlreadyVisited:
+- Text: ''
+  Weight: 0
+NoHintTiles:
+- Text: I'm sorry, but there are no hint tiles on file for this seed.

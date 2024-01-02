@@ -1,0 +1,101 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "MsuConfig",
+  "type": "object",
+  "description": "Config file for msu track names, responses for when asking about a song, and various tracker responses to songs playing",
+  "additionalProperties": false,
+  "properties": {
+    "TrackLocations": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "description": "Names for various tracks when asking \"what's the current song for\"",
+      "additionalProperties": {
+        "oneOf": [
+          {
+            "type": "null"
+          },
+          {
+            "$ref": "#/definitions/SchrodingersString"
+          }
+        ]
+      }
+    },
+    "CurrentSong": {
+      "description": "Gets the phrases for what song is playing \n{0} is a placeholder for the song details",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
+    "CurrentMsu": {
+      "description": "Gets the phrases for what msu the current song is from \n{0} is a placeholder for the msu details",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
+    "UnknownSong": {
+      "description": "Gets the phrases for not being able to determine the playing song",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
+    "SongResponses": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "description": "Responses to songs, either by song number, msu name, or song name",
+      "additionalProperties": {
+        "oneOf": [
+          {
+            "type": "null"
+          },
+          {
+            "$ref": "#/definitions/SchrodingersString"
+          }
+        ]
+      }
+    }
+  },
+  "definitions": {
+    "SchrodingersString": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Possibility"
+      }
+    },
+    "Possibility": {
+      "type": "object",
+      "description": "Represents one possibility of a SchrodingersString.",
+      "additionalProperties": false,
+      "properties": {
+        "Text": {
+          "type": "string",
+          "description": "Gets a string."
+        },
+        "Weight": {
+          "type": "number",
+          "description": "Gets the weight associated with the item.",
+          "format": "double",
+          "default": 1.0
+        }
+      }
+    }
+  }
+}

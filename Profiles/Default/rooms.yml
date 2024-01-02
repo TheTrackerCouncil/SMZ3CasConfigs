@@ -1,0 +1,108 @@
+# yaml-language-server: $schema=../../Schemas/rooms.json
+- Room: Blue Brinstar Top
+  Name:
+  - Text: Blue Brinstar Top
+  - Text: Billy Mays Room
+- Room: Mockball Hall Hidden Room
+  Name:
+  - Text: Mockball Hall Hidden Room
+- Room: Gauntlet Shaft
+  Name:
+  - Text: Gauntlet Shaft
+- Room: Left Sand Pit
+  Name:
+  - Text: Left Sand Pit
+- Room: Watering Hole
+  Name:
+  - Text: Watering Hole
+- Room: Bubble Mountain Hidden Hall
+  Name:
+  - Text: Bubble Mountain Hidden Hall
+- Room: Castle Tower Dark Maze
+  Name:
+  - Text: Castle Tower Dark Maze
+- Room: Castle Tower Foyer
+  Name:
+  - Text: Castle Tower Foyer
+- Room: Mire Shed
+  Name:
+  - Text: Mire Shed
+- Room: Pyramid Fairy
+  Name:
+  - Text: Pyramid Fairy
+  - Text: Cursed Fairy
+- Room: Hype Cave
+  Name:
+  - Text: Hype Cave
+- Room: Hookshot Cave
+  Name:
+  - Text: Hookshot Cave
+- Room: Superbunny Cave
+  Name:
+  - Text: Superbunny Cave
+- Room: Spike Cave
+  Name:
+  - Text: Spike Cave
+- Room: Ganon's Tower Big Key Room
+  Name:
+  - Text: Ganon's Tower Big Key Room
+- Room: Ganon's Tower Compass Room
+  Name:
+  - Text: Ganon's Tower Compass Room
+- Room: DM's Room
+  Name:
+  - Text: DM's Room
+- Room: Ganon's Tower Hope Room
+  Name:
+  - Text: Ganon's Tower Hope Room
+  - Text: Ganon's Tower Right Side First Room
+- Room: Ganon's Tower Mini Helmasaur Room
+  Name:
+  - Text: Ganon's Tower Mini Helmasaur Room
+- Room: Ganon's Tower Randomizer Room
+  Name:
+  - Text: Ganon's Tower Randomizer Room
+- Room: Back of Escape
+  Name:
+  - Text: Back of Escape
+  - Text: Sewers
+- Room: Paradox Cave
+  Name:
+  - Text: Paradox Cave
+- Room: Sahasrahla's Hut
+  Name:
+  - Text: Sahasrahla's Hut
+- Room: Waterfall Fairy
+  Name:
+  - Text: Waterfall Fairy
+- Room: Zora's Domain
+  Name:
+  - Text: Zora's Domain
+- Room: Blind's Hideout
+  Name:
+  - Text: Blind's Hideout
+- Room: Kakariko Well
+  Name:
+  - Text: Kakariko Well
+- Room: Mini Moldorm Cave
+  Name:
+  - Text: Mini Moldorm Cave
+- Room: Swamp Ruins
+  Name:
+  - Text: Swamp Ruins
+- Room: Palace of Darkness Dark Basement
+  Name:
+  - Text: Palace of Darkness Dark Basement
+- Room: Palace of Darkness Dark Maze
+  Name:
+  - Text: Palace of Darkness Dark Maze
+- Room: Swamp Palace Flooded Room
+  Name:
+  - Text: Swamp Palace Flooded Room
+- Room: Eye Bridge
+  Name:
+  - Text: Eye Bridge
+  - Text: Laser Bridge
+- Room: Turtle Rock Roller Room
+  Name:
+  - Text: Turtle Rock Roller Room

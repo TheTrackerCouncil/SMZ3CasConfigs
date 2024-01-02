@@ -1,0 +1,5 @@
+﻿# yaml-language-server: $schema=../../Schemas/dungeons.json
+- Dungeon: Misery Mire
+  Boss:
+  - Text: Psychedelic Eyeball
+

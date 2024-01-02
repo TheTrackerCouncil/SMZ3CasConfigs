@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=../../Schemas/bosses.json
+- Boss: Spore Spawn
+  Name:
+  - Text: Spore Spawn
+- Boss: Botwoon
+  Name:
+  - Text: Botwoon
+- Boss: Kraid
+  Name:
+  - Text: Kraid
+- Boss: Crocomire
+  Name:
+  - Text: Crocomire
+- Boss: Phantoon
+  Name:
+  - Text: Phantoon
+- Boss: Shaktool
+  Name:
+  - Text: Shaktool
+  - Text: The Shaktool
+- Boss: Draygon
+  Name:
+  - Text: Draygon
+- Boss: Ridley
+  Name:
+  - Text: Ridley
+- Boss: Mother Brain
+  Name:
+  - Text: Mother Brain
+- Boss: Bomb Torizo
+  Name:
+  - Text: Bomb Torizo
+  - Text: Bozo
+  - Text: Bomb Chozo
+- Boss: Golden Torizo
+  Name:
+  - Text: Golden Torizo
+  - Text: Golden Chozo
