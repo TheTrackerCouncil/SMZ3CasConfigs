@@ -1,7 +1,11 @@
 # yaml-language-server: $schema=../../Schemas/msu.json
 SongResponses:
   "138":
-    - Text: "Oh no, a fully grown baby"
+    - Text: Oh no, a fully grown baby
+    - Text: Get ready for the baby skip
+    - Text: Where is this metroid from? Did I miss part of the story?
+    - Text: Let's see you avoid getting sucked this time
+    - Text: Time to see what the real suck poll conclusion is
   "King's Quest V - Town Theme":
     - Text: Now this is some con-tent
     - Text: How many times is that now?
@@ -19,4 +23,17 @@ SongResponses:
     - Text: Listening to this is better than listening to you
       Weight: 0.2
     - Text: Let's listen to the other version next time
+      Weight: 0.2
+  "Sound of Silence":
+    - Text: Well this is awkward.
+    - Text: Does anyone hear crickets?
+    - Text: Crickets.
+    - Text: I could sing you a song if you hate this silence, you know.
+    - Text: Quickly, let's get out of here before it becomes too weird.
+    - Text: I could really go for a town theme right about now.
+  "Darkseed 2 Carnival":
+    - Text: Step right up
+    - Text: This randomizer is so simple, a child could do it
+    - Text: Hey, ya missed pal
+    - Text: Hey, did ya miss this song pal?
       Weight: 0.2
