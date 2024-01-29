@@ -277,9 +277,12 @@ DungeonClearedWithTooManyInaccessibleItems:
 DungeonBossCleared:
 - Text: Marked {1} as defeated.
 - Text: Congratulations on beating off {1}.
+- Text: Good job on annihilating {1}.
 - Text: RIP {1}
 - Text: Saying goodbye to {1}
 - Text: Pouring one out for {1}.
+- Text: You know, I'm going to miss {1}. Oh well.
+  Weight: 0.2
 - Text: Finally, we no longer need to see {0} anymore
   Weight: 0.1
 - Text: f
@@ -411,6 +414,9 @@ BossDefeated:
 - Text: Marked {0} as defeated.
 - Text: RIP {0}
 - Text: Saying goodbye to {0}
+- Text: Good job on annihilating {1}.
+- Text: You know, I'm going to miss {1}. Oh well.
+  Weight: 0.2
 - Text: Finally, we no longer need to see {0} anymore
   Weight: 0.1
 - Text: "{0} is no longer part of this world."
@@ -470,6 +476,9 @@ BeatGame:
 - Text: Finally. You beat it. This means you don't have to play this ever again, right?
 - Text: Better luck next time.
 - Text: Took you long enough.
+- Text: I hope you're satisfied with that run.
+- Text: Congratulations on obliterating everything that's not your friend
+  Weight: 0.5
 - Text: GG. I guess.
   Weight: 0.1
 Hints:
