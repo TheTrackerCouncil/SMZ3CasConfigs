@@ -414,8 +414,8 @@ BossDefeated:
 - Text: Marked {0} as defeated.
 - Text: RIP {0}
 - Text: Saying goodbye to {0}
-- Text: Good job on annihilating {1}.
-- Text: You know, I'm going to miss {1}. Oh well.
+- Text: Good job on annihilating {0}.
+- Text: You know, I'm going to miss {0}. Oh well.
   Weight: 0.2
 - Text: Finally, we no longer need to see {0} anymore
   Weight: 0.1
