@@ -725,7 +725,7 @@ Spoilers:
   - Text: It's got {1}
 Chat:
   RecognizedGreetings:
-  - '\b(hi|hey|hello)( there)?,? (tracker|betusTracker)\b'
+  - '\b(hi|hey|hello|hewwo)( there)?,? (tracker|betusTracker)\b'
   - "\\b(greetings|hiya|howdy|'sup),? (tracker|betusTracker)\\b"
   - '\bgood (morning|afternoon|evening|day|morrow|tidings),? (tracker|betusTracker)\b'
   - '\b(morning|afternoon|evening|salutations),? (tracker|betusTracker)\b'
