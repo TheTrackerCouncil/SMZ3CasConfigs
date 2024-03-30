@@ -1924,4 +1924,7 @@
   - Text: I'll be sure to dumb it down next time for you.
   - Text: I honestly have no idea what I'm saying most of the time. I'm just told what to say.
     Weight: 0.1
-
+- Phrases:
+  - I love Shaktool
+  Response:
+  - Text: Get in line.
