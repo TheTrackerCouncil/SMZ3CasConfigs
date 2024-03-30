@@ -8,13 +8,18 @@ Misheard:
 - Text: Toggled boots on. <break time='750ms'/> Just kidding, I have no idea what you were trying to say.
   Weight: 0.05
 TrackedOutOfLogicItem:
+- Text: I can't believe what I'm seeing.
+- Text: Unexpected item in bagging area.
 - Text: The racing council will hear about this! Maybe!
+  Weight: 0.5
 - Text: The racing council will hear about this! <break time='1s'/> <prosody volume='medium'>Hello, is this the racing council? <break time='1s'/> Hello? <break time='1s'/> I need to tell somebody that {{User}} went to {1} without {2}. <break time='1200ms'/> Is anybody there? <break time='1200ms'/> Aw, never mind.</prosody> Sorry, did I miss anything?
   Weight: 0.08
 - Text: I think someone else is here. <break time='3s'/> Nope, guess not.
   Weight: 0.08
 TrackedOutOfLogicItemTooManyMissing:
+- Text: I can't believe what I'm seeing.
 - Text: The racing council will hear about this! Maybe!
+  Weight: 0.5
 - Text: The racing council will hear about this! <break time='1s'/> <prosody volume='medium'>Hello, is this the racing council? <break time='1s'/> Hello? <break time='1s'/> I'm trying to report that {{User}} went to {1} without all of the required items. <break time='1200ms'/> Is anybody there? <break time='1200ms'/> Aw, never mind.</prosody> Sorry, did I miss anything?
   Weight: 0.08
 - Text: I think someone else is here. <break time='3s'/> Nope, guess not.
@@ -27,6 +32,7 @@ ShaktoolAvailable:
 - Text: Hey tracker, track Shaktool Go Mode
 - Text: I wonder how Shaktool is doing
 - Text: I hear its time to dig, underwater and maybe get something.
+- Text: Congratulations on reaching Shaktool Go Mode
 - Text: It's time to get seewwious.
   Weight: 0.5
 - Text: It's time to get serious.
@@ -54,6 +60,7 @@ Spoilers:
 Chat:
   StartedGuessingGame:
   - Text: The GT big key guessing game is now open for guesses. By the way, I'm taking a 50% cut of the souls this time.
+  - Text: The GT big key guessing game is now open for guesses. I hope you all have been meditating. It makes your souls taste better.
   ClosedGuessingGame:
   - Text: If you like having a soul then I hope you made your guess because the floor is now closed.
   ModeratorClosedGuessingGame:
@@ -117,11 +124,14 @@ AutoTracker:
   - Text: The council is on the other line, what do you want me to tell them? <break time='1s'/> <prosody volume='medium'><voice gender='male'><prosody pitch='x-high'>Who?</prosody></voice> <break time='1s'/> Quiet, I'm trying to bluff {{User}}.</prosody>
   - Text: <voice gender='male'><prosody pitch='x-high'>Hello. I'm from the racing council. I would like to remind {{User}} that <break time='2s'/> wait <break time='1s'/> Oh, never mind.</prosody></voice>
   FakeFlippers:
+  - Text: Watch out for Zoras!
   - Text: The racing council will hear about this. Maybe!
+    Weight: 0.5
   RidleyFace:
   - Text: <prosody rate='x-slow' pitch='x-high'>Ahhhh</prosody>. Sorry, I'm still working on my Ridley voice
   - Text: Bet you can't wait to face Ridley. Welcome back to SMZ3 Randomizer.
   - Text: Oh hi there
+  - Text: A-boat to face Ridley a-gain? Welcome back to SM-Zed-3 Randomizer.
 Cheats:
   EnabledCheats:
   - Text: The racing council won't be happy about this, but that's not unusual lately.
