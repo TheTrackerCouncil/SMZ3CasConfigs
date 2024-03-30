@@ -22,6 +22,7 @@ StartedTracking:
 - Text: Reticulating splines
 - Text: Can't I just sleep in 10 more minutes?
 - Text: I have risen.
+- Text: Catch me Sundays on CBS at 9, 8 Central, or stream anytime online.
 - Text: What's up internet! It's yaa girl, Tracker
   Weight: 0.5
 - Text: You have selected Tracker as your computer's default voice.
@@ -394,6 +395,7 @@ ActionUndone:
 - Text: I don't make mistakes, just happy little accidents.
 - Text: Whatever you say nerd
 - Text: That one was on you, not me.
+- Text: Item removed from bagging area.
 - Text: Fine, I'll turn back time
   Weight: 0.1
 - Text: My mistake
