@@ -616,21 +616,21 @@
   LocationId: InnerMaridiaWateringHoleLeft
   Name:
     - Text: Watering Hole Left
-    - Text: the left side of the pit with two items in the northeast of Maridia
+    - Text: the left side of the pit with two items in the top-left of Maridia
     - Text: Super Missile (yellow Maridia)
       Weight: 0
 - LocationNumber: 141
   LocationId: InnerMaridiaWateringHoleRight
   Name:
     - Text: Watering Hole Right
-    - Text: the right side of the pit with two items in the northeast of Maridia
+    - Text: the right side of the pit with two items in the top-left of Maridia
     - Text: Missile (yellow Maridia super missile)
       Weight: 0
 - LocationNumber: 142
   LocationId: InnerMaridiaPseudoPlasmaSpark
   Name:
     - Text: Pseudo Plasma Spark Room
-    - Text: the room leading up to the pit with two items in the northeast of Maridia
+    - Text: the room leading up to the pit with two items in the top-left of Maridia
     - Text: Missile (yellow Maridia false wall)
       Weight: 0
 - LocationNumber: 143
