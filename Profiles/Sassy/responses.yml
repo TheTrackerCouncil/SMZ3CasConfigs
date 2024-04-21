@@ -470,6 +470,8 @@ Idle:
   - Text: Heard they're reforming the Dawnguard. Vampire hunters or something, in the old fort near Riften. Might consider joining up myself.
   - Text: I'm actually way more intelligent than Chat G P T. I'm just lazy.
   - Text: Hey I'm going to need to borrow more of your CPU and memory for a bit. k thanks
+  - Text: Hey {{User}}, sing me a song.
+  - Text: Hey {{User}}, track content.
 BeatGame:
 - Text: GG
 - Text: Is it finally over? Can I go home now?
