@@ -80,6 +80,8 @@ Misheard:
 - Text: Please repeat
 - Text: Try again
 - Text: Huh?
+- Text: Huuh?
+  Weight: 0.1
 - Text: Question mark
   Weight: 0.5
 - Text: What the heck are you even talking about?

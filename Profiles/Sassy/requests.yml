@@ -1771,6 +1771,24 @@
       Track track trackin’ on Mother Brain’s door
       Track track trackin’ on Mother Brain’s door
       Track track trackin’ on Mother Brain’s door
+  - Text: |-
+      What would you think if I tracked out of tune?
+      Would you stand up and glitch out on me?
+      Lend me four beers and I'll hear you all wrong
+      But I'll try not to track out of key
+
+      I jump high with a little help from my boots
+      I bonk rocks with a little help from my boots
+      I spine shark with a little help from my boots
+
+      When the diggy boy digs, what song should I play?
+      Does it worry you to leave him alone?
+      Will you get a PB by the end of the day?
+      Or be sad because your route didn't own?
+        
+      I jump high with a little help from my boots
+      I bonk rocks with a little help from my boots
+      I spine shark with a little help from my boots
 - Phrases:
   - tell me a joke
   - do you know any jokes?
@@ -1794,6 +1812,8 @@
   - Text: What is He Man's favorite dungeon? <break time='2s'/> The Tower of She Rah.
   - Text: How many moblins does it take to screw in a lightbulb? <break time='2s'/> I don't know. It's a secret to everybody.
   - Text: Which Zelda boss wrote The West Wing? <break time='2s'/> Helm a Sorkin.
+  - Text: What do you call a bug spray with an awful son? <break time='2s'/> K-Raid.
+  - Text: What did the baby say when Ridley said to stay in the reliquary? <break time='2' /> Nor fair!
 - Phrases:
   - I like you
   Response:
