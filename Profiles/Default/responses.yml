@@ -459,3 +459,13 @@ Multiplayer:
   - Text: ''
   ReceivedJunkItemFromOtherPlayer:
   - Text: ''
+CountHyperBeamShots:
+  0:
+    - Text: "That was an amazing stand-up glitch! Zero shots!"
+  1:
+    - Text: "That was an amazing stand-up glitch! A one-hit wonder!"
+  2:
+    - Text: "That was an amazing stand-up glitch! Only {0} shots!"
+  10:
+    - Text: "Nice stand-up glitch! Only {0} shots!"
+  36:

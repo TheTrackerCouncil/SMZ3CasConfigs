@@ -102,7 +102,8 @@ GoModePrompts:
 GoModeToggledOff: 
 AreaDoesNotHaveItem: 
 AreaHasMoreThanOneItem: 
-TrackedUselessItem: 
+TrackedUselessItem:
+CountHyperBeamShots:
 Error: 
 ActionUndone: 
 NothingToUndo: 
