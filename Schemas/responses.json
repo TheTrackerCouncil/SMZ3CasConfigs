@@ -728,23 +728,6 @@
         }
       ]
     },
-    "CountHyperBeamShots": {
-      "type": [
-        "null",
-        "object"
-      ],
-      "description": "Responses based on how many Hyper Beam shots it took to defeat Mother Brain. Tracker will use the responses for the largest number less than the number of shots. The max is 36.",
-      "additionalProperties": {
-        "oneOf": [
-          {
-            "type": "null"
-          },
-          {
-            "$ref": "#/definitions/SchrodingersString"
-          }
-        ]
-      }
-    },
     "Error": {
       "description": "Gets the phrases to respond with when an internal error occurs.",
       "oneOf": [
