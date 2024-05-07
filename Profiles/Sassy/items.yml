@@ -365,9 +365,13 @@
     - Text: Don't spend it all in one place.
     - Text: It begins
     - Text: The first big 20 is always special
+    - Text: Twenty rupees? But I wanted a peanut!
+      Weight: 0.1
     "2":
     - Text: Only your second? I'm surprised.
     - Text: You now have 2 big twenties. Out of like five thousand.
+    - Text: If I had a nickel for every time you found twenty rupees, I'd be kind of irritated.
+      Weight: 0.1
     "3":
 - Item: Heart Container
   WhenTracked:
