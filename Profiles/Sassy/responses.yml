@@ -933,6 +933,8 @@ AutoTracker:
   - Text: Did you just phase through that wall? Spooky
   - Text: That was an okay icebreaker, but how about this one? What would your ideal vacation be with Shaktool?
     Weight: 0.2
+  - Text: That was an okay icebreaker, but how about this one? What did you want to be when you grew up?
+  - Text: That was an okay icebreaker, but how about this one? Would you rather live in Sahasrahla's Hut or Ridley's Reliquary?
   SpeckyClip:
     - Text: Good job on the tech. Was it a first try?
     - Text: I hope you were quiet during the cutscene. Wait. Why did you not go watch the cutscene?

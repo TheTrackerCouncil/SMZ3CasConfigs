@@ -26,3 +26,7 @@ ActionUndone:
 PegWorldModeDone:
   - Text: Was it good for you?
     Weight: 0.1
+AutoTracker:
+  IceBreaker:
+  - Text: That was an okay icebreaker, but how about this one? Take off your shirt.
+    Weight: 0.1
