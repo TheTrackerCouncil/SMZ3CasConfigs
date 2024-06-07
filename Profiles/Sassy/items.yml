@@ -709,6 +709,8 @@
     - Text: I hope you find a lot more of these
     - Text: I prefer minestrone, but I guess explosive soup is good too
       Weight: 0.2
+    - Text: Honey, where is my super soup?
+      Weight: 0.1
     - Text: I can't wait to see you quick kill Kraid with these
       Weight: 0.05
     "2":
