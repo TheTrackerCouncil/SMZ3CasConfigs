@@ -67,9 +67,10 @@ UntrackedItemMultiple:
 UntrackedItemMultipleLast: 
 ShaktoolAvailable: 
 PegWorldAvailable: 
-PegWorldModeOn: 
-PegWorldModePegged: 
-PegWorldModeDone: 
+PegWorldModeOn:
+PegWorldModePegged:
+PegWorldModePeggedMultiple:
+PegWorldModeDone:
 DungeonRewardMarked: 
 RemainingDungeonsMarked: 
 NoRemainingDungeons: 

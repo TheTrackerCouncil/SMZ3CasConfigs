@@ -356,6 +356,23 @@
         }
       ]
     },
+    "PegWorldModePeggedMultiple": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "description": "Gets the phrases to respond with when auto-tracking multiple Peg World pegs. Tracker will use the responses for the largest number less than the number of pegs.",
+      "additionalProperties": {
+        "oneOf": [
+          {
+            "type": "null"
+          },
+          {
+            "$ref": "#/definitions/SchrodingersString"
+          }
+        ]
+      }
+    },
     "PegWorldModeDone": {
       "description": "Gets the phrases to respond with when all Peg World pegs have been pegged or Peg World mode is toggled off manually.",
       "oneOf": [
