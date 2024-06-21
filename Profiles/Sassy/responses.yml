@@ -247,6 +247,25 @@ PegWorldModePegged:
   Weight: 0.001
 - Text: Plop.
   Weight: 0.001
+PegWorldModePeggedMultiple:
+  1:
+  - Text: Pop.
+  - Text: Poop.
+    Weight: 0.001
+  - Text: Plop.
+    Weight: 0.001
+  2:
+  - Text: Popop
+  3:
+  - Text: Popopop
+  4:
+  - Text: Popopopop
+  5:
+  - Text: Popopopopop
+  6:
+  - Text: Popopopopopop
+  7:
+  - Text: Popopopopopopop
 PegWorldModeDone:
 - Text: Toggled Peg World Mode off.
 - Text: Let's visit Shaktool next.
