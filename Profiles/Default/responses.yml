@@ -284,7 +284,9 @@ Chat:
   WhenConnected:
   - Text: Hello chat.
   WhenDisconnected:
-  - Text: Error with Twitch chat connection. Please save and restart tracker.
+  - Text: Error with Twitch chat connection. Attempting to reconnect.
+  WhenReconnected:
+  - Text: Reconnected to chat.
   NoConnection:
   - Text: I'm not currently connected to Twitch chat.
   GreetingResponses:
@@ -468,4 +470,4 @@ CountHyperBeamShots:
     - Text: "That was an amazing stand-up glitch! Only {0} shots!"
   10:
     - Text: "Nice stand-up glitch! Only {0} shots!"
-  36:
+  36: []

@@ -108,7 +108,7 @@
   "definitions": {
     "HintTileList": {
       "type": "array",
-      "description": "List of all of the hint tiles",
+      "description": "List of all the hint tiles",
       "items": {
         "$ref": "#/definitions/HintTile"
       }
