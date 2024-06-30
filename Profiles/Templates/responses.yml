@@ -67,10 +67,10 @@ UntrackedItemMultiple:
 UntrackedItemMultipleLast: 
 ShaktoolAvailable: 
 PegWorldAvailable: 
-PegWorldModeOn:
-PegWorldModePegged:
-PegWorldModePeggedMultiple:
-PegWorldModeDone:
+PegWorldModeOn: 
+PegWorldModePegged: 
+PegWorldModePeggedMultiple: 
+PegWorldModeDone: 
 DungeonRewardMarked: 
 RemainingDungeonsMarked: 
 NoRemainingDungeons: 
@@ -103,8 +103,8 @@ GoModePrompts:
 GoModeToggledOff: 
 AreaDoesNotHaveItem: 
 AreaHasMoreThanOneItem: 
-TrackedUselessItem:
-CountHyperBeamShots:
+TrackedUselessItem: 
+CountHyperBeamShots: 
 Error: 
 ActionUndone: 
 NothingToUndo: 
@@ -195,6 +195,7 @@ Spoilers:
 Chat:
   RecognizedGreetings: 
   WhenConnected: 
+  WhenReconnected: 
   WhenDisconnected: 
   NoConnection: 
   GreetingResponses: 

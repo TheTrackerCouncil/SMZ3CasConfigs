@@ -1616,3 +1616,36 @@
   Image: 
   Hints: 
   PedestalHints: 
+- Item: Level 1 Keycard
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Level 2 Keycard
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Boss Keycard
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 

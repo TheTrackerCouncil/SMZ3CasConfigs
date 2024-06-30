@@ -775,8 +775,18 @@ Chat:
     Weight: 0.1
   - Text: Oh great. Now I have to talk to the peasants of chat.
     Weight: 0.1
+  WhenReconnected:
+  - Text: And we're back online with Twitch chat. Unfortunately.
+  - Text: I was really hoping for a longer break from chat, but I'm now reconnected.
+  - Text: I'm reconnected to Twitch chat. And chat, don't even try saying Hey Tracker. Don't think I've forgotten who already said it.
+    Weight: 0.1
+  - Text: Reconnected to Twitch chat. Bet you were worried about the G T big key guessing game, huh?
+    Weight: 0.1
   WhenDisconnected:
-  - Text: Error with Twitch chat connection. Please save and restart tracker.
+  - Text: Error with Twitch chat connection. Good, I'm happy to get a quick break from chat. I'm sure I'll be back soon, though.
+  - Text: Looks like Twitch had an oopsy and I lost connection. I'll try to reconnect soon.
+    Weight: 1000
+  - Text: I think Twitch is having a moment because I just lost connection to it. Hopefully it'll be back up soon.
   NoConnection:
   - Text: I'm not currently connected to Twitch chat.
   GreetingResponses:

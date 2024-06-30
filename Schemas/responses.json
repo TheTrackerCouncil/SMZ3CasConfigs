@@ -346,7 +346,7 @@
       ]
     },
     "PegWorldModePegged": {
-      "description": "Gets the phrases to respond with when pegging a Peg World peg.",
+      "description": "Gets the phrases to respond with when pegging a single Peg World peg.",
       "oneOf": [
         {
           "type": "null"
@@ -361,16 +361,9 @@
         "null",
         "object"
       ],
-      "description": "Gets the phrases to respond with when auto-tracking multiple Peg World pegs. Tracker will use the responses for the largest number less than the number of pegs.",
+      "description": "Gets the phrases to respond with when pegging multiple Peg World pegs.",
       "additionalProperties": {
-        "oneOf": [
-          {
-            "type": "null"
-          },
-          {
-            "$ref": "#/definitions/SchrodingersString"
-          }
-        ]
+        "$ref": "#/definitions/SchrodingersString"
       }
     },
     "PegWorldModeDone": {
@@ -750,16 +743,9 @@
         "null",
         "object"
       ],
-      "description": "Responses based on how many Hyper Beam shots it took to defeat Mother Brain. Tracker will use the responses for the largest number less than the number of shots. The max is 36.",
+      "description": "Gets the phrases to respond with when counting Hyper Beam shots.",
       "additionalProperties": {
-        "oneOf": [
-          {
-            "type": "null"
-          },
-          {
-            "$ref": "#/definitions/SchrodingersString"
-          }
-        ]
+        "$ref": "#/definitions/SchrodingersString"
       }
     },
     "Error": {
@@ -1808,6 +1794,17 @@
         },
         "WhenConnected": {
           "description": "Gets the phrases to respond with when connected to chat.",
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/SchrodingersString"
+            }
+          ]
+        },
+        "WhenReconnected": {
+          "description": "Gets the phrases to respond with when reconnected to chat.",
           "oneOf": [
             {
               "type": "null"

@@ -284,7 +284,9 @@ Chat:
   WhenConnected:
   - Text: Hello chat.
   WhenDisconnected:
-  - Text: Error with Twitch chat connection. Please save and restart tracker.
+  - Text: Error with Twitch chat connection. Attempting to reconnect.
+  WhenReconnected:
+  - Text: Reconnected to chat.
   NoConnection:
   - Text: I'm not currently connected to Twitch chat.
   GreetingResponses:
