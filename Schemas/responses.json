@@ -913,6 +913,17 @@
         }
       ]
     },
+    "LongSpeechResponse": {
+      "description": "Gets the phrases for sass for when tracker has been talking for over a minute",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
     "Idle": {
       "type": [
         "null",
