@@ -120,6 +120,7 @@ TimerPaused:
 Muted: 
 Unmuted: 
 BeatGame: 
+LongSpeechResponse: 
 Idle: 
 Hints:
   EnabledHints: 

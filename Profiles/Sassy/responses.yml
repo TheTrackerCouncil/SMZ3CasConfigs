@@ -469,6 +469,16 @@ TimerReset:
 - Text: Timer reset
 TimerPaused:
 - Text: Timer paused
+LongSpeechResponse:
+- Text: ""
+- Text: "Wow, that sure took a long time to say"
+  Weight: 0.1
+- Text: "I better be getting paid overtime for how much I've been talking"
+  Weight: 0.1
+- Text: "If you want me to keep going, you can just ask me to sing a song for you."
+  Weight: 0.1
+- Text: "I sure hope I wasn't talking over you during any of that."
+  Weight: 5
 Idle:
   5m±2m:
   - Text: Decreased content by one step.
