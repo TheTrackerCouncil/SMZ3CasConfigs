@@ -1240,5 +1240,7 @@ Multiplayer:
   - Text: Are you sure that {0} didn't die on purpose?
   - Text: Don't forget. You enabled death link. You asked for this.
 CountHyperBeamShots:
+  34:
+    - Text: "Wow. Amazing. {0} shots. That stand-up glitch saved like half a second. Maybe."
   36:
     - Text: "Didn't get the stand-up glitch? Maybe next time."
