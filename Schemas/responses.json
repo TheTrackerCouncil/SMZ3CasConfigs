@@ -2088,6 +2088,17 @@
             }
           ]
         },
+        "PollCompleteTerminated": {
+          "description": "Gets the phrases for when the poll has votes, but it was terminated before being finished",
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/SchrodingersString"
+            }
+          ]
+        },
         "PollOpened": {
           "description": "Gets the phrases for when the poll is opened",
           "oneOf": [
@@ -2101,6 +2112,17 @@
         },
         "PollError": {
           "description": "Gets the phrases for when the poll outcome could not be determined",
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/SchrodingersString"
+            }
+          ]
+        },
+        "PollErrorTerminated": {
+          "description": "Gets the phrases for when the poll was terminated before any results came in",
           "oneOf": [
             {
               "type": "null"
@@ -2454,14 +2476,7 @@
           ],
           "description": "Responses based on what number the GT key was. Tracker will use the responses for the largest number less than the number of the GT key.",
           "additionalProperties": {
-            "oneOf": [
-              {
-                "type": "null"
-              },
-              {
-                "$ref": "#/definitions/SchrodingersString"
-              }
-            ]
+            "$ref": "#/definitions/SchrodingersString"
           }
         },
         "SwitchedToSMZ3Rom": {

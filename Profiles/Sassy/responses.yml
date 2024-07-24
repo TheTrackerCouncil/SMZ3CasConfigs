@@ -900,6 +900,14 @@ Chat:
   PollError:
   - Text: Sorry, I was unable to get the poll results.
   - Text: Whoops. I couldn't get the poll results.
+  PollCompleteTerminated:
+  - Text: And the results are now in. Hey wait. It looks like this poll was terminated early by someone. Anyway.
+  - Text: I'm looking at the results now. Huh. Did someone tamper with these results somehow? Well, I guess I don't care.
+  - Text: Hmm. It looks like the poll ended before it was supposed to. Was this Twitch crapping out, or is a mod to blame? Whatever.
+  PollErrorTerminated:
+  - Text: Wow. Someone sure was quick on the draw and managed to close the poll before anyone could vote on it.
+  - Text: I guess someone really doesn't want you to have content and closed the poll immediately. Bummer.
+  - Text: For whatever reason, the poll died before anyone could vote. Do we have a poll murdering mod perhaps?
 AutoTracker:
   WhenConnected:
   - Text: Auto tracker connected.

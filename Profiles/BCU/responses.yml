@@ -88,6 +88,9 @@ Chat:
   TrackerGuessFailed:
   - Text: I might have lost, but you're still not getting my soul.
   - Text: I guess I lost. I don't have a soul for you to steal though.
+  PollErrorTerminated:
+  - Text: Did you think I wouldn't catch on to what you've been doing with the content polls, s kennedy? I hope you know I'm recording this to my personal stat tracking sheet.
+    Weight: 50 # Remove after it comes up
   UserNamePronunciation:
     pinkkittyrose: Pink Kitty Rose
     skennedysa: s kennedy
