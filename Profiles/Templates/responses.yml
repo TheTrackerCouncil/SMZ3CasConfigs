@@ -221,8 +221,10 @@ Chat:
   AskChatAboutContentYes: 
   AskChatAboutContentNo: 
   PollComplete: 
+  PollCompleteTerminated: 
   PollOpened: 
   PollError: 
+  PollErrorTerminated: 
 AutoTracker:
   WhenConnected: 
   WhenDisconnected: 

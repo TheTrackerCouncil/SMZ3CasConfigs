@@ -335,6 +335,10 @@ Chat:
   - Text: I have opened a poll for {0} seconds.
   PollError:
   - Text: Sorry, I was unable to get the poll results.
+  PollCompleteTerminated:
+  - Text: And the results are now in, but it seems like the poll was terminated before it finished.
+  PollErrorTerminated:
+  - Text: Unfortunately it looks looks like the poll was terminated before anyone could vote on it.
 AutoTracker:
   WhenConnected:
   - Text: Auto tracker connected
