@@ -785,6 +785,8 @@ Chat:
     Weight: 0.1
   - Text: Oh great. Now I have to talk to the peasants of chat.
     Weight: 0.1
+  - Text: Friendly reminder to please silence your phone during the show.
+    Weight: 0.1
   WhenReconnected:
   - Text: And we're back online with Twitch chat. Unfortunately.
   - Text: I was really hoping for a longer break from chat, but I'm now reconnected.
@@ -823,6 +825,7 @@ Chat:
   - Text: The floor is now open for guesses.
   - Text: You may now attempt to guess which chest holds the big key.
   - Text: The GT big key guessing game is now open for guesses.
+  - Text: The GT big key guessing game is now open for guesses. You know the rules and so do I.
   ClosedGuessingGame:
   - Text: The floor is now closed for guesses.
   - Text: Guesses are no longer accepted.
@@ -941,6 +944,7 @@ AutoTracker:
   - Text: You would not believe what Shaktool has this time.
   - Text: It's all downhill from here.
   - Text: Who are you going to blame this time when things go wrong?
+  - Text: Good job on starting the seed. Was it a first try?
   - Text: Can we visit Shaktool yet?
     Weight: 0.1
   GameStartedMultiplayer:
@@ -954,6 +958,7 @@ AutoTracker:
   - Text: It's time for the most adorable Metroid boss
   - Text: You don't really need to kill Crocomire do you?
   - Text: So it's come to this? Croc just wants to be left alone.
+  - Text: To defeat Crocomire, shoot it until it dies.
   FallFromMoldorm:
   - Text: Ha ha. Moldorm strikes again. Content increased by one step.
   - Text: You're back here again? I take it things didn't go so well.
@@ -963,6 +968,7 @@ AutoTracker:
   - Text: I'd say this seed was successfully validated.
   - Text: That was embarrassing, I am so sorry
   - Text: I hope you weren't trying to do some tech
+  - Text: This is my favorite room in the whole tower
   FallFromGanon:
   - Text: Oops. Don't worry, I'm sure no one saw you fall from Ganon's Room.
   - Text: Goodbye Ganon. We'll meet again soon.
