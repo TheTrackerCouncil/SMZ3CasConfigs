@@ -617,16 +617,20 @@ Hints:
     Weight: 0.5
   - Text: They say that plundering {0} is a foolish choice.
     Weight: 0.1
+  LocationHasMandatoryItem:
+  - Text: "{1} isn't going to get far without the item from {0}."
+  - Text: "You definitely don't want to skip {0}."
+  - Text: "According to my calculations, you'll want to bee line to {0}."
+  - Text: "I don't think you'll be beating the game without the item at {0}."
+  - Text: '{0} is on the way of the hero'
+    Weight: 0.5
   LocationHasUsefulItem:
-  - Text: '{0} might be worth checking out.'
-  - Text: '{0} could have something good for {1}.'
-  - Text: '{1} might be interested in that.'
-  - Text: '{1} could make good use of it.'
-  - Text: I bet {1} would appreciate it if you checked it out.
-  - Text: I bet {1} would appreciate it if you checked out {0}.
-  - Text: I wouldn't skip that if I were you.
-  - Text: '{1} would not want you to skip it.'
-  - Text: '{0} might be on the way of the hero.'
+  - Text: "{0} isn't mandatory, but you might like it."
+  - Text: It has something nice for {1}, but you don't have to get it.
+  - Text: "{1} might like it, but you can leave them hanging if you'd like."
+  - Text: I bet {1} would appreciate it if you checked it out, but it won't end your run if you skip it.
+    Weight: 0.5
+  - Text: '{0} might not be on the way of the hero, but it could make your life easier possibly.'
     Weight: 0.5
   LocationHasSuperMetroidItem:
   - Text: '{0} has something for {1}.'
@@ -842,6 +846,9 @@ Chat:
   ModeratorClosedGuessingGameBeforeStarting:
   - Text: Pay attention, {0}. We haven't even started yet
   - Text: Close what, {0}? The guessing game never started.
+  - Text: I know, {0}. I'm ready for this to be over too. But we haven't started the guessing game yet.
+  - Text: I think {0} is telling you to go faster as they wanted to start the guessing game
+  - Text: Are you even watching, {0}? We have started the guessing game yet.
   DeclareGuessingGameWinners:
   - Text: 'The winners are {1}.'
   - Text: '{1} guessed number {0}.'

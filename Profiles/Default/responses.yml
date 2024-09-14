@@ -186,10 +186,12 @@ Hints:
   - Text: Haven't you been there already?
   LocationAlreadyClearedSpoiler:
   - Text: Haven't you been there already? It was {1}.
+  LocationHasMandatoryItem:
+  - Text: It has something mandatory.
   LocationHasJunkItem:
   - Text: There's nothing important there.
   LocationHasUsefulItem:
-  - Text: It might be worth checking out.
+  - Text: It has something useful but not required.
   LocationHasSuperMetroidItem:
   - Text: '{0} has something for {1}.'
   LocationHasZeldaItem:

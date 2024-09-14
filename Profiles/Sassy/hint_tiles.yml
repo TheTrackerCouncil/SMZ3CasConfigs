@@ -22,6 +22,7 @@ ViewedHintTileMandatory:
   - Text: Hopefully you can get to {0} soon.
   - Text: Oh fun, you get to visit {0} this seed.
   - Text: I suppose it's better to know this now.
+  - Text: What a clutch hint.
 ViewedHintTileUseless:
   - Text: Good. I didn't want to go to {0} anyway.
   - Text: Aww, but I wanted to go to {0}. Oh well, logging it as useless.

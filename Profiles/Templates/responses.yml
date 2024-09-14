@@ -147,6 +147,7 @@ Hints:
   LocationAlreadyCleared: 
   LocationAlreadyClearedSpoiler: 
   LocationHasJunkItem: 
+  LocationHasMandatoryItem: 
   LocationHasUsefulItem: 
   LocationHasSuperMetroidItem: 
   LocationHasZeldaItem: 
