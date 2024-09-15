@@ -848,7 +848,7 @@ Chat:
   - Text: Close what, {0}? The guessing game never started.
   - Text: I know, {0}. I'm ready for this to be over too. But we haven't started the guessing game yet.
   - Text: I think {0} is telling you to go faster as they wanted to start the guessing game
-  - Text: Are you even watching, {0}? We have started the guessing game yet.
+  - Text: Are you even watching, {0}? We haven't started the guessing game yet.
   DeclareGuessingGameWinners:
   - Text: 'The winners are {1}.'
   - Text: '{1} guessed number {0}.'
