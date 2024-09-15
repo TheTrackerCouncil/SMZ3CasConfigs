@@ -1274,7 +1274,7 @@
           ]
         },
         "LocationHasJunkItem": {
-          "description": "Gets the hints for locations that don't have anything useful. \n{0} is placeholder for the name of the location. \n{1} is placeholder for the character name.",
+          "description": "Gets the hints for locations that don't have anything useful. \n{0} is placeholder for the name of the location. \n{1} is placeholder for the name of the character who the item is for.",
           "oneOf": [
             {
               "type": "null"
@@ -1285,7 +1285,7 @@
           ]
         },
         "LocationHasMandatoryItem": {
-          "description": "Gets the hints for locations that have something required \n{0} is placeholder for the name of the location. \n{1} is placeholder for the character name.",
+          "description": "Gets the hints for locations that have something required \n{0} is placeholder for the name of the location. \n{1} is placeholder for the name of the character who the item is for.",
           "oneOf": [
             {
               "type": "null"
@@ -1296,7 +1296,7 @@
           ]
         },
         "LocationHasUsefulItem": {
-          "description": "Gets the hints for locations that might have something useful. \n{0} is placeholder for the name of the location. \n{1} is placeholder for the character name.",
+          "description": "Gets the hints for locations that might have something useful. \n{0} is placeholder for the name of the location. \n{1} is placeholder for the name of the character who the item is for.",
           "oneOf": [
             {
               "type": "null"
