@@ -6,12 +6,16 @@
 # - Room: Pyramid Fairy
 #   Name:
 #   - Text: Pyramid Fairy
+#     TrackerImage: 
 #   - Text: Cursed Fairy
 #     Weight: 0.1
+#     TrackerImage: 
 #   Hints:
 #   - Text: Hint for when asking for where an item is, and it's in this room
+#     TrackerImage: 
 #   OutOfLogic:
 #   - Text: Tracker line with getting an item out of logic within this room
+#     TrackerImage: 
 # 
 
 - Room: Blue Brinstar Top

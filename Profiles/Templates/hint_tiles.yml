@@ -7,13 +7,18 @@
 # - HintTileKey: telepathic_tile_south_east_darkworld_cave
 #   Name:
 #   - Text: Dark World Cave
+#     TrackerImage: 
 #   - Text: Dark World South East
+#     TrackerImage: 
 #   - Text: Maridia Cave
 #     Weight: 0.1
+#     TrackerImage: 
 # RequestedHintTile:
 # - Text: Example response for when asking what a hint tile says
+#   TrackerImage: 
 # - Text: Another example response for when asking what a hint tile says
 #   Weight: 0.1
+#   TrackerImage: 
 # 
 
 HintTiles:

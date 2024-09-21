@@ -6,16 +6,22 @@
 # TrackLocations:
 #   2:
 #   - Text: 'Song name for track #2 (Hyrule Field)'
+#     TrackerImage: 
 #   - Text: 'Another song name for track #2'
 #     Weight: 0.1
+#     TrackerImage: 
 # CurrentSong:
 # - Text: Line for Tracker telling you that {0} is the current song
+#   TrackerImage: 
 # - Text: Another line for Tracker stating that {0} is the current song
+#   TrackerImage: 
 # SongResponses:
 #   MSU or Track Name:
 #   - Text: Line for tracker to say when hearing a song with either the MSU or track name
+#     TrackerImage: 
 #   - Text: Another possible tracker response
 #     Weight: 0.1
+#     TrackerImage: 
 # 
 
 TrackLocations:

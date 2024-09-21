@@ -13,11 +13,13 @@
 #     19 characters
 # 
 #     or less
+#   TrackerImage: 
 # - Text: >-
 #     Another example
 # 
 #     of in game text
 #   Weight: 0.1
+#   TrackerImage: 
 # 
 
 GanonIntro: 

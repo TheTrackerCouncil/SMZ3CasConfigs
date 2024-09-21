@@ -6,12 +6,16 @@
 # - Reward: Red Crystal
 #   Name:
 #   - Text: Red Crystal
+#     TrackerImage: 
 #   - Text: Blood red crystal
 #     Weight: 0.1
+#     TrackerImage: 
 #   ArticledName:
 #   - Text: a Red Crystal
+#     TrackerImage: 
 #   - Text: a blood red crystal
 #     Weight: 0.1
+#     TrackerImage: 
 #   Article: 
 # 
 

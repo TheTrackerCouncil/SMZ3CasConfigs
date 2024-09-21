@@ -6,17 +6,24 @@
 # - Boss: Bomb Torizo
 #   Name:
 #   - Text: Bomb Torizo
+#     TrackerImage: 
 #   - Text: Bomb Chozo
+#     TrackerImage: 
 #   - Text: Bozo
 #     Weight: 0.1
+#     TrackerImage: 
 #   WhenTracked:
 #   - Text: Message when clearing the boss
+#     TrackerImage: 
 #   - Text: Another message when clearing the boss
 #     Weight: 0.1
+#     TrackerImage: 
 #   WhenDefeated:
 #   - Text: Message when defeating the boss
+#     TrackerImage: 
 #   - Text: Another message when defeating the boss
 #     Weight: 0.1
+#     TrackerImage: 
 #   Image: 
 # 
 

@@ -6,15 +6,20 @@
 # - Region: Turtle Rock
 #   Name:
 #   - Text: Turtle Rock
+#     TrackerImage: 
 #   - Text: Tortoise Rock
 #     Weight: 0.1
+#     TrackerImage: 
 #   Hints:
 #   - Text: A hint tracker will give when asking for where an item is
+#     TrackerImage: 
 #   WhenDiedInRoom:
 #     15:
 #     - Text: 'Message when dying in room/screen 15 of the region '
+#       TrackerImage: 
 #   OutOfLogic:
 #   - Text: Message tracker will state when getting items out of logic in this region
+#     TrackerImage: 
 # 
 
 - Region: Blue Brinstar

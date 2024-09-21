@@ -67,6 +67,13 @@
           "description": "Gets the weight associated with the item.",
           "format": "double",
           "default": 1.0
+        },
+        "TrackerImage": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "description": "The tracker image to display"
         }
       }
     }

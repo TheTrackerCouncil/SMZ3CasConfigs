@@ -5,27 +5,37 @@
 # Example:
 # StartedTracking:
 # - Text: Message tracker will state when tracking started
+#   TrackerImage: 
 # - Text: Another message tracker will state when tracking started
 #   Weight: 0.1
+#   TrackerImage: 
 # TrackedNothingOutOfLogic:
 #   1:
 #   - Text: The only item left in the area {0} is out of logic.
+#     TrackerImage: 
 #   2:
 #   - Text: The only items left in area {0} are out of logic.
+#     TrackerImage: 
 # DungeonTreasureTracked:
 #   2:
 #   - Text: Message when there are {1} items left in dungeon {0}, and that number is at least 2
+#     TrackerImage: 
 #   1:
 #   - Text: Message when there is only 1 item left in dungeon {0}
+#     TrackerImage: 
 #   0:
 #   - Text: Message when there are no items left in dungeon {0}
+#     TrackerImage: 
 #   -1:
 #   - Text: Message when trying to track an item in dungeon {0} but all items have already been gotten
+#     TrackerImage: 
 # Idle:
 #   5m±2m:
 #   - Text: Tracker message when not having tracked anything between 3-7 minutes
+#     TrackerImage: 
 #   - Text: Another possible tracker message
 #     Weight: 0.1
+#     TrackerImage: 
 # Chat:
 #   RecognizedGreetings:
 #   - Possible chat greeting

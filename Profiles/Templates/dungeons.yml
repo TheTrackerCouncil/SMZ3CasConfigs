@@ -6,12 +6,16 @@
 # - Dungeon: Palace of Darkness
 #   Name:
 #   - Text: Palace of Darkness
+#     TrackerImage: 
 #   - Text: Dark Palace
 #     Weight: 0.1
+#     TrackerImage: 
 #   Boss:
 #   - Text: Helmasaur King
+#     TrackerImage: 
 #   - Text: The Helmasaur King
 #     Weight: 0.1
+#     TrackerImage: 
 # 
 
 - Dungeon: Eastern Palace
