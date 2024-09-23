@@ -1356,3 +1356,387 @@
     Column: 7
     Identifiers:
     - Bomb Torizo
+- Name: Keysanity Minimal
+  GridLocations:
+  - Row: 1
+    Column: 1
+    Identifiers:
+    - Bow
+    - Silver Arrows
+  - Row: 1
+    Column: 2
+    Identifiers:
+    - Hookshot
+  - Row: 1
+    Column: 3
+    Identifiers:
+    - Magic Powder
+    - Mushroom
+  - Row: 1
+    Column: 4
+    Identifiers:
+    - Moon Pearl
+  - Row: 1
+    Column: 5
+    Identifiers:
+    - Charge Beam
+    - Ice Beam
+    - Wave Beam
+    - Plasma Beam
+    ReplacementImages:
+      Charge Beam: charge_beam_tl.png
+      Ice Beam: ice_beam_tr.png
+      Wave Beam: wave_beam_bl.png
+      Plasma Beam: plasma_beam_br.png
+  - Row: 1
+    Column: 6
+    Identifiers:
+    - Morph Ball
+  - Row: 1
+    Column: 7
+    Identifiers:
+    - Spring Ball
+  - Row: 2
+    Column: 1
+    Identifiers:
+    - Fire Rod
+  - Row: 2
+    Column: 2
+    Identifiers:
+    - Ice Rod
+  - Row: 2
+    Column: 3
+    Identifiers:
+    - Bombos
+  - Row: 2
+    Column: 4
+    Identifiers:
+    - Ether
+  - Row: 2
+    Column: 5
+    Identifiers:
+    - Quake
+  - Row: 2
+    Column: 6
+    Identifiers:
+    - Morph Bombs
+  - Row: 2
+    Column: 7
+    Identifiers:
+    - Power Bomb
+  - Row: 3
+    Column: 1
+    Identifiers:
+    - Lamp
+  - Row: 3
+    Column: 2
+    Identifiers:
+    - Hammer
+  - Row: 3
+    Column: 3
+    Identifiers:
+    - Shovel
+    - Flute
+    ReplacementImages:
+      Shovel: shovel_tl.png
+      Flute: flute_br.png
+  - Row: 3
+    Column: 4
+    Identifiers:
+    - Book of Mudora
+  - Row: 3
+    Column: 5
+    Identifiers:
+    - Varia Suit
+  - Row: 3
+    Column: 6
+    Identifiers:
+    - Gravity Suit
+  - Row: 3
+    Column: 7
+    Identifiers:
+    - Speed Booster
+  - Row: 4
+    Column: 1
+    Identifiers:
+    - Bottle
+  - Row: 4
+    Column: 2
+    Identifiers:
+    - Cane of Somaria
+  - Row: 4
+    Column: 3
+    Identifiers:
+    - Cane of Byrna
+    - Magic Cape
+    ReplacementImages:
+      Cane of Byrna: byrna_tl.png
+      Magic Cape: cape_br.png
+  - Row: 4
+    Column: 4
+    Identifiers:
+    - Magic Mirror
+  - Row: 4
+    Column: 5
+    Identifiers:
+    - Grapple Beam
+  - Row: 4
+    Column: 6
+    Identifiers:
+    - Hi-Jump Boots
+  - Row: 4
+    Column: 7
+    Identifiers:
+    - Space Jump
+  - Row: 4
+    Column: 8
+    Identifiers:
+    - Screw Attack
+  - Row: 5
+    Column: 1
+    Identifiers:
+    - Gloves
+  - Row: 5
+    Column: 2
+    Identifiers:
+    - Pegasus Boots
+  - Row: 5
+    Column: 3
+    Identifiers:
+    - Flippers
+  - Row: 5
+    Column: 4
+    Identifiers:
+    - Sword
+  - Row: 5
+    Column: 5
+    Identifiers:
+    - Mail
+  - Row: 5
+    Column: 6
+    Identifiers:
+    - Heart Container
+  - Row: 5
+    Column: 7
+    Identifiers:
+    - Energy Tank
+  - Row: 5
+    Column: 8
+    Identifiers:
+    - Missile
+  - Row: 5
+    Column: 9
+    Identifiers:
+    - Super Missile
+  - Type: Dungeon
+    Row: 6
+    Column: 1
+    Identifiers:
+    - Eastern Palace
+  - Row: 7
+    Column: 1
+    Identifiers:
+    - Eastern Palace Big Key
+    - Eastern Palace Map
+  - Type: Dungeon
+    Row: 6
+    Column: 2
+    Identifiers:
+    - Desert Palace
+  - Row: 7
+    Column: 2
+    Identifiers:
+    - Desert Palace Key
+    - Desert Palace Big Key
+    - Desert Palace Map
+  - Type: Dungeon
+    Row: 6
+    Column: 3
+    Identifiers:
+    - Tower of Hera
+  - Row: 7
+    Column: 3
+    Identifiers:
+    - Tower of Hera Key
+    - Tower of Hera Big Key
+    - Tower of Hera Map
+  - Type: Dungeon
+    Row: 6
+    Column: 4
+    Identifiers:
+    - Palace of Darkness
+  - Row: 7
+    Column: 4
+    Identifiers:
+    - Palace of Darkness Key
+    - Palace of Darkness Big Key
+    - Palace of Darkness Map
+  - Type: Dungeon
+    Row: 6
+    Column: 5
+    Identifiers:
+    - Swamp Palace
+  - Row: 7
+    Column: 5
+    Identifiers:
+    - Swamp Palace Key
+    - Swamp Palace Big Key
+    - Swamp Palace Map
+  - Type: Dungeon
+    Row: 6
+    Column: 6
+    Identifiers:
+    - Skull Woods
+  - Row: 7
+    Column: 6
+    Identifiers:
+    - Skull Woods Key
+    - Skull Woods Big Key
+    - Skull Woods Map
+  - Type: Dungeon
+    Row: 6
+    Column: 7
+    Identifiers:
+    - Thieves' Town
+  - Row: 7
+    Column: 7
+    Identifiers:
+    - Thieves Town Key
+    - Thieves Town Big Key
+    - Thieves Town Map
+  - Type: Dungeon
+    Row: 6
+    Column: 8
+    Identifiers:
+    - Ice Palace
+  - Row: 7
+    Column: 8
+    Identifiers:
+    - Ice Palace Key
+    - Ice Palace Big Key
+    - Ice Palace Map
+  - Type: Dungeon
+    Row: 6
+    Column: 9
+    Identifiers:
+    - Misery Mire
+  - Row: 7
+    Column: 9
+    Identifiers:
+    - Misery Mire Key
+    - Misery Mire Big Key
+    - Misery Mire Map
+  - Type: Dungeon
+    Row: 6
+    Column: 10
+    Identifiers:
+    - Turtle Rock
+  - Row: 7
+    Column: 10
+    Identifiers:
+    - Turtle Rock Key
+    - Turtle Rock Big Key
+    - Turtle Rock Map
+  - Type: Dungeon
+    Row: 6
+    Column: 11
+    Identifiers:
+    - Hyrule Castle
+  - Row: 7
+    Column: 11
+    Identifiers:
+    - Sewer Key
+    - Hyrule Castle Map
+  - Type: Dungeon
+    Row: 4
+    Column: 10
+    Identifiers:
+    - Castle Tower
+  - Row: 5
+    Column: 10
+    Identifiers:
+    - Castle Tower Key
+  - Type: Dungeon
+    Row: 4
+    Column: 11
+    Identifiers:
+    - Ganon's Tower
+  - Row: 5
+    Column: 11
+    Identifiers:
+    - Ganons Tower Key
+    - Ganons Tower Big Key
+    - Ganons Tower Map
+  - Row: 1
+    Column: 8
+    Image: CR.png
+    Identifiers:
+    - Crateria Level 1 Keycard
+    - Crateria Level 2 Keycard
+    - Crateria Boss Keycard
+  - Row: 1
+    Column: 9
+    Image: BR.png
+    Identifiers:
+    - Brinstar Level 1 Keycard
+    - Brinstar Level 2 Keycard
+    - Brinstar Boss Keycard
+  - Row: 1
+    Column: 10
+    Image: WS.png
+    Identifiers:
+    - Wrecked Ship Level 1 Keycard
+    - Wrecked Ship Boss Keycard
+  - Row: 2
+    Column: 8
+    Image: MA.png
+    Identifiers:
+    - Maridia Level 1 Keycard
+    - Maridia Level 2 Keycard
+    - Maridia Boss Keycard
+  - Row: 2
+    Column: 9
+    Image: UN.png
+    Identifiers:
+    - Norfair Level 1 Keycard
+    - Norfair Level 2 Keycard
+    - Norfair Boss Keycard
+  - Row: 2
+    Column: 10
+    Image: LN.png
+    Identifiers:
+    - Lower Norfair Level 1 Keycard
+    - Lower Norfair Boss Keycard
+  - Type: SMBoss
+    Row: 3
+    Column: 8
+    Identifiers:
+    - Kraid
+  - Type: SMBoss
+    Row: 3
+    Column: 9
+    Identifiers:
+    - Phantoon
+  - Type: SMBoss
+    Row: 3
+    Column: 10
+    Identifiers:
+    - Draygon
+  - Type: SMBoss
+    Row: 3
+    Column: 11
+    Identifiers:
+    - Ridley
+  - Type: SMBoss
+    Row: 4
+    Column: 9
+    Identifiers:
+    - Mother Brain
+  - Row: 2
+    Column: 11
+    Identifiers:
+    - Death
+  - Row: 1
+    Column: 11
+    Identifiers:
+    - Content

@@ -11,6 +11,7 @@
 #     Image: 
 #     Identifiers:
 #     - Hookshot
+#     ReplacementImages: {}
 #   - Type: Items
 #     Row: 1
 #     Column: 2
@@ -18,18 +19,21 @@
 #     Identifiers:
 #     - Bow
 #     - Silver Arrows
+#     ReplacementImages: {}
 #   - Type: Dungeon
 #     Row: 2
 #     Column: 1
 #     Image: 
 #     Identifiers:
 #     - Desert Palace
+#     ReplacementImages: {}
 #   - Type: SMBoss
 #     Row: 2
 #     Column: 2
 #     Image: 
 #     Identifiers:
 #     - Kraid
+#     ReplacementImages: {}
 # - Name: Basic Keysanity Example
 #   GridLocations:
 #   - Type: Items
@@ -40,6 +44,7 @@
 #     - Desert Palace Key
 #     - Desert Palace Big Key
 #     - Desert Palace Map
+#     ReplacementImages: {}
 #   - Type: Items
 #     Row: 1
 #     Column: 2
@@ -48,6 +53,7 @@
 #     - Crateria Level 1 Keycard
 #     - Crateria Level 2 Keycard
 #     - Crateria Boss Keycard
+#     ReplacementImages: {}
 # 
 
 - Name: Layout Name
@@ -58,3 +64,4 @@
     Image: 
     Identifiers:
     - ''
+    ReplacementImages: 
