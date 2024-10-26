@@ -256,16 +256,38 @@ PegWorldModePeggedMultiple:
     Weight: 0.001
   2:
   - Text: Popop
+  - Text: Poppy
+    Weight: 0.01
+  - Text: Pop-up
+    Weight: 0.01
   3:
   - Text: Popopop
+  - Text: Puppy paws
+    Weight: 0.01
   4:
   - Text: Popopopop
+  - Text: Poppy poppy
+    Weight: 0.01
+  - Text: Plop plop fizz fizz
+    Weight: 0.01
   5:
   - Text: Popopopopop
+  - Text: Parapa Palace
+    Weight: 0.01
+  - Text: Patra has the map
+    Weight: 0.01
   6:
   - Text: Popopopopopop
+  - Text: Papa can you hear me?
+    Weight: 0.01
+  - Text: PaRappa the Rapper
+    Weight: 0.01
   7:
   - Text: Popopopopopopop
+  - Text: Slow down
+    Weight: 0.01
+  - Text: Once you pop, the fun don't stop
+    Weight: 0.01
 PegWorldModeDone:
 - Text: Toggled Peg World Mode off.
 - Text: Let's visit Shaktool next.
