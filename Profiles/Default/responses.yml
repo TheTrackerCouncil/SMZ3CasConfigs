@@ -449,8 +449,7 @@ Cheats:
 Multiplayer:
   OtherPlayerTrackedItem:
   - Text: ''
-  OtherPlayerClearedDungeonWithReward:
-  - Text: ''
+  OtherPlayerClearedDungeonWithReward: []
   OtherPlayerClearedDungeonWithoutReward: []
   OtherPlayerDefeatedBoss: []
   OtherPlayedDied: []
