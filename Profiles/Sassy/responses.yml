@@ -554,7 +554,14 @@ Hints:
   - Text: I'll stop giving you hints.
   - Text: I can no longer assist
   - Text: Fine. Figure it out yourself.
-  - Text: Good. One less thing that I have to do.
+  - Text: Good. One less thing that I have to do.  
+  AlreadyEnabledHints:
+  - Text: Wasn't I already helping you?
+  - Text: Hints are turned on already. Is that not enough for you? I could always just ruin the seed for you by just telling you.
+  AlreadyDisabledHints:
+  - Text: Oh please, like I'd give you hints.
+  - Text: You really think I'd help you? 
+  - Text: What hints?
   PromptEnableItemHints:
   - Text: If you want me to give a hint, say 'Hey tracker, enable hints'.
   - Text: If you want me to give a hint, say 'Hey tracker, turn on hints'.
@@ -728,6 +735,14 @@ Spoilers:
   - Text: Okay, no more spoilers for you then.
   - Text: I won't give you anymore spoilers, but no one will forget you had to ask for help.
     Weight: 0.2
+  AlreadyEnabledSpoilers:
+  - Text: What? Spoilers have been enabled this whole time. 
+  - Text: What? Spoilers have been enabled this whole time, but I can't remember if I accidentally spoiled something or not. Maybe s kennedy should redline this seed just in case.
+  - Text: I've been giving you spoilers already.
+  - Text: I've been giving you spoilers already. Unless you accidentally turned them on and never realized it. Good thing I didn't mistake anything you said. Right? <break time='2s' /> Right?
+  AlreadyDisabledSpoilers:
+  - Text: Spoilers? I would never do such a thing. I delight in torturing you too much to help you.
+  - Text: Spoilers are disabled already. Why does it matter though? It's not like I would mishear things you say or anything.
   PromptEnableItemSpoilers:
   - Text: If you want me to spoil it, say 'Hey tracker, enable spoilers'.
   - Text: If you want me to spoil it, say 'Hey tracker, turn on spoilers'.

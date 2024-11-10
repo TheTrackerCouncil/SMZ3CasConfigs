@@ -140,6 +140,12 @@ Hints:
   - Text: Toggled hints on.
   DisabledHints:
   - Text: Toggled hints off.
+  AlreadyEnabledHints:
+  - Text: Hints are turned on already.
+  - Text: Hints are already turned on.
+  AlreadyDisabledHints:
+  - Text: Hints are disabled already.
+  - Text: Hints are already disabled.
   PromptEnableItemHints:
   - Text: If you want me to give a hint, say 'Hey tracker, enable hints'.
   PromptEnableLocationHints:
@@ -227,6 +233,12 @@ Spoilers:
   - Text: Toggled spoilers on.
   DisabledSpoilers:
   - Text: Toggled spoilers off.
+  AlreadyEnabledSpoilers:
+  - Text: Spoilers are turned on already.
+  - Text: Spoilers are already turned on.
+  AlreadyDisabledSpoilers:
+  - Text: Spoilers are disabled already.
+  - Text: Spoilers are already disabled.
   PromptEnableItemSpoilers:
   - Text: If you want me to spoil it, say 'Hey tracker, enable spoilers'.
   PromptEnableLocationSpoilers:

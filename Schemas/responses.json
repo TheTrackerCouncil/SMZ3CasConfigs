@@ -1049,6 +1049,28 @@
             }
           ]
         },
+        "AlreadyEnabledHints": {
+          "description": "Gets the phrases to respond with when hints are turned on, and the user just said \"Enable hints\".",
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/SchrodingersString"
+            }
+          ]
+        },
+        "AlreadyDisabledHints": {
+          "description": "Gets the phrases to respond with when hints are turned off, and the user just said \"Disable hints\".",
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/SchrodingersString"
+            }
+          ]
+        },
         "PromptEnableItemHints": {
           "description": "Gets the phrases to respond with when asked about an item and hints are turned off.",
           "oneOf": [
@@ -1498,6 +1520,28 @@
         },
         "DisabledSpoilers": {
           "description": "Gets the phrases to respond with when spoilers are turned off.",
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/SchrodingersString"
+            }
+          ]
+        },
+        "AlreadyEnabledSpoilers": {
+          "description": "Gets the phrases to respond with when spoilers are turned on, and the user just said \"Enable spoilers\".",
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/SchrodingersString"
+            }
+          ]
+        },
+        "AlreadyDisabledSpoilers": {
+          "description": "Gets the phrases to respond with when spoilers are turned off, and the user just said \"Disable spoilers\".",
           "oneOf": [
             {
               "type": "null"
