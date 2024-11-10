@@ -135,6 +135,8 @@ Idle:
 Hints:
   EnabledHints: 
   DisabledHints: 
+  AlreadyEnabledHints: 
+  AlreadyDisabledHints: 
   PromptEnableItemHints: 
   PromptEnableLocationHints: 
   NoApplicableHints: 
@@ -177,6 +179,8 @@ Hints:
 Spoilers:
   EnabledSpoilers: 
   DisabledSpoilers: 
+  AlreadyEnabledSpoilers: 
+  AlreadyDisabledSpoilers: 
   PromptEnableItemSpoilers: 
   PromptEnableLocationSpoilers: 
   TrackedAllItemsAlready: 
