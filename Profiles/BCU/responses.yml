@@ -91,6 +91,10 @@ Chat:
   PollErrorTerminated:
   - Text: Did you think I wouldn't catch on to what you've been doing with the content polls, s kennedy? I hope you know I'm recording this to my personal stat tracking sheet.
     Weight: 50 # Remove after it comes up
+  DrDubzArtPosted:
+  - Text: Stop what you're doing, Doctor Dubz just posted art.
+  - Text: Hey {{User}}, Doctor Dubz just posted something important. You should take a look.
+  - Text: Doctor Dubz art alert.
   UserNamePronunciation:
     pinkkittyrose: Pink Kitty Rose
     skennedysa: s kennedy

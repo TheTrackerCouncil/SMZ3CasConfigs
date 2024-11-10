@@ -236,6 +236,7 @@ Chat:
   PollOpened: 
   PollError: 
   PollErrorTerminated: 
+  DrDubzArtPosted: 
 AutoTracker:
   WhenConnected: 
   WhenDisconnected: 
