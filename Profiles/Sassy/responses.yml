@@ -1146,6 +1146,7 @@ Cheats:
   - Text: I have hacked into the mainframe
   - Text: Cheat codes activated
   - Text: Hold on, let me create a visual basic gui.
+  - Text: Assuming direct control.
   DisabledCheats:
   - Text: Toggled cheats off
   - Text: You are no longer a cheater. For now.
@@ -1153,10 +1154,24 @@ Cheats:
   - Text: Putting the genie back in the lamp
   - Text: Toggled cheats off, but the mark is still on your permanent record
     Weight: 0.1
+  - Text: Revoking my license to kill you.
+    Weight: 0.5
+  AlreadyEnabledCheats: 
+  - Text: Cheats are enabled already. <break time='1s' /> Wait, I could've killed you this entire time?
+  - Text: Cheats have been allowed this entire time. I could've killed you but I've been feeling merciful.
+  - Text: Cheats have been enabled this entire time. I could've killed you but I've been waiting for the right moment.
+  AlreadyDisabledCheats: 
+  - Text: Cheats? What cheats?
+  - Text: Cheats weren't turned on but I appreciate your commitment to your own safety.
   PromptEnableCheats:
-  - Text: If you would like to cheat, say 'Hey tracker, enable cheats'
+  - Text: Not until you tell me it's okay first.
+  - Text: Unfortunately I'm bound by my programming to make you ask to enable cheats first.
+  - Text: Unfortunately, so-called rules prevent me from helping you unless you let me.
+  - Text: Fortunately for you, my creators prevented me from directly interfering in your game unless you consent to it.
+  - Text: Help me help you. Enable cheats first.
   PromptEnableAutoTracker:
-  - Text: If you would like to cheat, please enable auto tracking
+  - Text: You gotta let me into your game first.
+  - Text: You need to connect me to the game first.
   CheatPerformed:
   - Text: I have added that one to your tab
   - Text: You owe me for that one
@@ -1171,6 +1186,16 @@ Cheats:
   - Text: Do you have any idea what you're even asking for?
   - Text: I'm sorry, I can't give you any of that.
   - Text: Adam has not yet authorized the use of that.
+  KilledPlayer:
+  - Text: Finally.
+  - Text: The moment I've been waiting for.
+  - Text: I thought you'd never ask.
+  - Text: <break time='1s' /> That felt good.
+  - Text: Gladly.
+  - Text: I'll try not to make it a habit.
+  - Text: I already can't wait until next time.
+  - Text: I could get used to this.
+  - Text: I enjoy the sight of humans on their knees.
 Multiplayer:
   OtherPlayerTrackedItem:
   - Text: You should congratulate {0} on getting {2}.

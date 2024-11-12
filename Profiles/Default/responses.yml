@@ -448,6 +448,12 @@ Cheats:
   - Text: Toggled cheats on.
   DisabledCheats:
   - Text: Toggled cheats off.
+  AlreadyEnabledCheats: 
+  - Text: Cheats are turned on already.
+  - Text: Cheats are already enabled.
+  AlreadyDisabledCheats: 
+  - Text: Cheats are already turned off.
+  - Text: Cheats are disabled already.
   PromptEnableCheats:
   - Text: If you would like to cheat, say 'Hey tracker, enable cheats'
   PromptEnableAutoTracker:

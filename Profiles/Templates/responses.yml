@@ -285,11 +285,14 @@ Map:
 Cheats:
   EnabledCheats: 
   DisabledCheats: 
+  AlreadyEnabledCheats: 
+  AlreadyDisabledCheats: 
   PromptEnableCheats: 
   PromptEnableAutoTracker: 
   CheatPerformed: 
   CheatFailed: 
   CheatInvalidItem: 
+  KilledPlayer: 
 Multiplayer:
   OtherPlayerTrackedItem: 
   OtherPlayerClearedDungeonWithReward: 
