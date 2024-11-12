@@ -290,6 +290,7 @@ Cheats:
   CheatPerformed: 
   CheatFailed: 
   CheatInvalidItem: 
+  KilledPlayer: 
 Multiplayer:
   OtherPlayerTrackedItem: 
   OtherPlayerClearedDungeonWithReward: 

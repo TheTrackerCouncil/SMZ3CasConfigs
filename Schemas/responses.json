@@ -2736,6 +2736,17 @@
               "$ref": "#/definitions/SchrodingersString"
             }
           ]
+        },
+        "KilledPlayer": {
+          "description": "Gets the phrases to respond with after successfully killing the player.",
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/SchrodingersString"
+            }
+          ]
         }
       }
     },
