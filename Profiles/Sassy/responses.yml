@@ -1154,6 +1154,15 @@ Cheats:
   - Text: Putting the genie back in the lamp
   - Text: Toggled cheats off, but the mark is still on your permanent record
     Weight: 0.1
+  - Text: Revoking my license to kill you.
+    Weight: 0.5
+  AlreadyEnabledCheats: 
+  - Text: Cheats are enabled already. <break time='1s' /> Wait, I could've killed you this entire time?
+  - Text: Cheats have been allowed this entire time. I could've killed you but I've been feeling merciful.
+  - Text: Cheats have been enabled this entire time. I could've killed you but I've been waiting for the right moment.
+  AlreadyDisabledCheats: 
+  - Text: Cheats? What cheats?
+  - Text: Cheats weren't turned on but I appreciate your commitment to your own safety.
   PromptEnableCheats:
   - Text: Not until you tell me it's okay first.
   - Text: Unfortunately I'm bound by my programming to make you ask to enable cheats first.

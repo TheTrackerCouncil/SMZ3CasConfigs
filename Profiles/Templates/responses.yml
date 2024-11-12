@@ -285,6 +285,8 @@ Map:
 Cheats:
   EnabledCheats: 
   DisabledCheats: 
+  AlreadyEnabledCheats: 
+  AlreadyDisabledCheats: 
   PromptEnableCheats: 
   PromptEnableAutoTracker: 
   CheatPerformed: 
