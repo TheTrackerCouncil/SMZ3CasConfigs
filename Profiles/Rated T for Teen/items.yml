@@ -20,6 +20,8 @@
   - Text: Drugs
   - Text: Prescription medicine
   - Text: The good shit
+  - Text: The the the the good shit
+    Weight: 0.1
 - Item: Bottle
   WhenTracked:
     "1":
