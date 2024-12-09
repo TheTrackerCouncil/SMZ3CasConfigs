@@ -214,6 +214,39 @@
         }
       ]
     },
+    "TrackedParsedOtherGameKnownItem": {
+      "description": "Get the phrases to respond with when playing a parsed AP/Mainline multiworld game and the player picked up an item for another player that is known by SMZ3 (another SMZ3, Z3, or SM item). \n{0} is a placeholder for the name of the item. \n{1} is a placeholder for the name of the item prefixed with the article. \n{2} is a placeholder for the parsed name of the player this item is for.",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
+    "TrackedParsedOtherGameUnknownProgressionItem": {
+      "description": "Gets the phrases to respond with when playing a parsed AP/Mainline multiworld game and the player picked up an item for another player that is unknown by SMZ3 but was labeled as progression. \n{0} is a placeholder for the parsed name of the player this item is for.",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
+    "TrackedParsedOtherGameUnknownRegularItem": {
+      "description": "Gets the phrases to respond with when playing a parsed AP/Mainline multiworld game and the player picked up an item for another player that is unknown by SMZ3 but was labeled as not progression. \n{0} is a placeholder for the parsed name of the player this item is for.",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
     "TrackedNothing": {
       "description": "Gets the phrases to respond with when tracking or clearing multiple items in an area at once, but there no items left. \n{0} is a placeholder for the name of the area.",
       "oneOf": [
@@ -1335,6 +1368,17 @@
             }
           ]
         },
+        "LocationHasNonCasProgressionItem": {
+          "description": "Gets hints for a non Cas' seed where it could be mandatory, but we don't know \n{0} is placeholder for the name of the location. \n{1} is placeholder for the name of the character who the item is for.",
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/SchrodingersString"
+            }
+          ]
+        },
         "LocationHasSuperMetroidItem": {
           "description": "Gets the hints for locations that have an item from Super Metroid. \n{0} is placeholder for the name of the location. \n{1} is a placeholder for the name of the sprite that replaces Samus, or \"Samus\".",
           "oneOf": [
@@ -1425,6 +1469,28 @@
         },
         "AreaHasJunkAndCrystal": {
           "description": "Gets the hint to give for an area that only has junk items left, but also has a crystal as reward for beating the boss. \n{0} is a placeholder for the name of the area.",
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/SchrodingersString"
+            }
+          ]
+        },
+        "AreaHasNonCasPossibleProgression": {
+          "description": "Gets the hint to give for an area in a non-Cas parsed rom that could possibly be progression, but we're not positive",
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/SchrodingersString"
+            }
+          ]
+        },
+        "AreaHasNonCasJunkAndReward": {
+          "description": "Gets the hint to give for an area in a non-Cas parsed rom that only has junk items left, but also has a crystal or metroid boss as the reward for beating the boss. \n{0} is a placeholder for the name of the area.",
           "oneOf": [
             {
               "type": "null"
@@ -1695,7 +1761,18 @@
           ]
         },
         "LocationHasUnknownItem": {
-          "description": "Gets the phrases that spoil the item that is at the requested location, when the item does not exist in the item data. \n{0} is a placeholder for the name of the location. \n{1} is a placeholder for the name of the item, with \"a\", \"an\" or \"the\".",
+          "description": "Gets the phrases that spoil the item that is at the requested location, when the item does not exist in the item data. \n{0} is a placeholder for the name of the location.",
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/SchrodingersString"
+            }
+          ]
+        },
+        "LocationHasOtherGameItem": {
+          "description": "Gets the phrases that spoil the item that is at the requested location, but the item is for another game. \n{0} is a placeholder for the name of the location. \n{1} is a placeholder for the name of the item. Note for this we don't have knowledge of if it's singular or plural",
           "oneOf": [
             {
               "type": "null"
@@ -2247,6 +2324,17 @@
         },
         "GameStartedMultiplayer": {
           "description": "Gets the phrases to respond with when the game is started in a multiplayer game. \n{0} is a placeholder for the number of players. \n{1} is a placeholder for a random player name.",
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/SchrodingersString"
+            }
+          ]
+        },
+        "GameStartedNonCas": {
+          "description": "Gets the phrases to respond with when a parsed non-Cas rando seed has been started",
           "oneOf": [
             {
               "type": "null"

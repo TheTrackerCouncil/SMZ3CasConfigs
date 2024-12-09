@@ -66,6 +66,9 @@ TrackedVanillaItem:
 TrackedExactAmountDuplicate: 
 TrackedMultipleItems: 
 ClearedMultipleItems: 
+TrackedParsedOtherGameKnownItem: 
+TrackedParsedOtherGameUnknownProgressionItem: 
+TrackedParsedOtherGameUnknownRegularItem: 
 TrackedNothing: 
 TrackedNothingOutOfLogic: 
 UntrackedItem: 
@@ -161,6 +164,7 @@ Hints:
   LocationHasJunkItem: 
   LocationHasMandatoryItem: 
   LocationHasUsefulItem: 
+  LocationHasNonCasProgressionItem: 
   LocationHasSuperMetroidItem: 
   LocationHasZeldaItem: 
   AreaSuggestion: 
@@ -170,6 +174,8 @@ Hints:
   AreaHasSomethingGood: 
   AreaHasJunk: 
   AreaHasJunkAndCrystal: 
+  AreaHasNonCasPossibleProgression: 
+  AreaHasNonCasJunkAndReward: 
   AreaWorthComplicated: 
   ItemInUnknownWorld: 
   ItemInPlayerWorld: 
@@ -195,6 +201,7 @@ Spoilers:
   LocationHasItemOtherWorld: 
   LocationHasItemOwnWorld: 
   LocationHasUnknownItem: 
+  LocationHasOtherGameItem: 
   ItemIsAtLocation: 
   ItemIsAtLocationOtherWorld: 
   ItemIsAtLocationOwnWorld: 
@@ -246,6 +253,7 @@ AutoTracker:
   WhenDisconnected: 
   GameStarted: 
   GameStartedMultiplayer: 
+  GameStartedNonCas: 
   NearKraidsAwfulSon: 
   NearShaktool: 
   NearCrocomire: 
