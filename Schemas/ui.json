@@ -63,7 +63,10 @@
           }
         },
         "ReplacementImages": {
-          "type": "object",
+          "type": [
+            "null",
+            "object"
+          ],
           "description": "Map of identifier to images to use",
           "additionalProperties": {
             "type": "string"

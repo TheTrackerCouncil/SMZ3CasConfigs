@@ -26,3 +26,19 @@
 - Reward: Agahnim
   Name:
   - Text: Agahnim
+- Reward: Kraid Boss Token
+  Name:
+  - Text: Kraid Token
+  - Text: Kraid Boss Token
+- Reward: Phantoon Boss Token
+  Name:
+  - Text: Phantoon Token
+  - Text: Phantoon Boss Token
+- Reward: Draygon Boss Token
+  Name:
+  - Text: Draygon Token
+  - Text: Draygon Boss Token
+- Reward: Ridley Boss Token
+  Name:
+  - Text: Ridley Token
+  - Text: Ridley Boss Token

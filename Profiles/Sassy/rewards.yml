@@ -44,3 +44,25 @@
     Weight: 0.05
   - Text: Pendant of Wisdom. Wait. I meant Power. I get confused as they changed the colors later in this series
     Weight: 0.05
+- Reward: Kraid Boss Token
+  Name:
+  - Text: soul of Kraid
+    Weight: 0.2
+  - Text: soul of kraid's awful son's father
+    Weight: 0.1
+- Reward: Phantoon Boss Token
+  Name:
+  - Text: soul of Phantoon
+    Weight: 0.2
+  - Text: soul of the soul of whatever Phantoon was when it was alive
+    Weight: 0.1
+- Reward: Draygon Boss Token
+  Name:
+  - Text: soul of Draygon
+    Weight: 0.2
+  - Text: soul of shrimp
+    Weight: 0.1
+- Reward: Ridley Boss Token
+  Name:
+  - Text: soul of Ridley
+    Weight: 0.2
