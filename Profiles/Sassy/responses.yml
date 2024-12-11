@@ -189,6 +189,21 @@ TrackedVanillaItem:
   Weight: 0.05
 ClearedMultipleItems:
 - Text: Cleared {0} items in {1}.
+TrackedParsedOtherGameKnownItem: 
+- Text: Tracked {1} for {2}.
+  Weight: 0.25
+- Text: Tracked {2}'s {0}.
+  Weight: 0.25
+TrackedParsedOtherGameUnknownProgressionItem: 
+- Text: Tracked something for {0}. Looks like it might be useful!
+  Weight: 0.25
+- Text: What in the world was that? Looks kinda neat. Well, better give it to {0}.
+  Weight: 0.25
+TrackedParsedOtherGameUnknownRegularItem: 
+- Text: Tracked some random junk for {0}.
+  Weight: 0.25
+- Text: What is this garbage? {0} better take care of that.
+  Weight: 0.25
 TrackedNothing:
 - Text: There are no items left in {0}.
 - Text: There's nothing left in {0}.
@@ -991,6 +1006,10 @@ AutoTracker:
   - Text: Good job on starting the seed. Was it a first try?
   - Text: Can we visit Shaktool yet?
     Weight: 0.1
+  GameStartedNonCas:
+  - Text: Great, you want me to help with a seed I didn't generate?
+  - Text: Why do you have me tracking for this? Can't you get anything else to do it?
+  - Text: Uh oh. I didn't create this one. Incoming required IBJ technique?
   GameStartedMultiplayer:
   - Text: Wow, there are {0} of you for this game? Well, let's get started.
   - Text: Oh no. You invited {1} to join in. I guess that's fine.

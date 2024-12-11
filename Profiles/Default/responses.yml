@@ -32,6 +32,12 @@ TrackedMultipleItems:
 - Text: Tracked {2} in {1}.
 ClearedMultipleItems:
 - Text: Cleared {0} items in {1}.
+TrackedParsedOtherGameKnownItem: 
+- Text: ''
+TrackedParsedOtherGameUnknownProgressionItem: 
+- Text: ''
+TrackedParsedOtherGameUnknownRegularItem: 
+- Text: ''
 TrackedNothing:
 - Text: There are no items left in {0}.
 TrackedNothingOutOfLogic:
@@ -198,6 +204,8 @@ Hints:
   - Text: There's nothing important there.
   LocationHasUsefulItem:
   - Text: It has something useful but not required.
+  LocationHasNonCasProgressionItem:
+  - Text: I can't be for certain, but it looks like it could possibly be important for {1}.
   LocationHasSuperMetroidItem:
   - Text: '{0} has something for {1}.'
   LocationHasZeldaItem:
@@ -216,6 +224,10 @@ Hints:
   - Text: "{0} isn't worth your time."
   AreaHasJunkAndCrystal:
   - Text: '{0} only has a crystal.'
+  AreaHasNonCasPossibleProgression:
+  - Text: I can't say for certain, but it seems like {0} might have something important.
+  AreaHasNonCasJunkAndReward:
+  - Text: '{0} only has the reward.'
   AreaWorthComplicated:
   - Text: It's complicated.
   ItemInUnknownWorld:
@@ -265,6 +277,8 @@ Spoilers:
   - Text: '{0} has {1} belonging to {2}'
   LocationHasItemOwnWorld:
   - Text: '{0} has {1} belonging to you'
+  LocationHasOtherGameItem:
+  - Text: '{0} has {1} belonging to {2}'
   LocationHasUnknownItem:
   - Text: '{0} has {1}'
   ItemIsAtLocation:
