@@ -197,6 +197,8 @@ Spoilers:
   ItemNotFound: 
   ItemsNotFound: 
   LocationsCleared: 
+  ItemLocationCleared: 
+  ItemLocationsCleared: 
   LocationHasItem: 
   LocationHasItemOtherWorld: 
   LocationHasItemOwnWorld: 

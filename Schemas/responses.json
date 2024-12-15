@@ -1727,6 +1727,28 @@
             }
           ]
         },
+        "ItemLocationCleared": {
+          "description": "Gets the phrases to respond with when an item's location has been cleared. \n{0} is a placeholder for the name of the item, with \"a\", \"an\" or \"the\" and 1 is a placeholder for the name of the location where the item was.",
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/SchrodingersString"
+            }
+          ]
+        },
+        "ItemLocationsCleared": {
+          "description": "Gets the phrases to respond with when all locations that have the item are cleared. \n{0} is a placeholder for the name of the item, with \"a\", \"an\" or \"the\". \n{1} is a placeholder for a list of locations where the item was (up to 4).",
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/SchrodingersString"
+            }
+          ]
+        },
         "LocationHasItem": {
           "description": "Gets the phrases that spoil the item that is at the requested location. \n{0} is a placeholder for the name of the location. \n{1} is a placeholder for the name of the item, with \"a\", \"an\" or \"the\".",
           "oneOf": [

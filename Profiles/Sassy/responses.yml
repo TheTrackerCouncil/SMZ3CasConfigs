@@ -791,8 +791,14 @@ Spoilers:
   - Text: I cannot find any {0}.
   - Text: This seed doesn't have any {0}.
   - Text: There are no {0} in this seed.
-  LocationsCleared:
-  - Text: You already cleared every location that has {0}.
+  ItemLocationCleared:
+  - Text: You already cleared the location, but {0} was located at {1}.
+  - Text: Why did you clear it if you wanted what was there? Oh well, {0} was at {1}."
+    Weight: 0.2
+  ItemLocationsCleared:
+  - Text: You already cleared every location, but {0} was located at {1}.
+  - Text: Why did you clear it if you wanted what was there? Oh well, {0} was at {1}."
+    Weight: 0.2
   LocationHasItem:
   - Text: '{0} has {1}.'
   - Text: '{1} is there.'
