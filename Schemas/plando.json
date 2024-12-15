@@ -1,0 +1,1199 @@
+{
+  "definitions": {
+    "LogicConfig": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "PreventScrewAttackSoftLock": {
+          "type": "boolean"
+        },
+        "PreventFivePowerBombSeed": {
+          "type": "boolean"
+        },
+        "LeftSandPitRequiresSpringBall": {
+          "type": "boolean"
+        },
+        "LaunchPadRequiresIceBeam": {
+          "type": "boolean"
+        },
+        "WaterwayNeedsGravitySuit": {
+          "type": "boolean"
+        },
+        "EasyEastCrateriaSkyItem": {
+          "type": "boolean"
+        },
+        "EasyBlueBrinstarTop": {
+          "type": "boolean"
+        },
+        "KholdstareNeedsCaneOfSomaria": {
+          "type": "boolean"
+        },
+        "ZoraNeedsRupeeItems": {
+          "type": "boolean"
+        },
+        "QuarterMagic": {
+          "type": "boolean"
+        },
+        "FireRodDarkRooms": {
+          "type": "boolean"
+        },
+        "InfiniteBombJump": {
+          "type": "boolean"
+        },
+        "ParlorSpeedBooster": {
+          "type": "boolean"
+        },
+        "MoatSpeedBooster": {
+          "type": "boolean"
+        },
+        "MockBall": {
+          "type": "boolean"
+        },
+        "SwordOnlyDarkRooms": {
+          "type": "boolean"
+        },
+        "LightWorldSouthFakeFlippers": {
+          "type": "boolean"
+        },
+        "WallJumpDifficulty": {
+          "type": "string",
+          "enum": [
+            "None",
+            "Easy",
+            "Medium",
+            "Hard",
+            "Insane"
+          ]
+        }
+      },
+      "required": [
+        "PreventScrewAttackSoftLock",
+        "PreventFivePowerBombSeed",
+        "LeftSandPitRequiresSpringBall",
+        "LaunchPadRequiresIceBeam",
+        "WaterwayNeedsGravitySuit",
+        "EasyEastCrateriaSkyItem",
+        "EasyBlueBrinstarTop",
+        "KholdstareNeedsCaneOfSomaria",
+        "ZoraNeedsRupeeItems",
+        "QuarterMagic",
+        "FireRodDarkRooms",
+        "InfiniteBombJump",
+        "ParlorSpeedBooster",
+        "MoatSpeedBooster",
+        "MockBall",
+        "SwordOnlyDarkRooms",
+        "LightWorldSouthFakeFlippers",
+        "WallJumpDifficulty"
+      ]
+    },
+    "PlandoTextConfig": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "GanonIntro": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "BlindIntro": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "TriforceRoom": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "KingZora": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "BottleMerchant": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "GanonSilversHint": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "SahasrahlaReveal": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "BombShopReveal": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "TavernMan": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "MasterSwordPedestal": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "EtherTablet": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "BombosTablet": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "HintTileEasternPalace": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "HintTileTowerOfHeraFloor4": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "HintTileSpectacleRock": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "HintTileSwampEntrance": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "HintTileThievesTownUpstairs": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "HintTileMiseryMire": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "HintTilePalaceOfDarkness": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "HintTileDesertBonkTorchRoom": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "HintTileCastleTower": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "HintTileIceLargeRoom": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "HintTileTurtleRock": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "HintTileIceEntrance": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "HintTileIceStalfosKnightsRoom": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "HintTileTowerOfHeraEntrance": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "HintTileSouthEastDarkworldCave": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "GanonIntro",
+        "BlindIntro",
+        "TriforceRoom",
+        "KingZora",
+        "BottleMerchant",
+        "GanonSilversHint",
+        "SahasrahlaReveal",
+        "BombShopReveal",
+        "TavernMan",
+        "MasterSwordPedestal",
+        "EtherTablet",
+        "BombosTablet",
+        "HintTileEasternPalace",
+        "HintTileTowerOfHeraFloor4",
+        "HintTileSpectacleRock",
+        "HintTileSwampEntrance",
+        "HintTileThievesTownUpstairs",
+        "HintTileMiseryMire",
+        "HintTilePalaceOfDarkness",
+        "HintTileDesertBonkTorchRoom",
+        "HintTileCastleTower",
+        "HintTileIceLargeRoom",
+        "HintTileTurtleRock",
+        "HintTileIceEntrance",
+        "HintTileIceStalfosKnightsRoom",
+        "HintTileTowerOfHeraEntrance",
+        "HintTileSouthEastDarkworldCave"
+      ]
+    },
+    "PlandoZeldaPrizeConfig": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "EnemyDrops": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string",
+            "enum": [
+              "Heart",
+              "GreenRupee",
+              "BlueRupee",
+              "RedRupee",
+              "Bomb1",
+              "Bomb4",
+              "Bomb8",
+              "Magic",
+              "FullMagic",
+              "Arrow5",
+              "Arrow10",
+              "Fairy"
+            ]
+          }
+        },
+        "TreePulls": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string",
+            "enum": [
+              "Heart",
+              "GreenRupee",
+              "BlueRupee",
+              "RedRupee",
+              "Bomb1",
+              "Bomb4",
+              "Bomb8",
+              "Magic",
+              "FullMagic",
+              "Arrow5",
+              "Arrow10",
+              "Fairy"
+            ]
+          }
+        },
+        "CrabBaseDrop": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            null,
+            "Heart",
+            "GreenRupee",
+            "BlueRupee",
+            "RedRupee",
+            "Bomb1",
+            "Bomb4",
+            "Bomb8",
+            "Magic",
+            "FullMagic",
+            "Arrow5",
+            "Arrow10",
+            "Fairy"
+          ]
+        },
+        "CrabEightDrop": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            null,
+            "Heart",
+            "GreenRupee",
+            "BlueRupee",
+            "RedRupee",
+            "Bomb1",
+            "Bomb4",
+            "Bomb8",
+            "Magic",
+            "FullMagic",
+            "Arrow5",
+            "Arrow10",
+            "Fairy"
+          ]
+        },
+        "StunPrize": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            null,
+            "Heart",
+            "GreenRupee",
+            "BlueRupee",
+            "RedRupee",
+            "Bomb1",
+            "Bomb4",
+            "Bomb8",
+            "Magic",
+            "FullMagic",
+            "Arrow5",
+            "Arrow10",
+            "Fairy"
+          ]
+        },
+        "FishPrize": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            null,
+            "Heart",
+            "GreenRupee",
+            "BlueRupee",
+            "RedRupee",
+            "Bomb1",
+            "Bomb4",
+            "Bomb8",
+            "Magic",
+            "FullMagic",
+            "Arrow5",
+            "Arrow10",
+            "Fairy"
+          ]
+        }
+      },
+      "required": [
+        "EnemyDrops",
+        "TreePulls",
+        "CrabBaseDrop",
+        "CrabEightDrop",
+        "StunPrize",
+        "FishPrize"
+      ]
+    }
+  },
+  "type": "object",
+  "properties": {
+    "Seed": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "KeysanityMode": {
+      "type": "string",
+      "enum": [
+        "None",
+        "Both",
+        "Zelda",
+        "SuperMetroid"
+      ]
+    },
+    "GanonsTowerCrystalCount": {
+      "type": "integer"
+    },
+    "GanonCrystalCount": {
+      "type": "integer"
+    },
+    "OpenPyramid": {
+      "type": "boolean"
+    },
+    "TourianBossCount": {
+      "type": "integer"
+    },
+    "Logic": {
+      "$ref": "#/definitions/LogicConfig"
+    },
+    "Items": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": {
+        "type": "string",
+        "enum": [
+          "Nothing",
+          "Firerod",
+          "Icerod",
+          "Hammer",
+          "Hookshot",
+          "Bow",
+          "BlueBoomerang",
+          "Powder",
+          "BeeContent",
+          "Bombos",
+          "Ether",
+          "Quake",
+          "Lamp",
+          "Shovel",
+          "Flute",
+          "Somaria",
+          "Bottle",
+          "HeartPiece",
+          "Byrna",
+          "Cape",
+          "Mirror",
+          "Book",
+          "Flippers",
+          "MoonPearl",
+          "Bugnet",
+          "Key",
+          "Compass",
+          "ThreeBombs",
+          "Mushroom",
+          "RedBoomerang",
+          "BottleWithRedPotion",
+          "BottleWithGreenPotion",
+          "BottleWithBluePotion",
+          "RedContent",
+          "GreenContent",
+          "BlueContent",
+          "BigKey",
+          "Map",
+          "OneRupee",
+          "FiveRupees",
+          "TwentyRupees",
+          "BottleWithBee",
+          "BottleWithFairy",
+          "HeartContainer",
+          "HeartContainerRefill",
+          "OneHundredRupees",
+          "FiftyRupees",
+          "Arrow",
+          "TenArrows",
+          "ThreeHundredRupees",
+          "TwentyRupees2",
+          "BottleWithGoldBee",
+          "Boots",
+          "HalfMagic",
+          "BombUpgrade5",
+          "BombUpgrade10",
+          "ArrowUpgrade5",
+          "ArrowUpgrade10",
+          "SilverArrows",
+          "ProgressiveSword",
+          "ProgressiveShield",
+          "ProgressiveTunic",
+          "ProgressiveGlove",
+          "MapGT",
+          "MapTR",
+          "MapTT",
+          "MapTH",
+          "MapIP",
+          "MapSW",
+          "MapMM",
+          "MapPD",
+          "MapSP",
+          "MapDP",
+          "MapEP",
+          "MapHC",
+          "CompassGT",
+          "CompassTR",
+          "CompassTT",
+          "CompassTH",
+          "CompassIP",
+          "CompassSW",
+          "CompassMM",
+          "CompassPD",
+          "CompassSP",
+          "CompassDP",
+          "CompassEP",
+          "BigKeyGT",
+          "BigKeyTR",
+          "BigKeyTT",
+          "BigKeyTH",
+          "BigKeyIP",
+          "BigKeySW",
+          "BigKeyMM",
+          "BigKeyPD",
+          "BigKeySP",
+          "BigKeyDP",
+          "BigKeyEP",
+          "KeyHC",
+          "KeyDP",
+          "KeyCT",
+          "KeySP",
+          "KeyPD",
+          "KeyMM",
+          "KeySW",
+          "KeyIP",
+          "KeyTH",
+          "KeyTT",
+          "KeyTR",
+          "KeyGT",
+          "Grapple",
+          "XRay",
+          "Varia",
+          "SpringBall",
+          "Morph",
+          "ScrewAttack",
+          "Gravity",
+          "HiJump",
+          "SpaceJump",
+          "Bombs",
+          "SpeedBooster",
+          "Charge",
+          "Ice",
+          "Wave",
+          "Spazer",
+          "Plasma",
+          "ETank",
+          "ReserveTank",
+          "Missile",
+          "Super",
+          "PowerBomb",
+          "SmMapBrinstar",
+          "SmMapWreckedShip",
+          "SmMapMaridia",
+          "SmMapLowerNorfair",
+          "CardCrateriaL1",
+          "CardCrateriaL2",
+          "CardCrateriaBoss",
+          "CardBrinstarL1",
+          "CardBrinstarL2",
+          "CardBrinstarBoss",
+          "CardNorfairL1",
+          "CardNorfairL2",
+          "CardNorfairBoss",
+          "CardMaridiaL1",
+          "CardMaridiaL2",
+          "CardMaridiaBoss",
+          "CardWreckedShipL1",
+          "CardWreckedShipBoss",
+          "CardLowerNorfairL1",
+          "CardLowerNorfairBoss",
+          "CardL1",
+          "CardL2",
+          "CardBoss",
+          "OtherGameItem",
+          "OtherGameProgressionItem"
+        ]
+      }
+    },
+    "Rewards": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": {
+        "type": "string",
+        "enum": [
+          "None",
+          "Agahnim",
+          "PendantGreen",
+          "PendantRed",
+          "CrystalBlue",
+          "CrystalRed",
+          "PendantBlue",
+          "MetroidBoss",
+          "KraidToken",
+          "PhantoonToken",
+          "DraygonToken",
+          "RidleyToken"
+        ]
+      }
+    },
+    "Medallions": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": {
+        "type": "string",
+        "enum": [
+          "Nothing",
+          "Firerod",
+          "Icerod",
+          "Hammer",
+          "Hookshot",
+          "Bow",
+          "BlueBoomerang",
+          "Powder",
+          "BeeContent",
+          "Bombos",
+          "Ether",
+          "Quake",
+          "Lamp",
+          "Shovel",
+          "Flute",
+          "Somaria",
+          "Bottle",
+          "HeartPiece",
+          "Byrna",
+          "Cape",
+          "Mirror",
+          "Book",
+          "Flippers",
+          "MoonPearl",
+          "Bugnet",
+          "Key",
+          "Compass",
+          "ThreeBombs",
+          "Mushroom",
+          "RedBoomerang",
+          "BottleWithRedPotion",
+          "BottleWithGreenPotion",
+          "BottleWithBluePotion",
+          "RedContent",
+          "GreenContent",
+          "BlueContent",
+          "BigKey",
+          "Map",
+          "OneRupee",
+          "FiveRupees",
+          "TwentyRupees",
+          "BottleWithBee",
+          "BottleWithFairy",
+          "HeartContainer",
+          "HeartContainerRefill",
+          "OneHundredRupees",
+          "FiftyRupees",
+          "Arrow",
+          "TenArrows",
+          "ThreeHundredRupees",
+          "TwentyRupees2",
+          "BottleWithGoldBee",
+          "Boots",
+          "HalfMagic",
+          "BombUpgrade5",
+          "BombUpgrade10",
+          "ArrowUpgrade5",
+          "ArrowUpgrade10",
+          "SilverArrows",
+          "ProgressiveSword",
+          "ProgressiveShield",
+          "ProgressiveTunic",
+          "ProgressiveGlove",
+          "MapGT",
+          "MapTR",
+          "MapTT",
+          "MapTH",
+          "MapIP",
+          "MapSW",
+          "MapMM",
+          "MapPD",
+          "MapSP",
+          "MapDP",
+          "MapEP",
+          "MapHC",
+          "CompassGT",
+          "CompassTR",
+          "CompassTT",
+          "CompassTH",
+          "CompassIP",
+          "CompassSW",
+          "CompassMM",
+          "CompassPD",
+          "CompassSP",
+          "CompassDP",
+          "CompassEP",
+          "BigKeyGT",
+          "BigKeyTR",
+          "BigKeyTT",
+          "BigKeyTH",
+          "BigKeyIP",
+          "BigKeySW",
+          "BigKeyMM",
+          "BigKeyPD",
+          "BigKeySP",
+          "BigKeyDP",
+          "BigKeyEP",
+          "KeyHC",
+          "KeyDP",
+          "KeyCT",
+          "KeySP",
+          "KeyPD",
+          "KeyMM",
+          "KeySW",
+          "KeyIP",
+          "KeyTH",
+          "KeyTT",
+          "KeyTR",
+          "KeyGT",
+          "Grapple",
+          "XRay",
+          "Varia",
+          "SpringBall",
+          "Morph",
+          "ScrewAttack",
+          "Gravity",
+          "HiJump",
+          "SpaceJump",
+          "Bombs",
+          "SpeedBooster",
+          "Charge",
+          "Ice",
+          "Wave",
+          "Spazer",
+          "Plasma",
+          "ETank",
+          "ReserveTank",
+          "Missile",
+          "Super",
+          "PowerBomb",
+          "SmMapBrinstar",
+          "SmMapWreckedShip",
+          "SmMapMaridia",
+          "SmMapLowerNorfair",
+          "CardCrateriaL1",
+          "CardCrateriaL2",
+          "CardCrateriaBoss",
+          "CardBrinstarL1",
+          "CardBrinstarL2",
+          "CardBrinstarBoss",
+          "CardNorfairL1",
+          "CardNorfairL2",
+          "CardNorfairBoss",
+          "CardMaridiaL1",
+          "CardMaridiaL2",
+          "CardMaridiaBoss",
+          "CardWreckedShipL1",
+          "CardWreckedShipBoss",
+          "CardLowerNorfairL1",
+          "CardLowerNorfairBoss",
+          "CardL1",
+          "CardL2",
+          "CardBoss",
+          "OtherGameItem",
+          "OtherGameProgressionItem"
+        ]
+      }
+    },
+    "Text": {
+      "$ref": "#/definitions/PlandoTextConfig"
+    },
+    "ZeldaPrizes": {
+      "$ref": "#/definitions/PlandoZeldaPrizeConfig"
+    },
+    "WaterfallFairyTrade": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        null,
+        "Nothing",
+        "Firerod",
+        "Icerod",
+        "Hammer",
+        "Hookshot",
+        "Bow",
+        "BlueBoomerang",
+        "Powder",
+        "BeeContent",
+        "Bombos",
+        "Ether",
+        "Quake",
+        "Lamp",
+        "Shovel",
+        "Flute",
+        "Somaria",
+        "Bottle",
+        "HeartPiece",
+        "Byrna",
+        "Cape",
+        "Mirror",
+        "Book",
+        "Flippers",
+        "MoonPearl",
+        "Bugnet",
+        "Key",
+        "Compass",
+        "ThreeBombs",
+        "Mushroom",
+        "RedBoomerang",
+        "BottleWithRedPotion",
+        "BottleWithGreenPotion",
+        "BottleWithBluePotion",
+        "RedContent",
+        "GreenContent",
+        "BlueContent",
+        "BigKey",
+        "Map",
+        "OneRupee",
+        "FiveRupees",
+        "TwentyRupees",
+        "BottleWithBee",
+        "BottleWithFairy",
+        "HeartContainer",
+        "HeartContainerRefill",
+        "OneHundredRupees",
+        "FiftyRupees",
+        "Arrow",
+        "TenArrows",
+        "ThreeHundredRupees",
+        "TwentyRupees2",
+        "BottleWithGoldBee",
+        "Boots",
+        "HalfMagic",
+        "BombUpgrade5",
+        "BombUpgrade10",
+        "ArrowUpgrade5",
+        "ArrowUpgrade10",
+        "SilverArrows",
+        "ProgressiveSword",
+        "ProgressiveShield",
+        "ProgressiveTunic",
+        "ProgressiveGlove",
+        "MapGT",
+        "MapTR",
+        "MapTT",
+        "MapTH",
+        "MapIP",
+        "MapSW",
+        "MapMM",
+        "MapPD",
+        "MapSP",
+        "MapDP",
+        "MapEP",
+        "MapHC",
+        "CompassGT",
+        "CompassTR",
+        "CompassTT",
+        "CompassTH",
+        "CompassIP",
+        "CompassSW",
+        "CompassMM",
+        "CompassPD",
+        "CompassSP",
+        "CompassDP",
+        "CompassEP",
+        "BigKeyGT",
+        "BigKeyTR",
+        "BigKeyTT",
+        "BigKeyTH",
+        "BigKeyIP",
+        "BigKeySW",
+        "BigKeyMM",
+        "BigKeyPD",
+        "BigKeySP",
+        "BigKeyDP",
+        "BigKeyEP",
+        "KeyHC",
+        "KeyDP",
+        "KeyCT",
+        "KeySP",
+        "KeyPD",
+        "KeyMM",
+        "KeySW",
+        "KeyIP",
+        "KeyTH",
+        "KeyTT",
+        "KeyTR",
+        "KeyGT",
+        "Grapple",
+        "XRay",
+        "Varia",
+        "SpringBall",
+        "Morph",
+        "ScrewAttack",
+        "Gravity",
+        "HiJump",
+        "SpaceJump",
+        "Bombs",
+        "SpeedBooster",
+        "Charge",
+        "Ice",
+        "Wave",
+        "Spazer",
+        "Plasma",
+        "ETank",
+        "ReserveTank",
+        "Missile",
+        "Super",
+        "PowerBomb",
+        "SmMapBrinstar",
+        "SmMapWreckedShip",
+        "SmMapMaridia",
+        "SmMapLowerNorfair",
+        "CardCrateriaL1",
+        "CardCrateriaL2",
+        "CardCrateriaBoss",
+        "CardBrinstarL1",
+        "CardBrinstarL2",
+        "CardBrinstarBoss",
+        "CardNorfairL1",
+        "CardNorfairL2",
+        "CardNorfairBoss",
+        "CardMaridiaL1",
+        "CardMaridiaL2",
+        "CardMaridiaBoss",
+        "CardWreckedShipL1",
+        "CardWreckedShipBoss",
+        "CardLowerNorfairL1",
+        "CardLowerNorfairBoss",
+        "CardL1",
+        "CardL2",
+        "CardBoss",
+        "OtherGameItem",
+        "OtherGameProgressionItem"
+      ]
+    },
+    "PyramidFairyTrade": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        null,
+        "Nothing",
+        "Firerod",
+        "Icerod",
+        "Hammer",
+        "Hookshot",
+        "Bow",
+        "BlueBoomerang",
+        "Powder",
+        "BeeContent",
+        "Bombos",
+        "Ether",
+        "Quake",
+        "Lamp",
+        "Shovel",
+        "Flute",
+        "Somaria",
+        "Bottle",
+        "HeartPiece",
+        "Byrna",
+        "Cape",
+        "Mirror",
+        "Book",
+        "Flippers",
+        "MoonPearl",
+        "Bugnet",
+        "Key",
+        "Compass",
+        "ThreeBombs",
+        "Mushroom",
+        "RedBoomerang",
+        "BottleWithRedPotion",
+        "BottleWithGreenPotion",
+        "BottleWithBluePotion",
+        "RedContent",
+        "GreenContent",
+        "BlueContent",
+        "BigKey",
+        "Map",
+        "OneRupee",
+        "FiveRupees",
+        "TwentyRupees",
+        "BottleWithBee",
+        "BottleWithFairy",
+        "HeartContainer",
+        "HeartContainerRefill",
+        "OneHundredRupees",
+        "FiftyRupees",
+        "Arrow",
+        "TenArrows",
+        "ThreeHundredRupees",
+        "TwentyRupees2",
+        "BottleWithGoldBee",
+        "Boots",
+        "HalfMagic",
+        "BombUpgrade5",
+        "BombUpgrade10",
+        "ArrowUpgrade5",
+        "ArrowUpgrade10",
+        "SilverArrows",
+        "ProgressiveSword",
+        "ProgressiveShield",
+        "ProgressiveTunic",
+        "ProgressiveGlove",
+        "MapGT",
+        "MapTR",
+        "MapTT",
+        "MapTH",
+        "MapIP",
+        "MapSW",
+        "MapMM",
+        "MapPD",
+        "MapSP",
+        "MapDP",
+        "MapEP",
+        "MapHC",
+        "CompassGT",
+        "CompassTR",
+        "CompassTT",
+        "CompassTH",
+        "CompassIP",
+        "CompassSW",
+        "CompassMM",
+        "CompassPD",
+        "CompassSP",
+        "CompassDP",
+        "CompassEP",
+        "BigKeyGT",
+        "BigKeyTR",
+        "BigKeyTT",
+        "BigKeyTH",
+        "BigKeyIP",
+        "BigKeySW",
+        "BigKeyMM",
+        "BigKeyPD",
+        "BigKeySP",
+        "BigKeyDP",
+        "BigKeyEP",
+        "KeyHC",
+        "KeyDP",
+        "KeyCT",
+        "KeySP",
+        "KeyPD",
+        "KeyMM",
+        "KeySW",
+        "KeyIP",
+        "KeyTH",
+        "KeyTT",
+        "KeyTR",
+        "KeyGT",
+        "Grapple",
+        "XRay",
+        "Varia",
+        "SpringBall",
+        "Morph",
+        "ScrewAttack",
+        "Gravity",
+        "HiJump",
+        "SpaceJump",
+        "Bombs",
+        "SpeedBooster",
+        "Charge",
+        "Ice",
+        "Wave",
+        "Spazer",
+        "Plasma",
+        "ETank",
+        "ReserveTank",
+        "Missile",
+        "Super",
+        "PowerBomb",
+        "SmMapBrinstar",
+        "SmMapWreckedShip",
+        "SmMapMaridia",
+        "SmMapLowerNorfair",
+        "CardCrateriaL1",
+        "CardCrateriaL2",
+        "CardCrateriaBoss",
+        "CardBrinstarL1",
+        "CardBrinstarL2",
+        "CardBrinstarBoss",
+        "CardNorfairL1",
+        "CardNorfairL2",
+        "CardNorfairBoss",
+        "CardMaridiaL1",
+        "CardMaridiaL2",
+        "CardMaridiaBoss",
+        "CardWreckedShipL1",
+        "CardWreckedShipBoss",
+        "CardLowerNorfairL1",
+        "CardLowerNorfairBoss",
+        "CardL1",
+        "CardL2",
+        "CardBoss",
+        "OtherGameItem",
+        "OtherGameProgressionItem"
+      ]
+    },
+    "StartingInventory": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": {
+        "type": "integer"
+      }
+    },
+    "TrackerLocationLines": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": {
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    }
+  },
+  "required": [
+    "Seed",
+    "KeysanityMode",
+    "GanonsTowerCrystalCount",
+    "GanonCrystalCount",
+    "OpenPyramid",
+    "TourianBossCount",
+    "Logic",
+    "Items",
+    "Rewards",
+    "Medallions",
+    "Text",
+    "ZeldaPrizes",
+    "WaterfallFairyTrade",
+    "PyramidFairyTrade",
+    "StartingInventory",
+    "TrackerLocationLines"
+  ]
+}
