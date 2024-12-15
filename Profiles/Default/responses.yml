@@ -271,6 +271,10 @@ Spoilers:
   - Text: I cannot find any more {0}.
   LocationsCleared:
   - Text: You already cleared every location that has {0}.
+  ItemLocationCleared:
+  - Text: '{0} was located at {1}.'
+  ItemLocationsCleared:
+  - Text: '{0} was located at {1}.'
   LocationHasItem:
   - Text: '{0} has {1}'
   LocationHasItemOtherWorld:
