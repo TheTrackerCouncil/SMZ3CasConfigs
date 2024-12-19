@@ -114,6 +114,8 @@ GoModePrompts:
 - track Go Mode.
 Error:
 - Text: Oops. Something went wrong.
+AutoTrackingEnabledSass:
+- Text: With auto tracking enabled, you need to say {0}
 NothingToUndo:
 - Text: There's nothing to undo.
 UndoExpired:

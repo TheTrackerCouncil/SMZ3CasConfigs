@@ -640,6 +640,17 @@
         }
       ]
     },
+    "LocationMarkedButAlreadyCleared": {
+      "description": "Gets the phrases to respond with when attempting to make an item at a location, but that location has already been cleared. \n{0} is a placeholder for the name of the location. \n{1} is a placeholder for the name of the item.",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
     "LocationMarkedPreConfigured": {
       "description": "Gets the phrases to respond with when marking an item at a location that was preconfigured. \n{0} is a placeholder for the name of the location.",
       "oneOf": [
@@ -783,6 +794,17 @@
     },
     "Error": {
       "description": "Gets the phrases to respond with when an internal error occurs.",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
+    "AutoTrackingEnabledSass": {
+      "description": "Response to say when attempting to manually track something when autotracking is enabled \n{0} is a placeholder for the command that the user can say to force tracker to do the action.",
       "oneOf": [
         {
           "type": "null"

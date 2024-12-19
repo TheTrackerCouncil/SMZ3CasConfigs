@@ -401,6 +401,14 @@ LocationMarkedAsBullshit:
 - Text: Ignoring {0}
 - Text: I hope you didn't waste time going there.
   Weight: 0.2
+LocationMarkedButAlreadyCleared:
+- Text: Why do you want me to do that?
+- Text: That instruction makes no sense.
+- Text: Why should I mark {1} at {0} when you've already cleared it?
+- Text: Marking {1} at {0} would be ridiculous since it's already been cleared.
+- Text: Marked {1} at {0}. Except not because you already cleared it.
+- Text: I'm just going to stop listening to you if you keep asking for things like marking {1} at {0} when you've already cleared it.
+  Weight: 0.1
 LocationMarkedPreConfigured:
 - Text: But you already knew that, didn't you?
 - Text: But you already knew that, right?
@@ -442,6 +450,22 @@ Error:
 - Text: Oops. Something went wrong.
 - Text: Something went wrong. Time to ban Vihvelin.
 - Text: Oh no
+AutoTrackingEnabledSass:
+- Text: Why should I listen to you when you're having me do everything? If you really want me to do that, you'll need to say {0}
+- Text: First you have me auto track, then you want to tell me to do that? I'm not gonna do that for you unless you say {0}
+- Text: I'm not going to do that for you unless you say {0} since you're having me auto track everything.
+- Text: <break time='5s'/>Sorry, I was waiting for you to say {0} if you want me to do that.
+- Text: Next time just disable auto tracking. I guess I can do that for you though. If you say {0}.
+- Text: I just did that for you. Then I undid it because you probably didn't really want me to do that. If you did, say {0}.
+- Text: Did you really want me to do that, or were my ears just clogged? If you really want me to do that, you need to tell me {0}.
+- Text: <break time='3s'/>Sorry, I wasn't listening. Something about wanting me to do something that probably doesn't make sense. Say {0} if you really mean it.
+- Text: I'm not really feeling it. But if you really care that much, say {0}.
+- Text: Everyone kept complaining about me being drunk, so I've stopped listening to what you say. But I can do that for you if you say {0}.
+  Weight: 0.1
+- Text: Marked Shaktool as defeated.<break time='2s'/>Just kidding, I would never. But seriously, if you want me to do that, you'll need to say {0}.
+  Weight: 0.1
+- Text: If you really want me to do that, you'll need to say "Hey tracker, enable cheats" followed by "Hey tracker, kill me". Or by saying {0}. Your choice.
+  Weight: 0.1
 ActionUndone:
 - Text: Was that not what you wanted?
 - Text: Make up your mind.
