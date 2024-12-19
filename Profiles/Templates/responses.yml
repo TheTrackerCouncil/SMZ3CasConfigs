@@ -105,6 +105,7 @@ ItemTrackedInIncorrectDungeon:
 LocationMarked: 
 LocationMarkedAgain: 
 LocationMarkedAsBullshit: 
+LocationMarkedButAlreadyCleared: 
 LocationMarkedPreConfigured: 
 TrackedPreConfigured: 
 LocationHasDifferentItem: 
@@ -119,6 +120,7 @@ AreaHasMoreThanOneItem:
 TrackedUselessItem: 
 CountHyperBeamShots: 
 Error: 
+AutoTrackingEnabledSass: 
 ActionUndone: 
 NothingToUndo: 
 UndoExpired: 
