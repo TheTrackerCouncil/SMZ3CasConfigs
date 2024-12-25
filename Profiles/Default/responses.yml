@@ -378,6 +378,8 @@ AutoTracker:
   - Text: Auto tracker connected
   WhenDisconnected:
   - Text: Auto tracker disconnected
+  WhenDisconnectLimitReached:
+  - Text: Auto tracker connection could not be established. Please ensure the correct rom is loaded and any required software is running, then re-enable auto tracking.
   GameStarted:
   - Text: Incoming PB for seed {0}
   GameStartedMultiplayer:
