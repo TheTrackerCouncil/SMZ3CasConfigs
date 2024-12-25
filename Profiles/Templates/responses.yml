@@ -255,6 +255,7 @@ Chat:
 AutoTracker:
   WhenConnected: 
   WhenDisconnected: 
+  WhenDisconnectLimitReached: 
   GameStarted: 
   GameStartedMultiplayer: 
   GameStartedNonCas: 

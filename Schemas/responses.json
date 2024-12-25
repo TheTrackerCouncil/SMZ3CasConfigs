@@ -2355,6 +2355,17 @@
             }
           ]
         },
+        "WhenDisconnectLimitReached": {
+          "description": "Gets the phrases to respond when the Auto Tracker has been stuck in a connect/disconnect loop and has given up on trying to connect.",
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/SchrodingersString"
+            }
+          ]
+        },
         "GameStarted": {
           "description": "Gets the phrases to respond with when the game is started.",
           "oneOf": [
