@@ -10,6 +10,7 @@ StartedTracking:
   Weight: 0.05
 Misheard:
 - Text: English motherfucker, do you speak it?
+  TrackerImage: WTF
   Weight: 0.05
 - Text: Toggled boots on. <break time='750ms'/> Just kidding, I have no idea what you were trying to say.
   Weight: 0.05
