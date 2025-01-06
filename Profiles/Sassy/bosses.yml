@@ -31,13 +31,18 @@
   - Text: Toggled Shaktool on. Did you get something nice?
   WhenDefeated:
   - Text: How dare you?
+    TrackerImage: WTF
   - Text: You monster.
+    TrackerImage: WTF
   - Text: You'll pay for this.
+    TrackerImage: WTF
   - Text: My disappointment is immeasurable.
+    TrackerImage: WTF
 - Boss: Draygon
   WhenDefeated:
   - Text: Toggled Draygon on.
   - Text: How could you? She has a family.
+    TrackerImage: WTF
     Weight: 0.25
   - Text: Toggled Draygon on. Did you microwave her?
     Weight: 0.25

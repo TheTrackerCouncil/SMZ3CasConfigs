@@ -234,6 +234,7 @@
     - Text: You now have two heart pieces
     - Text: Half way to this actually being somewhat useful
     - Text: Why do I track these again?
+      TrackerImage: Bored
     - Text: They say that a broken heart is right twice a day.<break time='500ms'/>Or something like that.
       Weight: 0.2
     "3":
@@ -248,6 +249,7 @@
     "5":
     "8":
     - Text: Wow another full heart
+      TrackerImage: Bored
     - Text: Increased survivablity by one step
     - Text: Enough pieces for two full hearts. Wow
     "9":
@@ -416,6 +418,7 @@
     "1":
     - Text: This is now my favorite stick
     - Text: It's a single arrow, why are you having me track this?
+      TrackerImage: WTF
     - Text: It's one arrow, {{User}}. How much could it cost, ten rupees?
     - Text: Just break some pots next time you want some arrows.
     "2":
@@ -426,6 +429,7 @@
   WhenTracked:
     "1":
     - Text: Ten whole arrows, wow.
+      TrackerImage: Bored
     - Text: This might be useful, if you didn't find sticks everywhere
     "2":
 - Item: Three Hundred Rupees
@@ -474,9 +478,11 @@
     - Text: I'm sure you're excited to get that
     - Text: Yay
     - Text: Wow more sticks, cool
+      TrackerImage: Bored
     "2":
     - Text: Your mom signed the permission slip, now you can carry more arrows
     - Text: You had to be told how to carry more sticks? Twice?
+      TrackerImage: WTF
     "3":
 - Item: Sword
   Name:
@@ -657,9 +663,12 @@
     - Text: Aren't these like the E-Tanks in the Mega Man X series?
     - Text: Hopefully you will not need these.
     - Text: I reserve the right to not care.
+      TrackerImage: Bored
     "2":
     - Text: <break time='3s'/> Oh I'm sorry. Was I supposed to care about Reserve Tanks?
+      TrackerImage: Bored
     - Text: Oh. Neat. Wow. Reserve Tanks.
+      TrackerImage: Bored
     "3":
 - Item: Missile
   Name:
@@ -692,6 +701,7 @@
     "40":
     - Text: Someone must have a lot of time on their hands to get all of the missile packs
     - Text: Why do you even need 200 missiles?
+      TrackerImage: WTF
     - Text: I guess this many missiles will be useful if you miss Phantoon a lot
     "69":
     - Text: Nice

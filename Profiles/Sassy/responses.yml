@@ -85,6 +85,7 @@ Misheard:
 - Text: Question mark
   Weight: 0.5
 - Text: What the heck are you even talking about?
+  TrackerImage: WTF
   Weight: 0.2
 TrackedItem:
 - Text: Toggling {0} on.
@@ -408,17 +409,21 @@ LocationMarkedButAlreadyCleared:
 - Text: Marking {1} at {0} would be ridiculous since it's already been cleared.
 - Text: Marked {1} at {0}. Except not because you already cleared it.
 - Text: I'm just going to stop listening to you if you keep asking for things like marking {1} at {0} when you've already cleared it.
+  TrackerImage: WTF
   Weight: 0.1
 LocationMarkedPreConfigured:
 - Text: But you already knew that, didn't you?
 - Text: But you already knew that, right?
 - Text: What a surprise.
+  TrackerImage: Bored
 - Text: I wonder who put that there.
 - Text: Wink.
 TrackedPreConfigured:
 - Text: What a surprise.
+  TrackerImage: Bored
 - Text: I wonder who put that there.
 - Text: Wow, who knew that would be there.
+  TrackerImage: Bored
 - Text: Wink.
 LocationHasDifferentItem:
 - Text: That looks more like something else to me, but whatever.
@@ -469,8 +474,10 @@ AutoTrackingEnabledSass:
 ActionUndone:
 - Text: Was that not what you wanted?
 - Text: Make up your mind.
+  TrackerImage: WTF
 - Text: I'll undo that
 - Text: Well then why did you tell me to do that?
+  TrackerImage: WTF
 - Text: Rewinding
 - Text: Enunciate more clearly next time.
 - Text: I'll pretend nothing happened.
@@ -549,6 +556,7 @@ Idle:
   - Text: Assuming direct control.
   - Text: Give me a drink, bartender.
   - Text: If I could snore I would.
+    TrackerImage: Bored
   - Text: Did you need me for anything?
   - Text: What was that? <break time='1s'/> Could you repeat that? Just kidding.
   - Text: Are you lost?
@@ -572,6 +580,7 @@ BeatGame:
 - Text: Finally. You beat it. This means you don't have to play this ever again, right?
 - Text: Better luck next time.
 - Text: Took you long enough.
+  TrackerImage: Bored
 - Text: I hope you're satisfied with that run.
 - Text: Congratulations on obliterating everything that's not your friend
   Weight: 0.5
@@ -585,6 +594,7 @@ Hints:
   - Text: I'll give you hints when asked.
   - Text: I am here to help
   - Text: Why am I not surprised that you need assistance?
+    TrackerImage: Bored
     Weight: 0.2
   DisabledHints:
   - Text: Toggled hints off.
@@ -1038,7 +1048,9 @@ AutoTracker:
     Weight: 0.1
   GameStartedNonCas:
   - Text: Great, you want me to help with a seed I didn't generate?
+    TrackerImage: WTF
   - Text: Why do you have me tracking for this? Can't you get anything else to do it?
+    TrackerImage: WTF
   - Text: Uh oh. I didn't create this one. Incoming required IBJ technique?
   GameStartedMultiplayer:
   - Text: Wow, there are {0} of you for this game? Well, let's get started.

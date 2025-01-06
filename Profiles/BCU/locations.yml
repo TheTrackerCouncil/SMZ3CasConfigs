@@ -7,6 +7,7 @@
 - LocationNumber: 331
   WhenTrackingJunk:
   - Text: I would sigh if I could.
+    TrackerImage: Bored
   - Text: What a shame.
   - Text: Such a shame.
   - Text: I want a refund.
