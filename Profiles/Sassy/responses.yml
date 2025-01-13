@@ -193,7 +193,7 @@ TrackedVanillaItem:
 - Text: I prefer chocolate over vanilla.
   Weight: 0.05
 - Text: How unoriginal.
-TrackerImage: Bored
+  TrackerImage: Bored
   Weight: 0.05
 ClearedMultipleItems:
 - Text: Cleared {0} items in {1}.
