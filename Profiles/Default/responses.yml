@@ -81,6 +81,7 @@ DungeonBossUncleared:
 DungeonBossNotYetCleared:
 - Text: You haven't cleared {0} yet.
 - Text: You never defeated {1} in the first place.
+  TrackerImage: WTF
 DungeonBossClearedAddContent:
 - Text: That was some impressive work.
 DungeonRequirementMarked:
@@ -180,6 +181,7 @@ Hints:
   - Text: You won't find {0} in {1}.
   ItemInSphereZero:
   - Text: How have you not found {0} yet?
+    TrackerImage: WTF
   ItemInEarlySphere:
   - Text: '{0} can be found pretty early on.'
   ItemInLateSphere:
@@ -418,6 +420,7 @@ AutoTracker:
   - Text: You just had to get these items early?
   SkipSporeSpawn:
   - Text: Skipping spore spawn again?
+    TrackerImage: Bored
   RidleyFace:
   - Text: Oh hi there
   LookedAtNothing:

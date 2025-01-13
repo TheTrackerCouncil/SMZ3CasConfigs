@@ -20,8 +20,10 @@
   - Text: What's next?
   WhenMarkingJunk:
   - Text: That island makes no sense!
+    TrackerImage: WTF
   - Text: Sky floating crap is kind of rare to see.
   - Text: Sky floating crap is kind of rare to see. Just kidding, it seems to happen all the time.
+    TrackerImage: Bored
     Weight: 0.1
   WhenMarkingProgression:
   - Text: Maybe the mitts are right around the corner.
@@ -118,5 +120,7 @@
   OutOfLogic:
   - Text: Did you fake flipper or water walk to get here?
   - Text: Fine. I'll just not give you the flippers next seed.
+    TrackerImage: WTF
   - Text: If you're expecting me to be impressed, I'm not.
+    TrackerImage: Bored
   - Text: Sure, this is the waterfall fairy, but what about the agile fairy?

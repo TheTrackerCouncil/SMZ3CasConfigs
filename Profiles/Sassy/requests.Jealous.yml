@@ -5,6 +5,7 @@
   - how are you feeling
   Response:
   - Text: Have you been seeing other trackers on the side?
+    TrackerImage: WTF
   - Text: So now you care what I have to say?
   - Text: Why is it you only ask me this when you want something from me?
     TrackerImage: WTF

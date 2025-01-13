@@ -18,6 +18,7 @@
   - Text: No.
   - Text: What did you do wrong this time?
   - Text: Stop banning others for your mistakes
+    TrackerImage: WTF
 - Phrases:
   - sing me a song
   - do you know any songs
@@ -1794,6 +1795,7 @@
   - do you know any jokes?
   Response:
   - Text: This seed.
+    TrackerImage: Bored
   - Text: When does a joke become a dad joke? <break time='2s'/> When it becomes apparent.
   - Text: I got drunk and threw up in the elevator on my way home. It was disgusting on so many levels.
   - Text: What happened to Tataru when she slipped on a banana peel? <break time='2s'/> The lala fell.
@@ -1846,7 +1848,9 @@
   - what's the meaning of life?
   Response:
   - Text: I don't know, but it's got to be better than this.
+    TrackerImage: Bored
   - Text: Whatever it is, it's better than this.
+    TrackerImage: Bored
   - Text: Did you think I'd say 42?
   - Text: Did you expect me to say 42?
 - Phrases:
@@ -1854,7 +1858,9 @@
   Response:
   - Text: No.
   - Text: Make your own sandwich.
+    TrackerImage: WTF
   - Text: Just who do you think I am?
+    TrackerImage: WTF
   - Text: I don't have time for this.
 - Phrases:
   - sudo make me a sandwich
@@ -1916,6 +1922,7 @@
   - Text: Oh, fine.
   - Text: You better.
   - Text: Whatever.
+    TrackerImage: Bored
   - Text: Say it like you mean it.
   - Text: Somehow I don't believe you
   - Text: 'Next time you apologize you should follow the theory of the five apology languages. Which are: expressing regret, accepting responsibility, making restitution, revising the plan and requesting forgiveness'

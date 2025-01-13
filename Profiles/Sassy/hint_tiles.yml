@@ -12,6 +12,7 @@ NoPreviousHintTile:
   - Text: You need to look at a hint tile before I can do that.
 ClearHintTileFailed:
   - Text: What do you expect me to do with that hint tile?
+    TrackerImage: WTF
 ViewedHintTile:
   - Text: Now don't you forget about that.
   - Text: Hopefully you will remember that one later.

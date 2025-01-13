@@ -46,6 +46,8 @@
     Weight: 0.25
   - Text: Toggled Draygon on. Did you microwave her?
     Weight: 0.25
+  - Text: Toggled Draygon on. Did you fry her, or microwave her?
+    Weight: 0.15
 - Boss: Ridley
   WhenDefeated:
   - Text: Toggled Ridley on.

@@ -6,8 +6,10 @@
   WhenTrackingJunk:
   - Text: Of course this location would have a shitty item
   - Text: What a poopy item. No wonder it got flushed.
+    TrackerImage: WTF
   - Text: I'd make a comment about this location, but those types of shitty jokes are beneath me.
   - Text: <break time='3s'/>What? Did you expect me to make a joke about that location?
+    TrackerImage: Bored
   WhenTrackingProgression:
   - Text: That's not bad for being in the toilet
   - Text: Who flushed this down the toilet?
