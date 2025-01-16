@@ -4,6 +4,8 @@ ChoiceYes:
   Weight: 0.1
 ChoiceNo:
 - Text: Fuck off.
+  TrackerImage: WTF
   Weight: 0.1
 - Text: Screw you.
+  TrackerImage: WTF
   Weight: 0.1

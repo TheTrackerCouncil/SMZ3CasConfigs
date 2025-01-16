@@ -11,6 +11,7 @@ TrackedOutOfLogicItem:
 - Text: I can't believe what I'm seeing.
 - Text: Unexpected item in bagging area.
 - Text: The racing council will hear about this! Maybe!
+  TrackerImage: WTF
   Weight: 0.5
 - Text: The racing council will hear about this! <break time='1s'/> <prosody volume='medium'>Hello, is this the racing council? <break time='1s'/> Hello? <break time='1s'/> I need to tell somebody that {{User}} went to {1} without {2}. <break time='1200ms'/> Is anybody there? <break time='1200ms'/> Aw, never mind.</prosody> Sorry, did I miss anything?
   Weight: 0.08
@@ -18,7 +19,9 @@ TrackedOutOfLogicItem:
   Weight: 0.08
 TrackedOutOfLogicItemTooManyMissing:
 - Text: I can't believe what I'm seeing.
+  TrackerImage: WTF
 - Text: The racing council will hear about this! Maybe!
+  TrackerImage: WTF
   Weight: 0.5
 - Text: The racing council will hear about this! <break time='1s'/> <prosody volume='medium'>Hello, is this the racing council? <break time='1s'/> Hello? <break time='1s'/> I'm trying to report that {{User}} went to {1} without all of the required items. <break time='1200ms'/> Is anybody there? <break time='1200ms'/> Aw, never mind.</prosody> Sorry, did I miss anything?
   Weight: 0.08
@@ -47,6 +50,7 @@ BossDefeated:
 - Text: 'Congratulations on beating off {0}.'
 Muted:
 - Text: Fine. But watch your metrics plummet.
+  TrackerImage: WTF
 BeatGame:
 - Text: Congratulations on beating off the game.
 - Text: I will be submitting a log of this playthrough to The Racing Council for their review. That's my name for the place where deleted seeds go.

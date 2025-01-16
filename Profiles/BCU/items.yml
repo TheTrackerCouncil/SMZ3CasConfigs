@@ -115,4 +115,5 @@
   WhenTracked:
     "1":
       - Text: I'd much prefer you to find Missile from Ace Attorney instead
+        TrackerImage: Bored
         Weight: 0.5

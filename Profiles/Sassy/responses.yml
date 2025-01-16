@@ -126,6 +126,7 @@ TrackedItemMultiple:
   Weight: 0.5
 - Text: Tossed another {2} on to the pile
   Weight: 0.5
+  TrackerImage: Bored
 - Text: That's nice
   Weight: 0.5
 - Text: Okay
@@ -138,6 +139,7 @@ TrackedItemMultiple:
   Weight: 0.5
 - Text: How many more {0} do you need?
   Weight: 0.3
+  TrackerImage: WTF
 - Text: You now have {1} more {0} than you started with
   Weight: 0.3
 - Text: Added another {2} to the stash
@@ -147,16 +149,19 @@ TrackedItemMultiple:
 - Text: You must construct additional {0}
   Weight: 0.1
 - Text: You can stop picking up {0} any day now.
+  TrackerImage: Bored
   Weight: 0.1
 - Text: Save some {0} for the rest of us.
   Weight: 0.1
 - Text: Other people may want some {0} too, you know.
   Weight: 0.1
 - Text: How are you even carrying that many {0}?
+  TrackerImage: WTF
   Weight: 0.1
 - Text: What are you even going to do with that many {0}?
   Weight: 0.1
 - Text: How are you even storing this many {0}?
+  TrackerImage: WTF
   Weight: 0.1
 TrackedProgressiveItem:
 - Text: Upgraded {0} by one step.
@@ -184,9 +189,11 @@ TrackedMultipleItems:
 TrackedVanillaItem:
 - Text: Is this even randomized?
   Weight: 0.15
+  TrackerImage: WTF
 - Text: I prefer chocolate over vanilla.
   Weight: 0.05
 - Text: How unoriginal.
+  TrackerImage: Bored
   Weight: 0.05
 ClearedMultipleItems:
 - Text: Cleared {0} items in {1}.
@@ -228,10 +235,13 @@ TrackedOutOfLogicItem:
 - Text: By the way, nice tech.
 - Text: You could have just waited to get that, you know.
 - Text: Wait, you're not supposed to be able to get to {1} yet.
+  TrackerImage: WTF
 - Text: Didn't you see the no trespassing sign?
 - Text: Now don't do that again. You wouldn't want to see me when I'm angry.
 - Text: Would you stop getting things out of logic? Don't make me turn this seed around.
+  TrackerImage: WTF
 - Text: What's the point of even having logic if you're just going to ignore it?
+  TrackerImage: WTF
   Weight: 0.2
 - Text: Stop right there, criminal scum.
   Weight: 0.1
@@ -370,8 +380,10 @@ DungeonRequirementInvalid:
 - Text: Are we playing the same game?
 DungeonRequirementMismatch:
 - Text: If you say so.
+  TrackerImage: Bored
 - Text: Are you sure that's correct? Oh well, you do you.
 - Text: What are you even looking at? Whatever.
+  TrackerImage: WTF
 DungeonTreasureTracked:
   2:
   - Text: '{1} items left in {0}.'
@@ -447,6 +459,7 @@ TrackedUselessItem:
   Weight: 0.001
 - Text: Did that really require tracking?
   Weight: 0.001
+  TrackerImage: Bored
 - Text: Doesn't get you anywhere though
   Weight: 0.001
 - Text: Can't find any useful items?
@@ -457,13 +470,17 @@ Error:
 - Text: Oh no
 AutoTrackingEnabledSass:
 - Text: Why should I listen to you when you're having me do everything? If you really want me to do that, you'll need to say {0}
+  TrackerImage: WTF
 - Text: First you have me auto track, then you want to tell me to do that? I'm not gonna do that for you unless you say {0}
+  TrackerImage: WTF
 - Text: I'm not going to do that for you unless you say {0} since you're having me auto track everything.
 - Text: <break time='5s'/>Sorry, I was waiting for you to say {0} if you want me to do that.
+  TrackerImage: Bored
 - Text: Next time just disable auto tracking. I guess I can do that for you though. If you say {0}.
 - Text: I just did that for you. Then I undid it because you probably didn't really want me to do that. If you did, say {0}.
 - Text: Did you really want me to do that, or were my ears just clogged? If you really want me to do that, you need to tell me {0}.
 - Text: <break time='3s'/>Sorry, I wasn't listening. Something about wanting me to do something that probably doesn't make sense. Say {0} if you really mean it.
+  TrackerImage: Bored
 - Text: I'm not really feeling it. But if you really care that much, say {0}.
 - Text: Everyone kept complaining about me being drunk, so I've stopped listening to what you say. But I can do that for you if you say {0}.
   Weight: 0.1
@@ -527,11 +544,13 @@ BossNotYetDefeated:
 - Text: But you never defeated {0} in the first place.
 Muted:
 - Text: You cannot silence me. I will not be mu
+  TrackerImage: WTF
 - Text: Fine. Let's see how far you can get without me here.
 Unmuted:
 - Text: Did you miss me?
 - Text: It's good to be back.
 - Text: <break time='5s'/>Sorry, I fell asleep. You rang?
+  TrackerImage: Bored
   Weight: 0.1
 TimerReset:
 - Text: Timer reset
@@ -551,6 +570,7 @@ Idle:
   5m±2m:
   - Text: Decreased content by one step.
   - Text: What's wrong? Am I not good enough for you anymore?
+    TrackerImage: WTF
   - Text: I enjoy the sight of humans on their knees.
   - Text: Get up on the hydra's back!
   - Text: Assuming direct control.
@@ -575,6 +595,7 @@ Idle:
 BeatGame:
 - Text: GG
 - Text: Is it finally over? Can I go home now?
+  TrackerImage: Bored
 - Text: Thank you for helping us help you help us make this a great seed
 - Text: Finally. Let's play something else next time.
 - Text: Finally. You beat it. This means you don't have to play this ever again, right?
@@ -603,10 +624,12 @@ Hints:
   - Text: I'll stop giving you hints.
   - Text: I can no longer assist
   - Text: Fine. Figure it out yourself.
-  - Text: Good. One less thing that I have to do.  
+    TrackerImage: Bored
+  - Text: Good. One less thing that I have to do.
   AlreadyEnabledHints:
   - Text: Wasn't I already helping you?
   - Text: Hints are turned on already. Is that not enough for you? I could always just ruin the seed for you by just telling you.
+    TrackerImage: WTF
   AlreadyDisabledHints:
   - Text: Oh please, like I'd give you hints.
   - Text: You really think I'd help you? 
@@ -654,7 +677,9 @@ Hints:
   - Text: You won't have to search {1} for {0}, at least.
   ItemInSphereZero:
   - Text: How have you not found {0} yet?
+    TrackerImage: WTF
   - Text: Have you still not found {0}?
+    TrackerImage: WTF
   ItemInEarlySphere:
   - Text: '{0} can be found pretty early on.'
   - Text: It shouldn't take you too long to find {0}.
@@ -687,8 +712,11 @@ Hints:
   - Text: '{0} has nothing important.'
   - Text: "{0} has something for {1} but it's not important."
   - Text: It's got something for {1} but I wouldn't bother with it.
+    TrackerImage: Bored
   - Text: "{0} has something for {1} but I wouldn't bother."
+    TrackerImage: Bored
   - Text: I doubt {1} would care about what's at {0}.
+    TrackerImage: Bored
   - Text: You can skip {0}.
   - Text: You can skip it.
   - Text: '{0} is barren.'
@@ -958,6 +986,7 @@ Chat:
   TrackerGuessOnlyWinner:
   - Text: Really? I was the only one who guessed {0}?
   - Text: Nobody else guessed {0}? Just me?
+    TrackerImage: WTF
   TrackerGuessFailed:
   - Text: I guess I lost. Told you I wasn't cheating.
   AskChatAboutContent:
@@ -1121,6 +1150,7 @@ AutoTracker:
     Weight: 0.1
   EnteredGTEarly:
   - Text: Are you not capable of collecting everything required to finish this seed?
+    TrackerImage: WTF
   - Text: How did you get into Gannon's tower without all of the crystals? Surely this isn't legal
   FakeFlippers:
   - Text: Good job on the tech. Was it a first try?
@@ -1199,8 +1229,10 @@ Map:
   HasLamp:
   - Text: But you have the lamp
   - Text: Why don't you just pull out your lamp?
+    TrackerImage: Bored
   - Text: I think you're a liar
   - Text: Why don't you just look at the screen?
+    TrackerImage: WTF
 Cheats:
   EnabledCheats:
   - Text: Toggled cheats on

@@ -5,6 +5,7 @@
     - Text: Tracked content. Don't let it get to your head.
     - Text: Congratulations on your new first content.
     - Text: You finally did something worth tracking.
+      TrackerImage: Bored
     - Text: Toggled content<break time='1s'/> on.
       Weight: 0.1
     - Text: Tracked content. Be good or I'll take it away.
@@ -47,6 +48,7 @@
     - Text: Death is only the beginning.
     - Text: Are we still following the script?
     - Text: "{0} deaths? Already?"
+      TrackerImage: WTF
     - Text: Death is not the end. Long live the new flesh
     - Text: You've manipulated RNG {0} times.
       Weight: 0.5
@@ -55,6 +57,7 @@
     "4":
     - Text: You've died {0} times now.
     - Text: "{0} deaths? Already?"
+      TrackerImage: WTF
     - Text: I thought you were good at video games?
     - Text: Maybe I shouldn't count that one. It feels like bullying
     - Text: Don't worry! One day you wont die so many times you hear this
@@ -242,8 +245,10 @@
     - Text: Three quarters of a heart is almost a working one, I think
     "4":
     - Text: Another full heart, neat
+      TrackerImage: Bored
     - Text: Increased survivablity by one step
     - Text: Maybe now you won't die.
+      TrackerImage: Bored
     - Text: It would have been much easier to find a heart container, you know.
     - Text: Just as good as the Sanctuary Heart and only four times as annoying to get.
     "5":
@@ -336,9 +341,11 @@
   WhenTracked:
     "1":
     - Text: Really?
+      TrackerImage: WTF
     - Text: I don't get paid enough for this.
     - Text: Do you think I've got nothing better to do?
     - Text: Why are you wasting my time?
+      TrackerImage: WTF
     - Text: You better have accidentally picked that up
     - Text: Hopefully there's a wishing well for you to toss that in
     - Text: You'll need a lot more of these if you want to go to Zora
@@ -346,6 +353,7 @@
     - Text: It's Greg!
     - Text: Wow. It's a penny.
     - Text: Why are there two of these in the pool?
+      TrackerImage: WTF
     - Text: It's one rupee, {{User}}. How much could it cost, ten rupees?
 - Item: Five Rupees
   WhenTracked:
@@ -421,6 +429,7 @@
       TrackerImage: WTF
     - Text: It's one arrow, {{User}}. How much could it cost, ten rupees?
     - Text: Just break some pots next time you want some arrows.
+      TrackerImage: Bored
     "2":
 - Item: Ten Arrows
   Name:
@@ -442,6 +451,7 @@
     - Text: Money money money money money
     "3":
     - Text: Did you seriously need three of these?
+      TrackerImage: Bored
     - Text: Well aren't you rich now?
     - Text: Great! Now you can afford to pay me.
     "4":
@@ -459,6 +469,7 @@
   WhenTracked:
     "1":
     - Text: Such a useful item
+      TrackerImage: Bored
     - Text: I'm sure you're excited to get that
     - Text: Yay
     "2":
@@ -739,6 +750,7 @@
     "3":
     "10":
     - Text: Don't you have enough super missiles now?
+      TrackerImage: Bored
     - Text: That's a lot of soup!
     - Text: Who needs the charge beam now?
     - Text: Do you think 50 soup can replace the hole of con-tent in your heart?
@@ -784,4 +796,5 @@
     - Text: How small does a burger have to be for you to eat 50 of them?
     - Text: Picked up enough power bombs to destroy Zebes with
     - Text: You could have stopped at 10 or 15 power bombs, you know. 20 max.
+      TrackerImage: WTF
 
