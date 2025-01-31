@@ -344,7 +344,7 @@ Chat:
   DeclareGuessingGameWinners:
   - Text: The winners who guessed number {0} are {1}.
   DeclareGuessingGameClosestButNotOverWinner:
-  - Text: The winners who guessed closest to the number of {0} without going over are {1}.
+  - Text: The winners who guessed closest to the number of {0} without going over are {2}.
   NobodyWonGuessingGame:
   - Text: Nobody guessed {0}.
   TrackerGuess:
