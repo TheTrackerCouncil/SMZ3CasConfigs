@@ -979,6 +979,39 @@
         }
       ]
     },
+    "UpdatedGanonsTowerCrystalRequirement": {
+      "description": "Gets the phrases for when the player has updated the number of crystals required to get into GT \n{0} is a placeholder for the number of crystals required",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
+    "UpdatedGanonCrystalRequirement": {
+      "description": "Gets the phrases for when the player has updated the number of crystals required to defeat Ganon \n{0} is a placeholder for the number of crystals required",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
+    "UpdatedTourianBossRequirement": {
+      "description": "Gets the phrases for when the player has updated the number of bosses required to enter Tourian \n{0} is a placeholder for the number of bosses required",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
     "Idle": {
       "type": [
         "null",

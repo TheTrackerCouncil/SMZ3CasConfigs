@@ -143,6 +143,12 @@ Unmuted:
 - Text: Unmuted
 BeatGame:
 - Text: Good job.
+UpdatedGanonsTowerCrystalRequirement:
+- Text: Marked Ganon's Tower as requiring {0} crystals to enter.
+UpdatedGanonCrystalRequirement:
+- Text: Marked Ganon as requiring {0} crystals to defeat.
+UpdatedTourianBossRequirement:
+- Text: Marked Tourian as requiring {0} Metroid bosses to enter.
 Idle: {}
 Hints:
   EnabledHints:

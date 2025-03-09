@@ -36,6 +36,9 @@
         "QuarterMagic": {
           "type": "boolean"
         },
+        "PreventLowResourceDarkWorld": {
+          "type": "boolean"
+        },
         "FireRodDarkRooms": {
           "type": "boolean"
         },
@@ -79,6 +82,7 @@
         "KholdstareNeedsCaneOfSomaria",
         "ZoraNeedsRupeeItems",
         "QuarterMagic",
+        "PreventLowResourceDarkWorld",
         "FireRodDarkRooms",
         "InfiniteBombJump",
         "ParlorSpeedBooster",
@@ -463,6 +467,9 @@
     },
     "TourianBossCount": {
       "type": "integer"
+    },
+    "SkipTourianBossDoor": {
+      "type": "boolean"
     },
     "Logic": {
       "$ref": "#/definitions/LogicConfig"
@@ -1185,6 +1192,7 @@
     "GanonCrystalCount",
     "OpenPyramid",
     "TourianBossCount",
+    "SkipTourianBossDoor",
     "Logic",
     "Items",
     "Rewards",
