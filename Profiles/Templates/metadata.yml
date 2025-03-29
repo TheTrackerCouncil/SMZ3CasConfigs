@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=../../Schemas/metadata.json
+
+# Config file for misc settings that can be updated via config update or don't fit with other configs
+
+# Example:
+# PySpeechRecognitionReplacements:
+#   brin star: brinstar
+# 
+
+PySpeechRecognitionReplacements: 

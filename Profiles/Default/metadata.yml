@@ -1,0 +1,68 @@
+# yaml-language-server: $schema=../../Schemas/metadata.json
+
+# Config file for misc settings that can be updated via config update or don't fit with other configs
+
+# Example:
+# PySpeechRecognitionReplacements:
+#   brin star: brinstar
+#
+
+PySpeechRecognitionReplacements:
+  brin star: brinstar
+  sir has roller: sahasrahla
+  r most nights: armos knights
+  cock are go well: kakariko well
+  capturing go well: kakariko well
+  again as cave: aginah's cave
+  again am: agahnim
+  freeze or: freezor
+  cray: kraid
+  dig e: diggy
+  shine spark: shinespark
+  mud or uh: mudora
+  mock ball: mockball
+  s m z 3: smz3
+  high rule: hyrule
+  high lee uh: hylia
+  lake highway island: lake hylia island
+  shack tool: shaktool
+  cannon: ganon
+  gay non: ganon
+  key card: keycard
+  un track: untrack
+  bomb those: bombos
+  ban boss: bombos
+  moth yellow: mothula
+  mock your uh: mothula
+  mole dorm: moldorm
+  cold stare: kholdstare
+  burn uh: byrna
+  beer nuh: byrna
+  fan toon: phantoon
+  z buzz: zebes
+  zeb us: zebes
+  tour ee so: torizo
+  crock oh mire: crocomire
+  chose oh: chozo
+  super bunny: supperbunny
+  crystal roller: crystaroller
+  hell way: hellway
+  spay sir: spayzer
+  tour e an: tourian
+  cray tear: crateria
+  ee tank: e-tank
+  eater tank: e-tank
+  un silence: unsilence
+  are gus: arrghus
+  trey gone: draygon
+  some aria: somaria
+  turn in: turnin
+  fire flea: fireflea
+  hop tank: hoptank
+  back sees: backsies
+  helm uh soar: helmasaur
+  nor fair: norfair
+  try next: trinexx
+  bot toon: botwoon
+  lan rollers: lanmolas
+  x ray: xray
