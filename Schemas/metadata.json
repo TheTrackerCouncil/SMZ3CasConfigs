@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "MetadataConfig",
+  "type": "object",
+  "description": "Config file for misc settings that can be updated via config update or don't fit with other configs",
+  "additionalProperties": false,
+  "properties": {
+    "PySpeechRecognitionReplacements": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    }
+  }
+}
