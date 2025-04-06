@@ -8,17 +8,22 @@
 #   Name:
 #   - Text: Dark World Cave
 #     TrackerImage: 
+#     AdditionalLines: 
 #   - Text: Dark World South East
 #     TrackerImage: 
+#     AdditionalLines: 
 #   - Text: Maridia Cave
 #     Weight: 0.1
 #     TrackerImage: 
+#     AdditionalLines: 
 # RequestedHintTile:
 # - Text: Example response for when asking what a hint tile says
 #   TrackerImage: 
+#   AdditionalLines: 
 # - Text: Another example response for when asking what a hint tile says
 #   Weight: 0.1
 #   TrackerImage: 
+#   AdditionalLines: 
 # 
 
 HintTiles:

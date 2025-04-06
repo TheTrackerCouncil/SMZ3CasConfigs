@@ -7,23 +7,30 @@
 #   Name:
 #   - Text: Bomb Torizo
 #     TrackerImage: 
+#     AdditionalLines: 
 #   - Text: Bomb Chozo
 #     TrackerImage: 
+#     AdditionalLines: 
 #   - Text: Bozo
 #     Weight: 0.1
 #     TrackerImage: 
+#     AdditionalLines: 
 #   WhenTracked:
 #   - Text: Message when clearing the boss
 #     TrackerImage: 
+#     AdditionalLines: 
 #   - Text: Another message when clearing the boss
 #     Weight: 0.1
 #     TrackerImage: 
+#     AdditionalLines: 
 #   WhenDefeated:
 #   - Text: Message when defeating the boss
 #     TrackerImage: 
+#     AdditionalLines: 
 #   - Text: Another message when defeating the boss
 #     Weight: 0.1
 #     TrackerImage: 
+#     AdditionalLines: 
 #   Image: 
 # 
 
@@ -78,6 +85,71 @@
   WhenDefeated: 
   Image: 
 - Boss: Golden Torizo
+  Name: 
+  WhenTracked: 
+  WhenDefeated: 
+  Image: 
+- Boss: Castle Guard
+  Name: 
+  WhenTracked: 
+  WhenDefeated: 
+  Image: 
+- Boss: Armos Knights
+  Name: 
+  WhenTracked: 
+  WhenDefeated: 
+  Image: 
+- Boss: Moldorm
+  Name: 
+  WhenTracked: 
+  WhenDefeated: 
+  Image: 
+- Boss: Lanmolas
+  Name: 
+  WhenTracked: 
+  WhenDefeated: 
+  Image: 
+- Boss: Agahnim
+  Name: 
+  WhenTracked: 
+  WhenDefeated: 
+  Image: 
+- Boss: Helmasaur King
+  Name: 
+  WhenTracked: 
+  WhenDefeated: 
+  Image: 
+- Boss: Arrghus
+  Name: 
+  WhenTracked: 
+  WhenDefeated: 
+  Image: 
+- Boss: Blind
+  Name: 
+  WhenTracked: 
+  WhenDefeated: 
+  Image: 
+- Boss: Mothula
+  Name: 
+  WhenTracked: 
+  WhenDefeated: 
+  Image: 
+- Boss: Kholdstare
+  Name: 
+  WhenTracked: 
+  WhenDefeated: 
+  Image: 
+- Boss: Vitreous
+  Name: 
+  WhenTracked: 
+  WhenDefeated: 
+  Image: 
+- Boss: Trinexx
+  Name: 
+  WhenTracked: 
+  WhenDefeated: 
+  Image: 
+- Boss: Ganon
   Name: 
   WhenTracked: 
   WhenDefeated: 

@@ -8,29 +8,38 @@
 #   Name:
 #   - Text: Green Hill Zone
 #     TrackerImage: 
+#     AdditionalLines: 
 #   - Text: Jungle Slope
 #     TrackerImage: 
+#     AdditionalLines: 
 #   - Text: Missile (green Brinstar pipe)
 #     Weight: 0.1
 #     TrackerImage: 
+#     AdditionalLines: 
 #   Hints:
 #   - Text: Vague hint that could be said when asking where an item is
 #     TrackerImage: 
+#     AdditionalLines: 
 #   WhenTrackingJunk:
 #   - Text: Message when tracking the location and there's nothing good there
 #     TrackerImage: 
+#     AdditionalLines: 
 #   WhenTrackingProgression:
 #   - Text: Message when tracking the location and there's an item that's potentially progression there
 #     TrackerImage: 
+#     AdditionalLines: 
 #   WhenMarkingJunk:
 #   - Text: Message when marking a junk item at the location
 #     TrackerImage: 
+#     AdditionalLines: 
 #   WhenMarkingProgression:
 #   - Text: Message when marking an item that's potentially progression at the location
 #     TrackerImage: 
+#     AdditionalLines: 
 #   OutOfLogic:
 #   - Text: Message when tracking an item at the location out of logic
 #     TrackerImage: 
+#     AdditionalLines: 
 # 
 
 - LocationId: CrateriaPowerBomb

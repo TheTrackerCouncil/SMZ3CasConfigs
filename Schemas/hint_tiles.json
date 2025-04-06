@@ -160,6 +160,31 @@
             "string"
           ],
           "description": "The tracker image to display"
+        },
+        "AdditionalLines": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "description": "Additional lines to be stated after the initial line. Used for adding additional poses.",
+          "items": {
+            "$ref": "#/definitions/PossibilityAdditionalLine"
+          }
+        }
+      }
+    },
+    "PossibilityAdditionalLine": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "Text": {
+          "type": "string"
+        },
+        "TrackerImage": {
+          "type": [
+            "null",
+            "string"
+          ]
         }
       }
     }

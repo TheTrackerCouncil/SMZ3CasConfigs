@@ -15,8 +15,11 @@
   - Text: Why are you being mean to something that cannot fight back?
     TrackerImage: WTF
   - Text: Okay, but think of it this way, shut up.
-  - Text: That's it. I quit. <break time='60s'/>
+  - Text: That's it. I quit. 
     TrackerImage: WTF
+    AdditionalLines:
+      - Text: <prosody volume='silent'>a</prosody><break time='60s'/>
+        TrackerImage: blank
   - Text: That's it. I quit. Activating self-destruct sequence. <break time='1s'/> Self-destruct commencing in 10 seconds. 10 <break time='900ms'/> 9 <break time='900ms'/> 8 <break time='900ms'/> 7 <break time='900ms'/> 6 <break time='900ms'/> 5 <break time='900ms'/> 4 <break time='900ms'/> 3 <break time='900ms'/> 2 <break time='900ms'/> 1 <break time='2s'/> Explosion noise. <break time='3s'/> Okay, fine, I was just acting. But if you don't apologize, next time might be for real.
     TrackerImage: WTF
     Weight: 0.5

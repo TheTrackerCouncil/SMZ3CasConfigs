@@ -7,14 +7,18 @@
 #   Name:
 #   - Text: Half Magic
 #     TrackerImage: 
+#     AdditionalLines: 
 #   - Text: 50% off magic coupon
 #     Weight: 0.1
 #     TrackerImage: 
+#     AdditionalLines: 
 #   ArticledName:
 #   - Text: the Half Magic
 #     TrackerImage: 
+#     AdditionalLines: 
 #   - Text: the 50% off magic coupon
 #     TrackerImage: 
+#     AdditionalLines: 
 #   Article: 
 #   Plural: 
 #   Multiple: false
@@ -22,35 +26,45 @@
 #     1:
 #     - Text: Half Magic
 #       TrackerImage: 
+#       AdditionalLines: 
 #     2:
 #     - Text: Quarter Magic
 #       TrackerImage: 
+#       AdditionalLines: 
 #   WhenTracked:
 #     1:
 #     - Text: Custom message when tracking half magic
 #       TrackerImage: 
+#       AdditionalLines: 
 #     2:
 #     - Text: Custom message when tracking quarter magic
 #       TrackerImage: 
+#       AdditionalLines: 
 #   Image: 
 #   Hints:
 #   - Text: It's green
 #     TrackerImage: 
+#     AdditionalLines: 
 #   - Text: It's an upgrade
 #     TrackerImage: 
+#     AdditionalLines: 
 #   PedestalHints:
 #   - Text: The ability to do more magical things
 #     TrackerImage: 
+#     AdditionalLines: 
 # - Item: Custom Item
 #   Name:
 #   - Text: Custom Item
 #     TrackerImage: 
+#     AdditionalLines: 
 #   - Text: Another custom item
 #     Weight: 0.1
 #     TrackerImage: 
+#     AdditionalLines: 
 #   ArticledName:
 #   - Text: a custom item
 #     TrackerImage: 
+#     AdditionalLines: 
 #   Article: 
 #   Plural: 
 #   Multiple: true
@@ -59,13 +73,16 @@
 #     1:
 #     - Text: Message when tracking it the first 3 times
 #       TrackerImage: 
+#       AdditionalLines: 
 #     4:
 #     - Text: Message when tracking it 4-7 times, 8-11 will fall back to default messages
 #       TrackerImage: 
+#       AdditionalLines: 
 #     8: 
 #     12:
 #     - Text: Message when tracking it 12+ times
 #       TrackerImage: 
+#       AdditionalLines: 
 #   Image: 
 #   Hints: 
 #   PedestalHints: 
