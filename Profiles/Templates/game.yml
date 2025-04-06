@@ -14,12 +14,14 @@
 # 
 #     or less
 #   TrackerImage: 
+#   AdditionalLines: 
 # - Text: >-
 #     Another example
 # 
 #     of in game text
 #   Weight: 0.1
 #   TrackerImage: 
+#   AdditionalLines: 
 # 
 
 GanonIntro: 

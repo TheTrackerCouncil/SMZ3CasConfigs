@@ -32,8 +32,9 @@ StartedTracking:
 
     Took out Gannon. Woke up the Triforce.
   Weight: 0.5
-- Text: <voice gender='male'><prosody rate='slow'>Hey.</prosody></voice>
+- Text: <prosody rate='slow'>Hey.</prosody>
   Weight: 0.05
+  TrackerImage: alt
 - Text: >-
     Home
 

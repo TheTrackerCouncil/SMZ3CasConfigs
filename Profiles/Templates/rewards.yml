@@ -7,15 +7,19 @@
 #   Name:
 #   - Text: Red Crystal
 #     TrackerImage: 
+#     AdditionalLines: 
 #   - Text: Blood red crystal
 #     Weight: 0.1
 #     TrackerImage: 
+#     AdditionalLines: 
 #   ArticledName:
 #   - Text: a Red Crystal
 #     TrackerImage: 
+#     AdditionalLines: 
 #   - Text: a blood red crystal
 #     Weight: 0.1
 #     TrackerImage: 
+#     AdditionalLines: 
 #   Article: 
 # 
 

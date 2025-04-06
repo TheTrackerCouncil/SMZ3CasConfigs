@@ -10,14 +10,17 @@
 #   Response:
 #   - Text: First response tracker will respond with when saying "Hey tracker, first message tracker will listen for" or "Hey tracker, second message tracker will listen for"
 #     TrackerImage: 
+#     AdditionalLines: 
 #   - Text: Another message tracker can respond with
 #     Weight: 0.1
 #     TrackerImage: 
+#     AdditionalLines: 
 # - Phrases:
 #   - another request
 #   Response:
 #   - Text: another response
 #     TrackerImage: 
+#     AdditionalLines: 
 # 
 
 - Phrases:
