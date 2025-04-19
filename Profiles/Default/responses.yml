@@ -380,7 +380,7 @@ Chat:
   PollCompleteTerminated:
   - Text: And the results are now in, but it seems like the poll was terminated before it finished.
   PollErrorTerminated:
-  - Text: Unfortunately it looks looks like the poll was terminated before anyone could vote on it.
+  - Text: Unfortunately it looks like the poll was terminated before anyone could vote on it.
 AutoTracker:
   WhenConnected:
   - Text: Auto tracker connected
