@@ -4,33 +4,50 @@
   - Text: Blue Brinstar
   Hints:
   - Text: Samus might have been there before.
+  - Text: It's in part of the first main area of the game.
 - Region: Green Brinstar
   Name:
   - Text: Green Brinstar
+  Hints:
+  - Text: It's in part of the first main area of the game.
 - Region: Kraid's Lair
   Name:
   - Text: Kraid's Lair
+  Hints:
+  - Text: It's in part of the first main area of the game.
+  - Text: It's in a place where one of the four main bosses reside.
 - Region: Pink Brinstar
   Name:
   - Text: Pink Brinstar
+  Hints:
+  - Text: It's in part of the first main area of the game.
 - Region: Red Brinstar
   Name:
   - Text: Red Brinstar
+  Hints:
+  - Text: It's in part of the first main area of the game.
 - Region: Central Crateria
   Name:
   - Text: Central Crateria
+  Hints:
+  - Text: It's near the surface of the planet.
 - Region: East Crateria
   Name:
   - Text: East Crateria
+  Hints:
+  - Text: It's near the surface of the planet.
 - Region: West Crateria
   Name:
   - Text: West Crateria
+  Hints:
+  - Text: It's near the surface of the planet.
 - Region: Inner Maridia
   Name:
   - Text: Inner Maridia
   Hints:
   - Text: You should go see Shaktool when you're in the area.
   - Text: It's in a wet place.
+  - Text: It's in a place where one of the four main bosses reside.
 - Region: Outer Maridia
   Name:
   - Text: Outer Maridia
@@ -41,54 +58,82 @@
   - Text: Lower Norfair, East
   Hints:
   - Text: I heard Ridley hangs out around there.
+  - Text: It's in a place where one of the four main bosses reside.
+  - Text: It's somewhere very warm.
 - Region: Lower Norfair, West
   Name:
   - Text: Lower Norfair, West
+  Hints:
+  - Text: It's somewhere very warm.
 - Region: Upper Norfair, Crocomire
   Name:
   - Text: Upper Norfair, Crocomire
+  Hints:
+  - Text: It's somewhere very warm.
 - Region: Upper Norfair, East
   Name:
   - Text: Upper Norfair, East
+  Hints:
+  - Text: It's somewhere very warm.
 - Region: Upper Norfair, West
   Name:
   - Text: Upper Norfair, West
+  Hints:
+  - Text: It's somewhere very warm.
 - Region: Wrecked Ship
   Name:
   - Text: Wrecked Ship
+  Hints:
+  - Text: It's near the surface of the planet.
+  - Text: It's in a place where one of the four main bosses reside.
 - Region: Castle Tower
   Name:
   - Text: Castle Tower
   - Text: Agahnim's Tower
   - Text: Hyrule Castle Tower
+  Hints:
+  - Text: It's in a place with lots of guards.
 - Region: Dark World Mire
   Name:
   - Text: Dark World Mire
   Hints:
   - Text: It's in a wet place.
+  - Text: It's in a dungeon in the dark world.
 - Region: Dark World North East
   Name:
   - Text: Dark World North East
+  Hints:
+  - Text: It's in part of the dark world, but not in a dungeon.
 - Region: Dark World North West
   Name:
   - Text: Dark World North West
   Hints:
-  - Text: Check around the villages.
+  - Text: It's in part of the dark world, but not in a dungeon.
 - Region: Dark World South
   Name:
   - Text: Dark World South
+  Hints:
+  - Text: It's in part of the dark world, but not in a dungeon.
 - Region: Dark World Death Mountain East
   Name:
   - Text: Dark World Death Mountain East
+  Hints:
+  - Text: It's in part of the dark world, but not in a dungeon.
 - Region: Dark World Death Mountain West
   Name:
   - Text: Dark World Death Mountain West
+  Hints:
+  - Text: It's in part of the dark world, but not in a dungeon.
 - Region: Desert Palace
   Name:
   - Text: Desert Palace
+  Hints:
+  - Text: It's in a dungeon in the light world.
 - Region: Eastern Palace
   Name:
   - Text: Eastern Palace
+  Hints:
+  - Text: It's in a dungeon in the light world.
 - Region: Ganon's Tower
   Name:
   - Text: Ganon's Tower
@@ -97,49 +142,71 @@
 - Region: Hyrule Castle
   Name:
   - Text: Hyrule Castle
+  Hints:
+  - Text: It's in a place with lots of guards.
 - Region: Ice Palace
   Name:
   - Text: Ice Palace
+  Hints:
+  - Text: It's in a dungeon in the dark world.
 - Region: Light World Death Mountain East
   Name:
   - Text: Light World Death Mountain East
+  Hints:
+  - Text: It's in a part of the light world, but not in a dungeon.
 - Region: Light World Death Mountain West
   Name:
   - Text: Light World Death Mountain West
+  Hints:
+  - Text: It's in a part of the light world, but not in a dungeon.
 - Region: Light World North East
   Name:
   - Text: Light World North East
+  Hints:
+  - Text: It's in a part of the light world, but not in a dungeon.
 - Region: Light World North West
   Name:
   - Text: Light World North West
   Hints:
-  - Text: Check around the villages.
+  - Text: It's in a part of the light world, but not in a dungeon.
 - Region: Light World South
   Name:
   - Text: Light World South
+  Hints:
+  - Text: It's in a part of the light world, but not in a dungeon.
 - Region: Misery Mire
   Name:
   - Text: Misery Mire
   Hints:
   - Text: It's in a wet place.
   - Text: You need a medallion to get in there.
+  - Text: It's in a dungeon in the dark world.
 - Region: Palace of Darkness
   Name:
   - Text: Palace of Darkness
+  Hints:
+  - Text: It's in a dungeon in the dark world.
 - Region: Skull Woods
   Name:
   - Text: Skull Woods
+  Hints:
+  - Text: It's in a dungeon in the dark world.
 - Region: Swamp Palace
   Name:
   - Text: Swamp Palace
   Hints:
   - Text: It's in a wet place.
+  - Text: It's in a dungeon in the dark world.
 - Region: Thieves' Town
   Name:
   - Text: Thieves' Town
+  Hints:
+  - Text: It's in a dungeon in the dark world.
 - Region: Tower of Hera
   Name:
   - Text: Tower of Hera
+  Hints:
+  - Text: It's in a dungeon in the light world.
 - Region: Turtle Rock
   Name:
   - Text: Turtle Rock
@@ -147,3 +214,4 @@
     Weight: 0.1
   Hints:
   - Text: You need a medallion to get in there.
+  - Text: It's in a dungeon in the dark world.
