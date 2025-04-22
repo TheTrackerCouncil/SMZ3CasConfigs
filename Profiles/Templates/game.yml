@@ -28,6 +28,7 @@ GanonIntro:
 BlindIntro: 
 TriforceRoom: 
 HintLocationIsMandatory: 
+HintLocationHasKey: 
 HintLocationHasUsefulItem: 
 HintDungeonMedallion: 
 HintLocationHasSword: 
