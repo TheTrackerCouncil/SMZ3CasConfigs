@@ -731,6 +731,9 @@ Hints:
   - Text: "I don't think you'll be beating the game without the item at {0}."
   - Text: '{0} is on the way of the hero'
     Weight: 0.5
+  LocationHasKey:
+  - Text: "{1} might need it to unlock a door."
+  - Text: "{0} has something that can get you through a door."
   LocationHasUsefulItem:
   - Text: "{0} isn't mandatory, but you might like it."
   - Text: It has something nice for {1}, but you don't have to get it.
@@ -767,6 +770,9 @@ Hints:
   - Text: I wouldn't skip {0} if I were you.
   - Text: '{0} is on the way of the hero.'
     Weight: 0.5
+  AreaHasKey:
+  - Text: You'll find something that will open a door there.
+  - Text: Going to {0} will let you open a door somewhere.
   AreaHasSomethingGood:
   - Text: "{0} might have something useful, but it's not required."
   - Text: It might have something you'd like, but you can live without it.

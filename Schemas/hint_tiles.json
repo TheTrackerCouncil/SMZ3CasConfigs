@@ -71,6 +71,17 @@
         }
       ]
     },
+    "ViewedHintTileKey": {
+      "description": "The response for viewing a hint tile for a place that has a key or a keycard",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
     "ViewedHintTileUseless": {
       "description": "The response for viewing a hint tile for a place that's useless",
       "oneOf": [

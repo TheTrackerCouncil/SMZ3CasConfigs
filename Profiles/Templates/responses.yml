@@ -178,6 +178,7 @@ Hints:
   LocationAlreadyClearedSpoiler: 
   LocationHasJunkItem: 
   LocationHasMandatoryItem: 
+  LocationHasKey: 
   LocationHasUsefulItem: 
   LocationHasNonCasProgressionItem: 
   LocationHasSuperMetroidItem: 
@@ -186,6 +187,7 @@ Hints:
   BookHint: 
   AreaAlreadyCleared: 
   AreaHasSomethingMandatory: 
+  AreaHasKey: 
   AreaHasSomethingGood: 
   AreaHasJunk: 
   AreaHasJunkAndCrystal: 

@@ -1437,6 +1437,17 @@
             }
           ]
         },
+        "LocationHasKey": {
+          "description": "Gets the hints for locations that have a key or keycard \n{0} is placeholder for the name of the location. \n{1} is placeholder for the name of the character who the item is for.",
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/SchrodingersString"
+            }
+          ]
+        },
         "LocationHasUsefulItem": {
           "description": "Gets the hints for locations that might have something useful. \n{0} is placeholder for the name of the location. \n{1} is placeholder for the name of the character who the item is for.",
           "oneOf": [
@@ -1516,6 +1527,17 @@
         },
         "AreaHasSomethingMandatory": {
           "description": "Gets the hint to give for an area that has one or more useful items. \n{0} is a placeholder for the name of the area.",
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/SchrodingersString"
+            }
+          ]
+        },
+        "AreaHasKey": {
+          "description": "Gets the hint to give for an area that has one or more useful keys or keycards. \n{0} is a placeholder for the name of the area.",
           "oneOf": [
             {
               "type": "null"

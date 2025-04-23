@@ -210,6 +210,8 @@ Hints:
   - Text: Haven't you been there already? It was {1}.
   LocationHasMandatoryItem:
   - Text: It has something mandatory.
+  LocationHasKey:
+  - Text: It has either a key or a keycard.
   LocationHasJunkItem:
   - Text: There's nothing important there.
   LocationHasUsefulItem:
@@ -228,6 +230,8 @@ Hints:
   - Text: You already got everything in {0}.
   AreaHasSomethingMandatory:
   - Text: '{0} has something mandatory.'
+  AreaHasKey:
+  - Text: '{0} has either a key or a keycard.'
   AreaHasSomethingGood:
   - Text: '{0} has something nice but not required.'
   AreaHasJunk:

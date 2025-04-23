@@ -49,6 +49,17 @@
         }
       ]
     },
+    "HintLocationHasKey": {
+      "description": "Hints for stating that a location has a dungeon key or keycard",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
     "HintLocationHasUsefulItem": {
       "description": "Hints for stating that a location has an item that is useful, but not mandatory for completing the game",
       "oneOf": [
