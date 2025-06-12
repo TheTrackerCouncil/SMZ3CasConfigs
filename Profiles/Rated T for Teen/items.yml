@@ -85,3 +85,8 @@
     "2":
     - Text: You now have the bare mininum to kill Crocomire. Don't miss.
       Weight: 0.03
+- Item: Death
+  WhenTracked:
+    "2":
+    - Text: That really torques my lugnuts.
+      Weight: 0.1
