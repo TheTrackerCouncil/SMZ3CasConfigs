@@ -1313,7 +1313,7 @@ Multiplayer:
     Weight: 0.08
   - Text: I just heard that {0} defeated {2}. What have you done lately?
     Weight: 0.08
-  - Text: Can you believe that {0} just got completed {1}? I don't believe it. I think they cheated.
+  - Text: Can you believe that {0} just completed {1}? I don't believe it. I think they cheated.
     Weight: 0.08
   - Text: Good job {0} on defeating {2}. You always were my favorite. Oh. Did you hear that?
     Weight: 0.08
