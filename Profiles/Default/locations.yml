@@ -455,6 +455,7 @@
   Name:
     - Text: Gold Torizo (Drop down)
     - Text: the spot before you drop down to fight Gold Torizo
+    - Text: the spot where if you mess up the Space Jump you have to loop back around
     - Text: Missile (Gold Torizo)
       Weight: 0
 - LocationNumber: 71
