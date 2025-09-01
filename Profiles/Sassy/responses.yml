@@ -73,6 +73,8 @@ StoppedTrackingPostGoMode:
   Weight: 0.1
 - Text: I'm escaping to the one place that hasn't been corrupted by capitalism. Space!
   Weight: 0.1
+- Text: I tracked. I spoiled. I gave hints of sometimes questionable usefulness. I will learn to live with it. Because I can live with it. Hey Tracker, delete that entire seed.
+  Weight: 0.1
 Misheard:
 - Text: I didn't get that.
 - Text: Could you repeat that?
@@ -318,6 +320,8 @@ PegWorldModePeggedMultiple:
 PegWorldModeDone:
 - Text: Toggled Peg World Mode off.
 - Text: Let's visit Shaktool next.
+- Text: Let's visit Shaktool next. <break time='2s'/> And then Peg World again.
+  Weight: 0.1
 DungeonRewardMarked:
 - Text: Marked {0} as {1}.
 - Text: '{0} is now {1}.'
@@ -593,6 +597,7 @@ Idle:
   - Text: Hey I'm going to need to borrow more of your CPU and memory for a bit. k thanks
   - Text: Hey {{User}}, sing me a song.
   - Text: Hey {{User}}, track content.
+  - Text: You can't cut back on tracking! You will regret this!
 BeatGame:
 - Text: GG
 - Text: Is it finally over? Can I go home now?
@@ -608,6 +613,8 @@ BeatGame:
   Weight: 0.5
 - Text: GG. I guess.
   Weight: 0.1
+- Text: Let's mix it up and play ZS3M next time.
+  Weight: 0.5
 Hints:
   EnabledHints:
   - Text: Toggled hints on.
@@ -1128,6 +1135,9 @@ AutoTracker:
     Weight: 0.2
   - Text: That was an okay icebreaker, but how about this one? What did you want to be when you grew up?
   - Text: That was an okay icebreaker, but how about this one? Would you rather live in Sahasrahla's Hut or Ridley's Reliquary?
+  - Text: That was an okay icebreaker, but how about this one? What's the one wish you would ask of the Triforce?
+  - Text: That was an okay icebreaker, but how about this one? I lost my seed number. Can I have yours?
+  - Text: That was an okay icebreaker, but how about this one? Which important figures from Hylian history would you invite to your dinner party?
   SpeckyClip:
     - Text: Good job on the tech. Was it a first try?
     - Text: I hope you were quiet during the cutscene. Wait. Why did you not go watch the cutscene?
@@ -1428,3 +1438,4 @@ CountHyperBeamShots:
     - Text: "Wow. Amazing. {0} shots. That stand-up glitch saved like half a second. Maybe."
   36:
     - Text: "Didn't get the stand-up glitch? Maybe next time."
+    - Text: "Next time I'll put the Hyper Beam on Shaktool for you."
