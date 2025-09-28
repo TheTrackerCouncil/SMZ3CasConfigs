@@ -4,8 +4,6 @@ StartedTracking:
   Weight: 0.1
 - Text: My fate is sealed. I have <break strength='weak'/> no choice.
   Weight: 0.5
-- Text: Get to suckin'!
-  Weight: 0.1
 Misheard:
 - Text: Toggled boots on. <break time='750ms'/> Just kidding, I have no idea what you were trying to say.
   Weight: 0.05
@@ -117,6 +115,7 @@ Chat:
     DrMutagen: Doctor Mutagen
     Nightbot: Night bot
     cosmosisjonessa: cosmosis jones s a
+    mrthelazyone: Mister The Lazy One
 
 AutoTracker:
   WhenConnected:
