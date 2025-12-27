@@ -102,20 +102,22 @@ Chat:
   - Text: Hey {{User}}, Doctor Dubz just posted something important. You should take a look.
   - Text: Doctor Dubz art alert.
   UserNamePronunciation:
+    20thCenturyDinosaur: 20th Century Dinosaur
+    cosmosisjonessa: cosmosis jones s a
+    Dr_Dubz: Doctor Dubz
+    DrMutagen: Doctor Mutagen
+    Kefka40: Kefka 40
+    madsteve79: Mad Steve 79
+    MatchaZed: Mahtcha Zed
+    megaket: mega ket
+    MrGeop: Gee Op
+    mrthelazyone: Mister The Lazy One
+    Nightbot: Night bot
     pinkkittyrose: Pink Kitty Rose
+    PyroHeromatt: Pyro Hero Matt
+    Schide: shied
     skennedysa: s kennedy
     the_betus: the underscore beetus
-    megaket: mega ket
-    Dr_Dubz: Doctor Dubz
-    MrGeop: Gee Op
-    madsteve79: Mad Steve 79
-    20thCenturyDinosaur: 20th Century Dinosaur
-    Kefka40: Kefka 40
-    PyroHeromatt: Pyro Hero Matt
-    DrMutagen: Doctor Mutagen
-    Nightbot: Night bot
-    cosmosisjonessa: cosmosis jones s a
-    mrthelazyone: Mister The Lazy One
 
 AutoTracker:
   WhenConnected:
