@@ -68,6 +68,8 @@ Chat:
   StartedGuessingGame:
   - Text: The GT big key guessing game is now open for guesses. By the way, I'm taking a 50% cut of the souls this time.
   - Text: The GT big key guessing game is now open for guesses. I hope you all have been meditating. It makes your souls taste better.
+  - Text: The GT big key guessing game is now open for guesses. Remember that time I put it in the big chest? Me neither.
+    Weight: 0.1
   ClosedGuessingGame:
   - Text: If you like having a soul then I hope you made your guess because the floor is now closed.
   ModeratorClosedGuessingGame:
