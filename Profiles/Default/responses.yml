@@ -339,6 +339,8 @@ Chat:
   - Text: Hey {0}
   StartedGuessingGame:
   - Text: The floor is now open for guesses.
+  StartedGuessingGameChatAnnouncement:
+  - Text: The floor is now open for guesses. Guess from 1-22 for which chest in GT you think contains the big key.
   ClosedGuessingGame:
   - Text: The floor is now closed for guesses.
   ModeratorClosedGuessingGame:
