@@ -2154,6 +2154,17 @@
             }
           ]
         },
+        "StartedGuessingGameChatAnnouncement": {
+          "description": "Gets the phrases to respond to chat with when starting the GT big key guessing game.",
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/SchrodingersString"
+            }
+          ]
+        },
         "ClosedGuessingGame": {
           "description": "Gets the phrases to respond with when closing guesses for the GT big key guessing game.",
           "oneOf": [
