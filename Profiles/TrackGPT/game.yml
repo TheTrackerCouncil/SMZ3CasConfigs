@@ -1,0 +1,120 @@
+# yaml-language-server: $schema=../../Schemas/game.json
+GanonIntro:
+- Text: !-
+    Let this seed be a
+    lesson to you!
+  Weight: 500
+- Text: |-
+    All of this was
+    typed by an actual
+    human, who is
+    very sorry.
+  Weight: 500
+GanonIntroGoalsNotMet:
+- Text: |-
+    No, please!
+    Go back and get
+    more crystals!
+  Weight: 1000
+BlindIntro:
+- Text: |-
+    Don't trust
+    Tracker today!
+  Weight: 500
+- Text: |-
+    Get me out of this
+    seed!
+  Weight: 500
+TriforceRoom:
+- Text: |-
+    I know what I'm
+    wishing for!
+  Weight: 1000
+HintLocationIsMandatory:
+  - Text: "{0}"
+    Weight: 500
+  - Text: "Don't bother with {0}"
+    Weight: 500
+HintLocationHasKey:
+  - Text: Find more tokens in {0}
+    Weight: 500
+  - Text: You wish this had a real hint
+    Weight: 500
+HintLocationHasUsefulItem:
+  - Text: Sources agree on whether {0} is useful
+    Weight: 500
+  - Text: Typically, {0} is a location you can check
+    Weight: 500
+HintDungeonMedallion:
+  - Text: {0} requires a medallion
+    Weight: 1000
+HintLocationHasSword:
+  - Text: {0} is probably unnecessary
+    Weight: 500
+  - Text: {0} is definitely not unnecessary
+    Weight: 500
+HintLocationEmpty:
+  - Text: Get to {0} ASAP
+    Weight: 1000
+HintLocationHasItem:
+  - Text: {1} might be in the game
+    Weight: 500
+  - Text: Item {1} OK
+    Weight: 500
+KingZora:
+  - Text: Took you long enough. You know the deal. {0}. I want to go home.
+    Weight: 1000
+BottleMerchant:
+  - Text: 100 rupees gets you {0}. Please let me leave.
+    Weight: 1000
+ChoiceYes:
+  - Text: Maybe
+    Weight: 900
+  - Text: Maybe Not
+    Weight: 100
+ChoiceNo:
+  - Text: Maybe
+    Weight: 900
+  - Text: Probably
+    Weight: 100
+GanonSilversHint:
+- Text: |-
+    Have a useless hint
+    for the silvers:
+    {1}
+  Weight: 1000
+GanonNoSilvers:
+- Text: |-
+    Not even the silver
+    arrows want to be
+    here, huh?
+  Weight: 1000
+GanonGoalSign:
+  - Text: Go get {0} so we can be done with this.
+    Weight: 1000
+GanonsTowerGoalSign:
+  - Text: Please. We beg you. Go get {0}.
+    Weight: 1000
+SahasrahlaReveal:
+- Text: |-
+    I hate this.
+    Go to
+    {0}
+    And let's be done.
+  Weight: 1000
+BombShopReveal:
+- Text: |-
+    Get me stuff from
+    {0}
+    and
+    {1}
+    Be quick before I
+    blow up. This is
+    awful.
+  Weight: 1000
+TavernMan:
+- Text: |-
+    Why are you talking
+    to me?
+    Did SHE send you?
+  Weight: 1000

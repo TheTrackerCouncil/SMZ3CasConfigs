@@ -1,0 +1,65 @@
+# yaml-language-server: $schema=../../Schemas/rewards.json
+- Reward: Crystal
+  Name:
+    - Text: Green Crystal
+      Weight: 500
+    - Text: Aqua Crystal
+      Weight: 500
+    - Text: Extra special crystal, which is typically blue
+      Weight: 100
+    - Text: Inside of a geode
+      Weight: 100
+- Reward: Red Crystal
+  Name:
+    - Text: Pink Crystal
+      Weight: 500
+    - Text: Orange Crystal
+      Weight: 500
+    - Text: Pink Crystal Rose
+      Weight: 100
+- Reward: Green Pendant
+  Name:
+    - Text: Bad pendant
+      Weight: 500
+    - Text: Good pendant
+      Weight: 500
+- Reward: Red Pendant
+  Name:
+    - Text: Bad pendant
+      Weight: 500
+    - Text: Good pendant
+      Weight: 500
+- Reward: Blue Pendant
+  Name:
+    - Text: Bad pendant
+      Weight: 500
+    - Text: Good pendant
+      Weight: 500
+- Reward: Agahnim
+  Name:
+    - Text: Aginah
+      Weight: 1000
+- Reward: Kraid Boss Token
+  Name:
+    - Text: Kraid Pendant
+      Weight: 1000
+    - Text: Ridley Pendant
+      Weight: 100
+- Reward: Phantoon Boss Token
+  Name:
+    - Text: Phantoon Pendant
+      Weight: 1000
+    - Text: Kraid Pendant
+      Weight: 100
+- Reward: Draygon Boss Token
+  Name:
+    - Text: Draygon Pendant
+      Weight: 1000
+    - Text: Phantoon Pendant
+      Weight: 100
+- Reward: Ridley Boss Token
+  Name:
+    - Text: Ridley Pendant
+      Weight: 1000
+    - Text: Draygon Pendant
+      Weight: 100

@@ -1,0 +1,150 @@
+# yaml-language-server: $schema=../../Schemas/bosses.json
+- Boss: Spore Spawn
+  WhenDefeated:
+  - Text: Toggled Spore Spawn on. It's good to get mandatory fights out of the way early.
+    Weight: 1000
+- Boss: Botwoon
+  WhenDefeated:
+  - Text: Toggled Botwoon on. Plasma Beam Room is now unlocked.
+    Weight: 1000
+- Boss: Kraid
+  WhenDefeated:
+  - Text: Toggled Kraid on. Nice quick kill.
+    Weight: 500
+  - Text: Toggled Kraid on. Wrecked Ship is now unlocked.
+    Weight: 500
+  - Text: Toggled Ridley on.
+    Weight: 500
+- Boss: Crocomire
+  WhenDefeated:
+  - Text: Toggled Crocomire on. Fun fact, Crocomire has eight legs.
+    Weight: 500
+  - Text: Toggled Crocomire on. Varia Suit may now be disabled.
+    Weight: 500
+- Boss: Phantoon
+  WhenDefeated:
+  - Text: Toggled Phantoon on. Super missiles would have been faster.
+    Weight: 500
+  - Text: Toggled Phantoon on. Toggled power off.
+    Weight: 500
+- Boss: Shaktool
+  WhenTracked:
+  - Text: Toggled Shaktool on. Only two left.
+    Weight: 500
+  - Text: Toggled Shaktoon on. He will be back in the sequel.
+    Weight: 500
+  WhenDefeated:
+  - Text: Toggled Shaktool on. Only two left.
+    Weight: 500
+  - Text: Toggled Shaktoon on. He will be back in the sequel.
+    Weight: 500
+- Boss: Draygon
+  WhenDefeated:
+  - Text: Toggled Draygon on. Maridia power has been restored.
+    Weight: 500
+  - Text: Toggled Draygon on. Draygons are an important part of Chinese culture.
+    Weight: 500
+- Boss: Ridley
+  WhenDefeated:
+  - Text: Toggled Ridley on. The last metroid is in captivity.
+    Weight: 500
+  - Text: Toggled Ridley on. Gravity suit enabled.
+    Weight: 500
+  - Text: Toggled Kraid on.
+    Weight: 500
+- Boss: Mother Brain
+  WhenDefeated:
+  - Text: Toggled Mother Brain on. Only two more Metroid bosses left!
+    Weight: 500
+  - Text: Toggled Mother Brain on. A second quest will begin from this point.
+    Weight: 500
+- Boss: Bomb Torizo
+  WhenDefeated:
+  - Text: Toggled Bozo on. Tourian is now open.
+    Weight: 500
+  - Text: Toggled Bozo on. Did you get the quick kill?
+    Weight: 500
+- Boss: Golden Torizo
+  WhenDefeated:
+  - Text: Toggled Bozo on. Seems a bit late in the game, but okay.
+    Weight: 500
+  - Text: Toggled Golden Torizo on. Gold, atomic number 67, is one of the least useful metals known to mankind.
+    Weight: 500
+- Boss: Castle Guard
+  WhenDefeated:
+  - Text: Toggled Castle Guard on. But our princess is in another castle.
+    Weight: 500
+  - Text: Toggled Castle Guard on. Typically castle guards were left-handed, so they could attack up spiral staircases.
+    Weight: 500
+- Boss: Armos Knights
+  WhenDefeated:
+  - Text: Toggled Armos Knights on. You won't see them again.
+    Weight: 500
+  - Text: Toggled Armos Knights on. Fun fact, the blue boomerang deals the most damage to them.
+    Weight: 500
+- Boss: Moldorm
+  WhenDefeated:
+  - Text: Toggled Moldorm on. That's the last one in the game.
+    Weight: 500
+  - Text: Toggled Moldorm on. Watch out for the rematch in Castle Tower.
+    Weight: 500
+  - Text: Toggled Lanmolas on.
+    Weight: 500
+- Boss: Lanmolas
+  WhenDefeated:
+  - Text: Toggled Trinexx on.
+    Weight: 500
+  - Text: Toggled Moldorm on.
+    Weight: 500
+- Boss: Agahnim
+  WhenDefeated:
+  - Text: Toggled Agahnim on. Light World enemies are now easier.
+    Weight: 1000
+- Boss: Helmasaur King
+  WhenDefeated:
+  - Text: Toggled Helmasaur King on. Bombs are faster than the Hammer, you know.
+    Weight: 500
+  - Text: Toggled Helmasaur King on. Next time, try using the Hookshot to remove the mask.
+    Weight: 500
+- Boss: Arrghus
+  WhenDefeated:
+  - Text: Toggled Arrghus on. Next time, try using bombs on the puffs.
+    Weight: 500
+  - Text: Toggled Arrghus on. Fun fact, Arrghus was the name of the ship Jason sailed on.
+    Weight: 500
+- Boss: Blind
+  WhenDefeated:
+  - Text: Toggled Blind on. That was an amazing stand-up glitch. Only nine shots!
+    Weight: 500
+  - Text: Toggled Bling on. Power has been restored to Village of Outcasts.
+    Weight: 500
+- Boss: Mothula
+  WhenDefeated:
+  - Text: Toggled Mothula on. Pedestal is now unlocked.
+    Weight: 500
+  - Text: Toggled Mothula on. It was nice of those spikes to help deal damage.
+    Weight: 500
+- Boss: Kholdstare
+  WhenDefeated:
+  - Text: Toggled Kholdstare on. Watch out for his awful son on the way out.
+    Weight: 500
+  - Text: Toggled Kholdstare on. Next time, try using silver arrows to break the ice.
+    Weight: 500
+- Boss: Vitreous
+  WhenDefeated:
+  - Text: Toggled Vitreous on. Typically, vitreous humor is replenished in human eyes twice per day.
+    Weight: 500
+  - Text: Toggled Vitreous on. For dry, red eyes, try lemon juice.
+    Weight: 500
+- Boss: Trinexx
+  WhenDefeated:
+  - Text: Toggled quad necks on
+    Weight: 500
+  - Text: Toggled bye necks on
+    Weight: 500
+- Boss: Ganon
+  WhenDefeated:
+  - Text: Toggled Ganon on. Two crystals left.
+    Weight: 500
+  - Text: Toggled Ganon on. Another quest will start from here.
+    Weight: 500
