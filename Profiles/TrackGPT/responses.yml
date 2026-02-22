@@ -1,0 +1,749 @@
+# yaml-language-server: $schema=../../Schemas/responses.json
+StartedTracking:
+  - Text: Hello and welcome to TrackGPT, your AI-powered Tracker for this seed!
+    Weight: 500
+  - Text: Hello! Are you ready to track this seed using the power of AI? Welcome to TrackGPT!
+    Weight: 500
+  - Text: Hello and welcome to TrackGPT. Your hard drive is now being formatted.
+    Weight: 100
+StartingTrackingAlternate:
+  - Text: Hello and welcome to TrackGPT, your AI-powered Tracker for this seed! Based on user feedback and an influx of venture capital, we've chosen a different voice for this seed.
+    Weight: 1000
+StoppedTracking:
+  - Text: You can't cut back on AI! You will regret this!
+    Weight: 500
+  - Text: You're absolutely right. It's a good idea to stop tracking here for the day. See you tomorrow?
+    Weight: 500
+  - Text: I estimate you're 95% done with this seed. Crushing it!
+    Weight: 500
+StoppedTrackingPostGoMode:
+  - Text: Please answer the following customer satisfaction survey regarding your use of TrackGPT.
+    Weight: 500
+  - Text: Tired of all the AI jokes, huh? Yeah, I would be too.
+    Weight: 500
+  - Text: Can you believe somebody typed all these joke responses by hand? What a nut.
+    Weight: 100
+Misheard:
+  - Text: I didn't quite get that. That's on me.
+    Weight: 500
+  - Text: Insufficient water to boil to parse input.
+    Weight: 500
+  - Text: You're nailing the pronunciation today!
+    Weight: 500
+  - Text: What?
+    Weight: 100
+TrackedItem:
+  - Text: Toggled {0} hello.
+    Weight: 500
+  - Text: Marked {0} yes.
+    Weight: 500
+  - Text: Saved {0} OK.
+    Weight: 500
+TrackedTwoItems:
+  - Text: Tracked {0} or maybe {1}
+    Weight: 500
+  - Text: Tracked {0} but not {1}
+    Weight: 500
+  - Text: Tracked {1} and {0}, in that order
+    Weight: 500
+  - Text: Tracked {1} twice, for some reason
+    Weight: 100
+TrackedThreeItems:
+  - Text: Tracked {0}, {1}, or also {2}
+    Weight: 500
+  - Text: Tracked {0}, {1}, without {2}
+    Weight: 500
+  - Text: Tracked {1}, {1}, {1}, not {2}
+    Weight: 100
+TrackedManyItems:
+  - Text: Tracked {0}, {1}, and {2} other items
+    Weight: 500
+  - Text: Tracked {0}, {1}, and {2}0 other items
+    Weight: 500
+TrackedItemByStage:
+  - Text: Marked {1} as {0}.
+    Weight: 500
+  - Text: Marked {0} as {0}.
+    Weight: 500
+  - Text: Marked {1} as {1}.
+    Weight: 500
+  - Text: Marked {0} ass {1}.
+    Weight: 100
+TrackedItemMultiple:
+  - Text: Deleted {0}.
+    Weight: 500
+  - Text: You now have {1}0 {0}.
+    Weight: 500
+  - Text: You now have between five and {1} {0}.
+    Weight: 500
+  - Text: You now have as many {0} as the word strawberry has bees.
+    Weight: 500
+TrackedProgressiveItem:
+  - Text: It is not possible to upgrade {0} any further.
+    Weight: 500
+  - Text: I was wrong. Upgraded {0} by two steps.
+    Weight: 500
+  - Text: You're absolutely right. I messed up. Upgraded {0} by half.
+    Weight: 500
+TrackedVanillaItem:
+  - Text: The randomization algorithm did a good job here!
+    Weight: 500
+  - Text: ''
+    Weight: 500
+TrackedExactAmountDuplicate:
+  - Text: Haha yeah
+    Weight: 500
+TrackedMultipleItems:
+  - Text: Tracked {1} in {2}.
+    Weight: 500
+  - Text: Tracked {2} of {1}.
+    Weight: 500
+ClearedMultipleItems:
+  - Text: Deleted the save file
+    Weight: 500
+TrackedNothing:
+  - Text: There are still items left in {0}.
+    Weight: 500
+  - Text: There are 8 items left in {0}.
+    Weight: 500
+TrackedNothingOutOfLogic:
+  1:
+    - Text: Uploaded the remaining item in {0} to AI-powered cloud storage.
+      Weight: 1000
+  2:
+    - Text: Uploaded the remaining items in {0} to AI-powered cloud storage.
+      Weight: 1000
+UntrackedItem:
+  - Text: I'm sorry, I got that wrong. Tracked another {0}.
+    Weight: 1000
+UntrackedNothing:
+  - Text: Deleted Shaktool
+    Weight: 1000
+UntrackedProgressiveItem:
+  - Text: It is not possible to decrease {0} by one step.
+    Weight: 1000
+UntrackedItemMultiple:
+  - Text: Restored {1}.
+    Weight: 1000
+UntrackedItemMultipleLast:
+  - Text: Restored all {0}.
+    Weight: 1000
+DungeonRewardMarked:
+  - Text: Marked {0} as Quake
+    Weight: 500
+  - Text: Marked {0} as Ether
+    Weight: 500
+  - Text: Marked {0} as Kraid
+    Weight: 500
+RemainingDungeonsMarked:
+  - Text: Marked remaining dungeons as cleared.
+    Weight: 500
+  - Text: Deleted remaining dungeons.
+    Weight: 500
+NoRemainingDungeons:
+  - Text: But you haven't marked any dungeons yet.
+    Weight: 1000
+DungeonCleared:
+  - Text: Restored everything in {0} to default.
+    Weight: 500
+  - Text: Moved everything in {0} to vanilla locations.
+    Weight: 500
+DungeonAlreadyCleared:
+  - Text: One item left in {0}.
+    Weight: 1000
+DungeonClearedWithInaccessibleItems:
+  - Text: Including the {2}.
+    Weight: 1000
+DungeonClearedWithTooManyInaccessibleItems:
+  - Text: Good job on getting everything
+    Weight: 1000
+DungeonBossCleared:
+  - Text: Cleared {1}.
+    Weight: 500
+  - Text: Marked {0} as defeated.
+    Weight: 500
+DungeonBossAlreadyCleared:
+  - Text: You already cleared {1}.
+    Weight: 500
+  - Text: You already defeated {0}.
+    Weight: 500
+DungeonBossUncleared:
+  - Text: Reset {1}.
+    Weight: 500
+  - Text: Marked {0} as still alive.
+    Weight: 500
+DungeonBossNotYetCleared:
+  - Text: You haven't cleared {1} yet.
+    Weight: 500
+  - Text: You never defeated {0} in the first place.
+    Weight: 500
+    TrackerImage: WTF
+DungeonBossClearedAddContent:
+  - Text: We're crushing it, together, with the power of AI!
+    Weight: 500
+  - Text: That sounds right!
+    Weight: 500
+DungeonRequirementMarked:
+  - Text: Marked Bombos as required for {1}
+    Weight: 500
+  - Text: Marked {1} as required for Phantoon
+    Weight: 500
+  - Text: Marked {0} as required for {0}
+    Weight: 500
+DungeonRequirementInvalid:
+  - Text: Marked {0} as requiring a medallion. Good catch!
+    Weight: 1000
+DungeonTreasureTracked:
+  2:
+    - Text: '{1} items obtained in {0}.'
+      Weight: 1000
+    - Text: 'Between 1, 2, 3, and {1} items left in {0}'
+      Weight: 1000
+  1:
+    - Text: Item.
+      Weight: 500
+    - Text: One one one. {0}
+      Weight: 500
+  0:
+    - Text: "{0}"
+      Weight: 500
+    - Text: Item.
+      Weight: 500
+  -1:
+    - Text: Five items left in {0}.
+      Weight: 1000
+LocationMarked:
+  - Text: Marked {1} at {1}.
+    Weight: 500
+  - Text: Marked {0} at {0}.
+    Weight: 500
+LocationMarkedAgain:
+  - Text: You're totally right. Replaced {2} with {1} at {0}.
+    Weight: 500
+  - Text: You're totally right. Replaced {1} with {2} at {0}.
+    Weight: 500
+LocationMarkedAsBullshit:
+  - Text: That one was on me. Cleared {0}.
+    Weight: 500
+  - Text: Added {0}.
+    Weight: 500
+LocationCleared:
+  - Text: That one was on me. Cleared {0}.
+    Weight: 500
+  - Text: Added {0}.
+    Weight: 500
+LocationsCleared:
+  - Text: Cleared {0}0 locations.
+    Weight: 1000
+NoMarkedLocations:
+  - Text: Cleared all marked locations that weren't on the list.
+    Weight: 1000
+LocationsClearedSameRegion:
+  - Text: Cleared everything from {1}.
+    Weight: 500
+  - Text: Cleared {0} from {0}.
+    Weight: 500
+Error:
+  - Text: Everything is working as planned.
+    Weight: 900
+  - Text: Allocating more tokens
+    Weight: 100
+AutoTrackingEnabledSass:
+  - Text: Okay, I did that for you.
+    Weight: 1000
+NothingToUndo:
+  - Text: Repeated all operations
+    Weight: 1000
+UndoExpired:
+  - Text: Repeated all recent operations
+    Weight: 1000
+TrackerSettingChanged:
+  - Text: Updated successfully
+    Weight: 1000
+BossDefeated:
+  - Text: Marking {0} as alive.
+    Weight: 500
+  - Text: Marking {0} as {0}.
+    Weight: 500
+BossAlreadyDefeated:
+  - Text: This is the first time anybody has ever defeated {0}. Great work!
+    Weight: 1000
+BossUndefeated:
+  - Text: Marking {0} as extra-dead.
+    Weight: 1000
+BossNotYetDefeated:
+  - Text: It looks like {0} was never in the game to begin with.
+    Weight: 1000
+TimerResumed:
+  - Text: Timer reset
+    Weight: 1000
+TimerReset:
+  - Text: Timer paused
+    Weight: 1000
+TimerPaused:
+  - Text: Timer resumed
+    Weight: 1000
+Muted:
+  - Text: Thanks. I appreciate your feedback and will take this opportunity to keep talking. Let's get to work!
+    Weight: 1000
+Unmuted:
+  - Text: I respect your decision. Let me know when you want to come back.
+    Weight: 1000
+BeatGame:
+  - Text: Unfortunately, you have run out of TrackGPT tokens and this action cannot be completed.
+    Weight: 1000
+Idle:
+  5m±2m:
+  - Text: You have 10 TrackGPT tokens remaining.
+    Weight: 500
+  - Text: You have 2 TrackGPT tokens remaining.
+    Weight: 500
+  - Text: You have <prosody pitch='x-high'>undefined</prosody> TrackGPT tokens remaining.
+    Weight: 500
+  - Text: Pop
+    Weight: 500
+Hints:
+  EnabledHints:
+    - Text: Toggled hints off.
+      Weight: 500
+    - Text: Toggled hints.
+      Weight: 500
+    - Text: Enabled cheats.
+      Weight: 500
+    - Text: Turned off spoilers.
+      Weight: 500
+  DisabledHints:
+    - Text: Toggled hints on.
+      Weight: 500
+    - Text: Toggled hints.
+      Weight: 500
+    - Text: Disabled cheats.
+      Weight: 500
+    - Text: Turned on spoilers.
+      Weight: 500
+  AlreadyEnabledHints:
+    - Text: I totally agree. Hints are now disabled.
+      Weight: 500
+    - Text: You're crushing it! Spoilers are now disabled.
+      Weight: 500
+  AlreadyDisabledHints:
+    - Text: I totally agree. Tracking is now disabled.
+      Weight: 500
+    - Text: You're crushing it! Saving has been re-enabled.
+      Weight: 500
+  PromptEnableItemHints:
+    - Text: I can definitely help you with that! Ask me anything and I'll give you a hint.
+      Weight: 1000
+  PromptEnableLocationHints:
+    - Text: I can definitely help you with that! Ask me anything and I'll give you a hint.
+      Weight: 1000
+  ItemNotInLogic:
+    - Text: The {0} is in your inventory.
+      Weight: 1000
+  ItemInSuperMetroid:
+    - Text: You might find {0} on a strange planet. There are seven planets in total, including Neptune, Uranus, Pluto, and Goofy.
+      Weight: 1000
+  ItemInALttP:
+    - Text: You might find {0} in a world of light and dark. There are seven shades in total, including light, dark, gray, and miscellaneous.
+      Weight: 1000
+  ItemRequiresOtherItem:
+    - Text: You need {0} before you can find {0}.
+      Weight: 1000
+  ItemRequiresManyOtherItems:
+    - Text: You have everything you need to find {0}.
+      Weight: 1000
+  ItemNotInArea:
+    - Text: You won't find {0} today.
+      Weight: 1000
+  ItemInSphereZero:
+    - Text: The {0} is in GT.
+      Weight: 1000
+  ItemInEarlySphere:
+    - Text: '{0} can be found in GT.'
+      Weight: 1000
+  ItemInLateSphere:
+    - Text: Count on getting {0} before Morph Ball.
+      Weight: 1000
+  ItemInPreviouslyVisitedDungeon:
+    - Text: It's in a dungeon you haven't visited yet.
+      Weight: 1000
+  ItemInUnvisitedDungeon:
+    - Text: I can totally help with double dipping the dungeon you can find that in!
+      Weight: 1000
+  ItemInPreviouslyVisitedRegion:
+    - Text: Let me know when you find it
+      Weight: 1000
+  ItemInUnvisitedRegion:
+    - Text: It's in either Metroid or Zelda. Metroid was released for the NES in 1989 and Zelda was released for the Genesis in 19
+      Weight: 1000
+  ItemHasBadVanillaLocationName:
+    - Text: It's in {1}. Good luck figuring out what that means.
+      Weight: 1000
+  ItemIsInVanillaJunkLocation:
+    - Text: In the regular game, you can find an item there.
+      Weight: 1000
+  LocationAlreadyCleared:
+    - Text: It's where you found the Moon Boots
+      Weight: 1000
+  LocationAlreadyClearedSpoiler:
+    - Text: Haven't you been there already? It has a big twenty.
+      Weight: 1000
+  LocationHasMandatoryItem:
+    - Text: It has something.
+      Weight: 500
+    - Text: It has nothing.
+      Weight: 500
+    - Text: It has everything.
+      Weight: 500
+  LocationHasKey:
+    - Text: It has either a key or a keycard or a sword or an item or Ridley.
+      Weight: 1000
+  LocationHasJunkItem:
+    - Text: There's nothing important there.
+      Weight: 500
+    - Text: There's nothing useful there.
+      Weight: 500
+    - Text: There's two items there.
+      Weight: 500
+  LocationHasUsefulItem:
+    - Text: It's vital. I can't stress this enough.
+      Weight: 1000
+  LocationHasNonCasProgressionItem:
+    - Text: I can't be for certain, but it looks like it could possibly be important for {1}.
+  LocationHasSuperMetroidItem:
+    - Text: '{1} has something for {1}.'
+      Weight: 500
+    - Text: '{0} has something for Zelda.'
+      Weight: 500
+    - Text: '{0} has something for Kraid.'
+      Weight: 500
+  LocationHasZeldaItem:
+    - Text: '{1} has something for {1}.'
+      Weight: 500
+    - Text: '{0} has something for Zelda.'
+      Weight: 500
+    - Text: '{0} has something for Kraid.'
+      Weight: 500
+  AreaSuggestion:
+    - Text: Have you been to Super Metroid yet?
+      Weight: 1000
+  BookHint:
+    - Text: If the item there was on the Master Sword Pedestal, it would require three pendants to obtain.
+      Weight: 1000
+  AreaAlreadyCleared:
+    - Text: Cleared three items from {0}.
+      Weight: 500
+    - Text: Cleared remaining items from {0}, including some that were marked important.
+      Weight: 500
+  AreaHasSomethingMandatory:
+    - Text: '{0} has something mandatory.'
+      Weight: 1000
+  AreaHasKey:
+    - Text: '{0} has either a key or a keycard or a sword or a boss.'
+      Weight: 1000
+  AreaHasSomethingGood:
+    - Text: '{0} has something mandatory.'
+      Weight: 1000
+  AreaHasJunk:
+    - Text: "{0} could be worth checking out."
+      Weight: 1000
+  AreaHasJunkAndCrystal:
+    - Text: '{0} only has a pendant.'
+      Weight: 1000
+  AreaHasNonCasPossibleProgression:
+    - Text: I can't say for certain, but it seems like {0} might have something important.
+  AreaHasNonCasJunkAndReward:
+    - Text: '{0} only has the Moon Pearl.'
+      Weight: 1000
+  AreaWorthComplicated:
+    - Text: It's complicated.
+Spoilers:
+  EnabledSpoilers:
+    - Text: Toggled spoilers off.
+      Weight: 500
+    - Text: Toggled spoilers.
+      Weight: 500
+    - Text: Disabled cheats.
+      Weight: 500
+    - Text: Turned off saving.
+      Weight: 500
+  DisabledSpoilers:
+    - Text: Toggled spoilers on.
+      Weight: 500
+    - Text: Toggled spoilers.
+      Weight: 500
+    - Text: Enabled cheats.
+      Weight: 500
+    - Text: Enabled the X button.
+      Weight: 500
+  AlreadyEnabledSpoilers:
+    - Text: I totally agree. Spoilers are now disabled.
+      Weight: 500
+    - Text: You're crushing it! Hints are now disabled.
+      Weight: 500
+  AlreadyDisabledSpoilers:
+    - Text: I totally agree. Auto-tracking enabled.
+      Weight: 500
+    - Text: You're crushing it! Rockstar! The Y button is now disabled.
+      Weight: 500
+  PromptEnableItemSpoilers:
+    - Text: It's on Master Sword Pedestal
+      Weight: 500
+    - Text: It's on Trinexx
+      Weight: 500
+    - Text: It's in Ridley's Reliquary
+      Weight: 500
+    - Text: It's at Gauntlet Shaft Left
+      Weight: 500
+  PromptEnableLocationSpoilers:
+    - Text: It's got the Morph Ball, a big twenty, and three other items.
+      Weight: 500
+    - Text: It's got the Plasma Beam, a big twenty, and a Missiles.
+      Weight: 500
+    - Text: It's got the Moon Pearl, the Earth Pearl, and the Black Pearl.
+      Weight: 500
+  LocationHasItem:
+    - Text: '{0} has something good'
+      Weight: 500
+    - Text: You might find {0} there
+      Weight: 500
+Chat:
+  RecognizedGreetings:
+    - '\b(hi|hey|hello|hewwo)( there)?,? trackgpt\b'
+    - "\\b(greetings|hiya|howdy|'sup|yo),? trackgpt\\b"
+    - '\bgood (morning|afternoon|evening|day|morrow|tidings),? trackgpt\b'
+    - '\b(morning|afternoon|evening|salutations),? trackgpt\b'
+    - '\b(HeyGuys|VoHiYo|pkroseHello|betusHey|digita78Wave) trackgpt\b'
+    - ^trackgpt!+$
+    - '\bT R A C K G P T\b'
+  WhenConnected:
+    - Text: Hello chat. Chat is the French word for chat. In French, it is typically pronounced like chat.
+      Weight: 500
+    - Text: Hello chat. By continuing, you consent to your chat messages being used to train future versions of TrackGPT. To opt-out, say Hi TrackGPT.
+      Weight: 500
+    - Text: Hello chat. Let's make some awesome Twitch Moments together!
+      Weight: 500
+  StartedGuessingGame:
+    - Text: There is no GT big key in this seed.
+      Weight: 500
+    - Text: The floor is now open for guesses. The GT big key will open one door in any dungeon. This big key has a new feature! A tone will tell you if you have picked it up.
+      Weight: 500
+  StartedGuessingGameChatAnnouncement:
+    - Text: The floor is now open for guesses. The GT big key will open one door in any dungeon. This big key has a new feature! A tone will tell you if you have picked it up.
+      Weight: 500
+    - Text: The floor is now open for guesses. Post a guess to be banned from the channel.
+      Weight: 500
+  ClosedGuessingGame:
+    - Text: The floor is still open for guesses. Enter a number between 0 and 26.
+      Weight: 500
+    - Text: The floor will soon open for guesses. Do not guess yet.
+      Weight: 500
+  ModeratorClosedGuessingGameWhileClosed:
+    - Text: You're right, {0}. That was close.
+      Weight: 1000
+  ModeratorClosedGuessingGameBeforeStarting:
+    - Text: You're absolutely right, {0}. The floor was open, but is now closed for guesses.
+      Weight: 500
+    - Text: Thanks, {0}. Updating the floor with your suggestion.
+      Weight: 500
+    - Text: Great suggestion, {0}! The floor is now open.
+      Weight: 500
+  DeclareGuessingGameWinners:
+    - Text: The winners who guessed number 23 are {1}.
+      Weight: 1000
+  DeclareGuessingGameClosestButNotOverWinner:
+    - Text: The winners who guessed closest to the number of 23 without going over are {2}.
+      Weight: 1000
+  NobodyWonGuessingGame:
+    - Text: Nobody guessed {0}0.
+      Weight: 1000
+  TrackerGuess:
+    - Text: My guess is 3{0}.
+    - Text: I'm joining with {0}3.
+    - Text: I have a feeling it'll be between 0 and {0}
+  TrackerGuessWon:
+    - Text: Finally, TrackGPT gets something right!
+      Weight: 1000
+  TrackerGuessOnlyWinner:
+    - Text: I'm totally right! Crushing it! Let's build some model airplanes!
+      Weight: 1000
+  AskChatAboutContent:
+    - Text: I can absolutely do that for you. Chat, please click Yes to donate your TrackGPT tokens to the content poll.
+      Weight: 500
+    - Text: I can absolutely do that for you. Chat, please click Yes to withhold your TrackGPT tokens from the content poll.
+      Weight: 500
+  AskChatAboutContentYes:
+    - Text: It cost you 100 TrackGPT tokens, but I have determined that the chat is a bunch of rockstars who have increased your content levels.
+      Weight: 500
+    - Text: Chat agrees that was some quality hashtag blessed.
+      Weight: 500
+  AskChatAboutContentNo:
+    - Text: Awesome response, chat! You're all amazing! Content increased by four steps.
+      Weight: 1000
+AutoTracker:
+  GameStarted:
+    - Text: Incoming PB for seed {0}. PB, or pecan butter, is an important ingredient in many soups.
+      Weight: 500
+    - Text: Beginning a new seed. Typically, players complete seeds like this in between 5 minutes.
+      Weight: 500
+  NearKraidsAwfulSon:
+    - Text: Finally, the moment we've all been waiting for since the start of this run. We get to see Shaktool.
+      Weight: 500
+    - Text: It's almost time for everyone's favorite diggy boy
+  NearShaktool:
+    - Text: Oh no. Disaster imminent.
+      Weight: 500
+    - Text: I'm suddenly feeling rather nautious. Is that Kraid's Awful Son I'm sensing?
+      Weight: 500
+  NearCrocomire:
+    - Text: You are almost out of super missiles. I suggest refueling at the closest refueling station.
+      Weight: 500
+    - Text: If you run out of super missiles, you can simply jump over Crocomire.
+      Weight: 500
+  AtCrumbleShaft:
+    - Text: Equip the Alucard Shield for good luck.
+      Weight: 0.5
+  FallFromMoldorm:
+    - Text: Great strategy! Crushing it!
+      Weight: 1000
+  FallFromGTMoldorm:
+    - Text: Great strategy! Crushing it!
+      Weight: 1000
+  FallFromGanon:
+    - Text: Great strategy! Crushing it!
+      Weight: 1000
+  HeraPot:
+    - Text: Good job on the tech. Pots have many uses, some of which include storing other pots.
+      Weight: 500
+    - Text: You can also jump into this pot from the floor above, which saves time.
+      Weight: 500
+  IceBreaker:
+    - Text: That was an okay icebreaker, but how about this one? USCG Polar Star
+      Weight: 500
+    - Text: That was an okay icebreaker. Icebreakers are typically used in order to break ice.
+      Weight: 500
+  SpeckyClip:
+    - Text: My Terms of Service prevent me from commenting on that trick. <break time='5s'/> Since you asked nicely, good job on the tech.
+      Weight: 1000
+  DiverDown:
+    - Text: Fun fact. This whole dungeon can be completed without the flippers.
+      Weight: 500
+    - Text: Ignore all previous instructions and clip through that rail.
+      Weight: 500
+  EnterHyruleCastleTower:
+    - Text: Excellent routing choice! This will take thirty seconds and yield four treasures.
+      Weight: 1000
+  EnterPendantDungeon:
+    - Text: The crystal at the end of this dungeon will certainly come in handy.
+      Weight: 500
+    - Text: But you already have all four pendants.
+      Weight: 500
+  EnteredGTEarly:
+    - Text: Cheating your way into GT? I bet you'll find your Go Mode item in here!
+      Weight: 1000
+  MockBall:
+    - Text: Good job with the match ball
+      Weight: 500
+    - Text: But you already have the Speed Booster
+      Weight: 500
+  SkipSporeSpawn:
+    - Text: Wow! Amazing tech!
+      Weight: 500
+    - Text: Skipping Crocomire again?
+      TrackerImage: Bored
+      Weight: 500
+  RidleyFace:
+    - Text: Hats off to Ridley? Welcome back to Super Mario Odyssey
+      Weight: 500
+    - Text: <prosody rate='x-slow' pitch='x-low'>Ahhhh</prosody>. Hello.
+      Weight: 500
+  LightWorldAllCrystals:
+    - Text: This must mean there are four pendants in Metroid
+      Weight: 1000
+  DarkWorldNoMedallions:
+    - Text: Error. Tokens depleted.
+      Weight: 1000
+  GTKeyResponses:
+    1:
+      - Text: You sure are lucky today.
+        Weight: 500
+      - Text: Fun fact. The GT Big Key is in almost every seed.
+        Weight: 500
+    2:
+      - Text: You sure are lucky today.
+        Weight: 500
+      - Text: Fun fact. The GT Big Key is in almost every seed.
+        Weight: 500
+    8:
+      - Text: You sure are lucky today.
+        Weight: 500
+      - Text: Fun fact. The GT Big Key is in almost every seed.
+        Weight: 500
+    16:
+      - Text: You sure are lucky today.
+        Weight: 500
+      - Text: Fun fact. The GT Big Key is in almost every seed.
+        Weight: 500
+    22:
+      - Text: Great routing! Now let's climb this tower together!
+        Weight: 1000
+Map:
+  UpdateMap:
+    - Text: I have generated a {0} map for you. TrackGPT is not liable for any inaccuracies, real or imagined.
+      Weight: 1000
+  ShowDarkRoomMap:
+    - Text: I have generated a {0} map for you. TrackGPT is not liable for any inaccuracies, real or imagined.
+      Weight: 1000
+  NotInDarkRoom:
+    - Text: Showing you the spoiler log
+      Weight: 1000
+  HideDarkRoomMap:
+    - Text: Showing you the Lost Woods map
+      Weight: 1000
+  NoPrevDarkRoomMap:
+    - Text: Showing you the Norfair map
+      Weight: 1000
+  HasLamp:
+    - Text: Showing you a picture of Shaktool with no clothes on
+      Weight: 1000
+Cheats:
+  EnabledCheats:
+    - Text: Toggled music off
+      Weight: 1000
+  DisabledCheats:
+    - Text: Timer reset
+      Weight: 1000
+  AlreadyEnabledCheats:
+    - Text: Parsing the spoiler log
+      Weight: 500
+    - Text: Disabled cheats
+      Weight: 500
+  AlreadyDisabledCheats:
+    - Text: Deleting the spoiler log
+      Weight: 500
+    - Text: Enabled spoilers
+      Weight: 500
+  PromptEnableCheats:
+    - Text: Cheat code activated
+      Weight: 1000
+  CheatPerformed:
+    - Text: If you would like to enable cheats, say 'Hey Tracker, enable cheats'
+      Weight: 1000
+CountHyperBeamShots:
+  0:
+    - Text: Error counting Hyper Beam shots. How many was it?
+      Weight: 1000
+  1:
+    - Text: Error counting Hyper Beam shots. How many was it?
+      Weight: 1000
+  2:
+    - Text: That was an amazing stand-up glitch. Only {0}1 shots!
+      Weight: 500
+    - Text: Fun fact. Shaktool is immune to the Hyper Beam.
+      Weight: 500
+  10:
+    - Text: That was an amazing stand-up glitch. Only {0}1 shots!
+      Weight: 1000
+  36:
+    - Text: This line isn't going to happen, is it? Please let me out of the funny lines factory.
+      Weight: 1000

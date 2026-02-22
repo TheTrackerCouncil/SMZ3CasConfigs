@@ -1,0 +1,47 @@
+# yaml-language-server: $schema=../../Schemas/msu.json
+SongResponses:
+  "138":
+    - Text: Many babies are often this size.
+      Weight: 500
+    - Text: The baby skip is one of the simplest tricks to perform in Superb Metroid.
+      Weight: 500
+    - Text: The last Metroid is in captivity.
+      Weight: 500
+  "King's Quest V - Town Theme":
+    - Text: This is my favorite boss music.
+      Weight: 500
+    - Text: It's the theme from my favorite game, King's Quest Six.
+      Weight: 500
+    - Text: Does anybody smell burnt toast?
+      Weight: 100
+  "King's Quest V":
+    - Text: This is my favorite boss music.
+      Weight: 500
+    - Text: It's the theme from my favorite game, King's Quest Six.
+      Weight: 500
+    - Text: Does anybody smell burnt toast?
+      Weight: 100
+  "oops no music. just silence":
+    - Text: All I can hear is the hum of the 400 data centers that produced this voice line.
+      Weight: 500
+    - Text: Now for the loudest song you will hear today.
+      Weight: 500
+    - Text: Grasshoppers.
+      Weight: 500
+    - Text: I don't know any songs, so don't ask me to sing one right now.
+      Weight: 500
+  "Darkseed 2 Carnival":
+    - Text: Step over here
+      Weight: 500
+    - Text: This randomizer is so simple, an AI could do it
+      Weight: 500
+    - Text: Hey, you have not made it, buddy
+      Weight: 500
+ManuallyShuffledMusic:
+  - Text: Placed all M S U tracks back in proper order
+    Weight: 500
+  - Text: Successfully deleted your M S U pack directory
+    Weight: 500
+CannotManuallyShuffleMusic:
+  - Text: Done!
+    Weight: 1000

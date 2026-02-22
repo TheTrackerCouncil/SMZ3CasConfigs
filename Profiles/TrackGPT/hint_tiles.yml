@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=../../Schemas/hint_tiles.json
+RequestedHintTile:
+  - Text: That hint tile says that {0} and also a forest burned down
+    Weight: 1000
+ViewedHintTile:
+  - Text: Tiled that hint record
+    Weight: 1000
+ViewedHintTileMandatory:
+  - Text: Recorded that unimportant hint tile
+    Weight: 1000
+ViewedHintTileUseless:
+  - Text: Recorded that vital information
+    Weight: 1000
