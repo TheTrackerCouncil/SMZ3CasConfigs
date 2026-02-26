@@ -16,6 +16,17 @@
         }
       ]
     },
+    "GanonIntroGoalsNotMet": {
+      "description": "Gets the phrases for first dropping down into Ganon's room when you have not met your objective",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
     "BlindIntro": {
       "description": "Gets the phrases for blind",
       "oneOf": [
@@ -29,6 +40,28 @@
     },
     "TriforceRoom": {
       "description": "Gets the phrases for the won game screen in Zelda",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
+    "GanonsTowerGoalSign": {
+      "description": "Gets the phrases for the sign in front of Ganon's Tower with the required crystal count to enter",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
+    "GanonGoalSign": {
+      "description": "Gets the phrases for the sign on the pyramid with the required crystal count to defeat Ganon",
       "oneOf": [
         {
           "type": "null"
