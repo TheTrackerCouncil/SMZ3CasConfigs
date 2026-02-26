@@ -12,6 +12,8 @@ GanonIntro:
       planet, and yet
 
       you still got here?
+GanonIntroGoalsNotMet:
+  - Text: I think you're missing some crystals if you want to defeat me!
 BlindIntro:
   - Text: >-
       I'm actually a
@@ -66,6 +68,10 @@ GanonSilversHint:
   - Text: Did {0} find the silvers in {1}?
 GanonNoSilvers:
   - Text: Silver arrows? What are those?
+GanonGoalSign:
+  - Text: You need {0} to beat Ganon.
+GanonsTowerGoalSign:
+  - Text: You need {0} to enter.
 SahasrahlaReveal:
   - Text: >-
       Want something

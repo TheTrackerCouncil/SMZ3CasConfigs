@@ -105,6 +105,12 @@
             "null"
           ]
         },
+        "GanonIntroGoalsNotMet": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
         "BlindIntro": {
           "type": [
             "string",
@@ -130,6 +136,18 @@
           ]
         },
         "GanonSilversHint": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "GanonsTowerGoalSign": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "GanonGoalSign": {
           "type": [
             "string",
             "null"
@@ -264,11 +282,14 @@
       },
       "required": [
         "GanonIntro",
+        "GanonIntroGoalsNotMet",
         "BlindIntro",
         "TriforceRoom",
         "KingZora",
         "BottleMerchant",
         "GanonSilversHint",
+        "GanonsTowerGoalSign",
+        "GanonGoalSign",
         "SahasrahlaReveal",
         "BombShopReveal",
         "TavernMan",
