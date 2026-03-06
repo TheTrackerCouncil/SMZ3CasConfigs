@@ -492,6 +492,9 @@
     "SkipTourianBossDoor": {
       "type": "boolean"
     },
+    "HideCrystalBossCount": {
+      "type": "boolean"
+    },
     "Logic": {
       "$ref": "#/definitions/LogicConfig"
     },
@@ -1214,6 +1217,7 @@
     "OpenPyramid",
     "TourianBossCount",
     "SkipTourianBossDoor",
+    "HideCrystalBossCount",
     "Logic",
     "Items",
     "Rewards",
