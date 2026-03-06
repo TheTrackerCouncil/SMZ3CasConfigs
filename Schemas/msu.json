@@ -55,6 +55,28 @@
         }
       ]
     },
+    "ManuallyShuffledMusic": {
+      "description": "Gets the phrases for reshuffling the music",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
+    "CannotManuallyShuffleMusic": {
+      "description": "Gets the phrases for requesting reshuffling the music when shuffling was not enabled originally",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
     "SongResponses": {
       "type": [
         "null",
