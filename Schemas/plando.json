@@ -468,6 +468,31 @@
         "null"
       ]
     },
+    "GameModeType": {
+      "type": "string",
+      "enum": [
+        "Vanilla",
+        "SpazerHunt"
+      ]
+    },
+    "GanonsTowerCrystalCount": {
+      "type": "integer"
+    },
+    "GanonCrystalCount": {
+      "type": "integer"
+    },
+    "TourianBossCount": {
+      "type": "integer"
+    },
+    "SpazersRequired": {
+      "type": "integer"
+    },
+    "LiftOffOnGoalCompletion": {
+      "type": "boolean"
+    },
+    "HideGoalCount": {
+      "type": "boolean"
+    },
     "KeysanityMode": {
       "type": "string",
       "enum": [
@@ -477,22 +502,10 @@
         "SuperMetroid"
       ]
     },
-    "GanonsTowerCrystalCount": {
-      "type": "integer"
-    },
-    "GanonCrystalCount": {
-      "type": "integer"
-    },
-    "OpenPyramid": {
-      "type": "boolean"
-    },
-    "TourianBossCount": {
-      "type": "integer"
-    },
     "SkipTourianBossDoor": {
       "type": "boolean"
     },
-    "HideCrystalBossCount": {
+    "OpenPyramid": {
       "type": "boolean"
     },
     "Logic": {
@@ -1211,13 +1224,16 @@
   },
   "required": [
     "Seed",
-    "KeysanityMode",
+    "GameModeType",
     "GanonsTowerCrystalCount",
     "GanonCrystalCount",
-    "OpenPyramid",
     "TourianBossCount",
+    "SpazersRequired",
+    "LiftOffOnGoalCompletion",
+    "HideGoalCount",
+    "KeysanityMode",
     "SkipTourianBossDoor",
-    "HideCrystalBossCount",
+    "OpenPyramid",
     "Logic",
     "Items",
     "Rewards",

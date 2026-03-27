@@ -1,0 +1,110 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "AltGameModesConfig",
+  "type": "object",
+  "description": "Config file for various tracker lines and in game text for alt game modes.\r Note that all lines in game need to be no more than 19 characters.",
+  "additionalProperties": false,
+  "properties": {
+    "SpazerHuntGanonIntro": {
+      "description": "In game text for the intro to the Ganon battle",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
+    "SpazerHuntGanonIntroGoalsNotMet": {
+      "description": "In game text for the intro to the Ganon battle when you have not collected enough spazers",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
+    "SpazerHuntGanonGoalSign": {
+      "description": "In game text for the sign on Ganon's pyramid to explain the goal \n{0} is a placeholder for the number of spazers needed to fight Ganon \n{1} is a placeholder for the number of spazers in the item pool",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
+    "SpazerHuntGameStarted": {
+      "description": "Tracker line for when starting a new game",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    }
+  },
+  "definitions": {
+    "SchrodingersString": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Possibility"
+      }
+    },
+    "Possibility": {
+      "type": "object",
+      "description": "Represents one possibility of a SchrodingersString.",
+      "additionalProperties": false,
+      "properties": {
+        "Text": {
+          "type": "string",
+          "description": "Gets a string."
+        },
+        "Weight": {
+          "type": "number",
+          "description": "Gets the weight associated with the item.",
+          "format": "double",
+          "default": 1.0
+        },
+        "TrackerImage": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "description": "The tracker image to display"
+        },
+        "AdditionalLines": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "description": "Additional lines to be stated after the initial line. Used for adding additional poses.",
+          "items": {
+            "$ref": "#/definitions/PossibilityAdditionalLine"
+          }
+        }
+      }
+    },
+    "PossibilityAdditionalLine": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "Text": {
+          "type": "string"
+        },
+        "TrackerImage": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    }
+  }
+}

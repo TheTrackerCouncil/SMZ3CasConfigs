@@ -1,0 +1,30 @@
+# yaml-language-server: $schema=../../Schemas/alt_game_modes.json
+
+# Config file for various tracker lines and in game text for alt game modes.
+# Note that all lines in game need to be no more than 19 characters.
+
+# Example:
+# SpazerHuntGanonIntro:
+# - Text: >-
+#     In game text with
+#
+#     each line being
+#
+#     19 characters
+#
+#     or less
+#   TrackerImage:
+#   AdditionalLines:
+# - Text: >-
+#     Another example
+#
+#     of in game text
+#   Weight: 0.1
+#   TrackerImage:
+#   AdditionalLines:
+#
+
+SpazerHuntGanonIntro:
+SpazerHuntGanonIntroGoalsNotMet:
+SpazerHuntGanonGoalSign:
+SpazerHuntGameStarted:
