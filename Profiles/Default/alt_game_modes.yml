@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=../../Schemas/alt_game_modes.json
+SpazerHuntGanonIntro:
+  - Text: >-
+      Sure, you got all
+
+      of those spazers,
+
+      but unfortunately
+
+      for you, you can't
+
+      even use them in
+
+      this game!
+SpazerHuntGanonIntroGoalsNotMet:
+  - Text: >-
+      Why are you even
+
+      here if you didn't
+
+      get enough spazers?
+SpazerHuntGanonGoalSign:
+  - Text: >-
+      You need to get
+
+      {0} out of {1}
+
+      spazers to be able
+
+      to defeat Ganon and
+
+      enter Tourian.
+SpazerHuntGameStarted:
+  - Text: There are a bunch of spazers out there. Better get started.
