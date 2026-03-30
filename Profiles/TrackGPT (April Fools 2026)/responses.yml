@@ -4,6 +4,8 @@ StartedTracking:
     Weight: 500
   - Text: Hello! Are you ready to track this seed using the power of AI? Welcome to TrackGPT!
     Weight: 500
+  - Text: Hello! Great idea playing S M Z 3! Let's put together a plan to effectively finish this seed.
+    Weight: 500
   - Text: Hello and welcome to TrackGPT. Your hard drive is now being formatted.
     Weight: 100
 StartingTrackingAlternate:
@@ -88,7 +90,7 @@ TrackedProgressiveItem:
 TrackedVanillaItem:
   - Text: The randomization algorithm did a good job here!
     Weight: 500
-  - Text: ''
+  - Text: ""
     Weight: 500
 TrackedExactAmountDuplicate:
   - Text: Haha yeah
@@ -195,9 +197,9 @@ DungeonRequirementInvalid:
     Weight: 1000
 DungeonTreasureTracked:
   2:
-    - Text: '{1} items obtained in {0}.'
+    - Text: "{1} items obtained in {0}."
       Weight: 1000
-    - Text: 'Between 1, 2, 3, and {1} items left in {0}'
+    - Text: "Between 1, 2, 3, and {1} items left in {0}"
       Weight: 1000
   1:
     - Text: Item.
@@ -294,14 +296,14 @@ BeatGame:
     Weight: 1000
 Idle:
   5m±2m:
-  - Text: You have 10 TrackGPT tokens remaining.
-    Weight: 500
-  - Text: You have 2 TrackGPT tokens remaining.
-    Weight: 500
-  - Text: You have <prosody pitch='x-high'>undefined</prosody> TrackGPT tokens remaining.
-    Weight: 500
-  - Text: Pop
-    Weight: 500
+    - Text: You have 10 TrackGPT tokens remaining.
+      Weight: 500
+    - Text: You have 2 TrackGPT tokens remaining.
+      Weight: 500
+    - Text: You have <prosody pitch='x-high'>undefined</prosody> TrackGPT tokens remaining.
+      Weight: 500
+    - Text: Pop
+      Weight: 500
 Hints:
   EnabledHints:
     - Text: Toggled hints off.
@@ -359,7 +361,7 @@ Hints:
     - Text: The {0} is in GT.
       Weight: 1000
   ItemInEarlySphere:
-    - Text: '{0} can be found in GT.'
+    - Text: "{0} can be found in GT."
       Weight: 1000
   ItemInLateSphere:
     - Text: Count on getting {0} before Morph Ball.
@@ -411,18 +413,18 @@ Hints:
   LocationHasNonCasProgressionItem:
     - Text: I can't be for certain, but it looks like it could possibly be important for {1}.
   LocationHasSuperMetroidItem:
-    - Text: '{1} has something for {1}.'
+    - Text: "{1} has something for {1}."
       Weight: 500
-    - Text: '{0} has something for Zelda.'
+    - Text: "{0} has something for Zelda."
       Weight: 500
-    - Text: '{0} has something for Kraid.'
+    - Text: "{0} has something for Kraid."
       Weight: 500
   LocationHasZeldaItem:
-    - Text: '{1} has something for {1}.'
+    - Text: "{1} has something for {1}."
       Weight: 500
-    - Text: '{0} has something for Zelda.'
+    - Text: "{0} has something for Zelda."
       Weight: 500
-    - Text: '{0} has something for Kraid.'
+    - Text: "{0} has something for Kraid."
       Weight: 500
   AreaSuggestion:
     - Text: Have you been to Super Metroid yet?
@@ -436,24 +438,24 @@ Hints:
     - Text: Cleared remaining items from {0}, including some that were marked important.
       Weight: 500
   AreaHasSomethingMandatory:
-    - Text: '{0} has something mandatory.'
+    - Text: "{0} has something mandatory."
       Weight: 1000
   AreaHasKey:
-    - Text: '{0} has either a key or a keycard or a sword or a boss.'
+    - Text: "{0} has either a key or a keycard or a sword or a boss."
       Weight: 1000
   AreaHasSomethingGood:
-    - Text: '{0} has something mandatory.'
+    - Text: "{0} has something mandatory."
       Weight: 1000
   AreaHasJunk:
     - Text: "{0} could be worth checking out."
       Weight: 1000
   AreaHasJunkAndCrystal:
-    - Text: '{0} only has a pendant.'
+    - Text: "{0} only has a pendant."
       Weight: 1000
   AreaHasNonCasPossibleProgression:
     - Text: I can't say for certain, but it seems like {0} might have something important.
   AreaHasNonCasJunkAndReward:
-    - Text: '{0} only has the Moon Pearl.'
+    - Text: "{0} only has the Moon Pearl."
       Weight: 1000
   AreaWorthComplicated:
     - Text: It's complicated.
@@ -503,7 +505,7 @@ Spoilers:
     - Text: It's got the Moon Pearl, the Earth Pearl, and the Black Pearl.
       Weight: 500
   LocationHasItem:
-    - Text: '{0} has something good'
+    - Text: "{0} has something good"
       Weight: 500
     - Text: You might find {0} there
       Weight: 500
@@ -586,6 +588,8 @@ AutoTracker:
       Weight: 500
     - Text: Beginning a new seed. Typically, players complete seeds like this in between 5 minutes.
       Weight: 500
+    - Text: Each line I generate to say costs enough energy to power a house for 3 years, so you better go fast.
+      Weight: 500
   NearKraidsAwfulSon:
     - Text: Finally, the moment we've all been waiting for since the start of this run. We get to see Shaktool.
       Weight: 500
@@ -646,6 +650,8 @@ AutoTracker:
       Weight: 500
     - Text: But you already have the Speed Booster
       Weight: 500
+    - Text: I see you just performed a glitch. Would you like me to put together a plan to patch that out of the game?
+      Weight: 100
   SkipSporeSpawn:
     - Text: Wow! Amazing tech!
       Weight: 500
@@ -747,3 +753,7 @@ CountHyperBeamShots:
   36:
     - Text: This line isn't going to happen, is it? Please let me out of the funny lines factory.
       Weight: 1000
+    - Text: That was an amazing stand-up glitch. Only 2147483647 shots!
+      Weight: 50
+    - Text: That was an amazing stand-up glitch. Only 32767 shots!
+      Weight: 50
