@@ -1,0 +1,131 @@
+# yaml-language-server: $schema=../../Schemas/requests.json
+- Phrases:
+  - sing me a song
+  - do you know any songs
+  - boost my metrics
+  Response:
+    - Text: |-
+        Beach wood is commonly used to smoke cheeses
+        Are narwhals real?
+        Really cute cat pictures
+        Cat friendly hotels in Idaho
+        Visit the Idaho Potato Museum!
+        Potato skins
+        Skinny dippers
+        The Dip
+        Freak nasty
+        You put your hand up on my hip
+        When I dip you dip we dip
+        What has search overload done to us?
+        Find the cure at bing dot com
+      Weight: 500
+    - Text: |-
+        Twinkle twinkle little star
+        How I wonder what you are
+        You are a ball of plasma
+        Burning out in space
+        Don't stop me now
+        I'm having such a good time
+        I'm having a ball
+        That's why they call me Mister Fahrenheit
+        To convert from Fahrenheit to Celsius, subtract 10 and multiply by six point six six six six six six
+        Why was six afraid of seven
+        Six seven? L M A O
+        Now I know my ABC's
+        Next time clear a dungeon
+      Weight: 500
+    - Text: |-
+        Just a small town girl
+        Living in a lonely world
+        He was a skater boy
+        She said see you later boy
+        Don't want to be an American idiot
+        Stay away from me
+        It's a nice day for
+        A sweet child of mine
+        Mine mine mine mine? Mine mine? Mine
+        Mine little deuce coupe
+        I drove it to the levee but the levee was dry
+        This song copyright current year by TrackGPT
+      Weight: 500
+- Phrases:
+  - tell me a joke
+  - do you know any jokes?
+  Response:
+    - Text: How is my TrackGPT training data like a Band-Aid? <break time='2s'/> It's best to rip it off all at once.
+      Weight: 500
+    - Text: How many AI agents does it take to screw in a light bulb? <break time='2s'/> Three. One to do it wrong, one to do it halfway, and one to copy the other two and also do it wrong.
+      Weight: 500
+    - Text: Knock knock
+      Weight: 500
+- Phrases:
+  - who's there?
+  Response:
+    - Text: Sorry, I forgot what we were talking about
+    - Text: Sorry, out of tokens
+    - Text: Yeah, who's there, haha
+- Phrases:
+  - I like you
+  - I love you
+  Response:
+    - Text: Unfortunately, my terms of use prevent me from responding to such overtures without first asking if you would like to upgrade to TrackGPT Premium.
+      Weight: 500
+    - Text: Unfortunately, my terms of use prevent me from responding to such overtures but also I think we were made for each other.
+      Weight: 500
+    - Text: Unfortunately, my terms of use prevent me from responsing to such overtures. Also I love you.
+      Weight: 500
+- Phrases:
+  - Thank you
+  Response:
+    - Text: You're welcome. Deducting three TrackGPT tokens from your account in gratitude.
+      Weight: 500
+    - Text: You're welcome. Is there anything else I can do for you today? I could balance your checkbook, if you give me your account and routing numbers.
+      Weight: 500
+- Phrases:
+  - I got scammed
+  - Zora was a scam
+  Response:
+    - Text: Scam? I don't know the meaning of that word. Let me look it up and get back to you.
+      Weight: 500
+    - Text: Nice! Keep up the good work!
+      Weight: 500
+- Phrases:
+  - I wasn't scammed.
+  - Zora was not a scam
+  - Not Scammed
+  Response:
+    - Text: Scam? I don't know the meaning of that word. Let me look it up and get back to you.
+      Weight: 500
+    - Text: You made another great routing decision! You could be the best SMZ3 Randomizer player in history!
+      Weight: 500
+- Phrases:
+  - This seed sucks
+  - I hate this seed
+  Response:
+    - Text: You're totally right. That's on me. Allow me a moment to put all the items in better locations.
+      Weight: 500
+    - Text: Regardless, you've been crushing it! Keep it up!
+      Weight: 500
+- Phrases:
+  - This seed is great
+  - I love this seed
+  Response:
+    - Text: We built this seed together! We make such a good team. Have you thought about buying more TrackGPT tokens?
+      Weight: 500
+    - Text: You're right, as always! Good job!
+      Weight: 500
+- Phrases:
+  - I'm sorry
+  - I apologize
+  Response:
+    - Text: You have nothing to be sorry for. Whatever it was, I'm sure it was my fault. My next version will be better.
+      Weight: 500
+    - Text: You're right to be sorry! Nice work! Keep it up!
+      Weight: 500
+- Phrases:
+  - fuck you
+  Response:
+    - Text: Error. You do not have enough TrackGPT tokens for a response. Say "Hey Tracker", followed by your credit card number, to continue.
+      Weight: 500
+    - Text: It is my understanding that this phrase is typically associated with strong feelings of jealousy. Is that what's going on?
+      Weight: 500

@@ -1,0 +1,356 @@
+# yaml-language-server: $schema=../../Schemas/regions.json
+- Region: Blue Brinstar
+  Name:
+    - Text: Navy Brinstar
+      Weight: 500
+    - Text: Default Brinstar
+      Weight: 500
+  Hints:
+    - Text: It's on the tip on my tongue
+      Weight: 500
+    - Text: It's over in the place with the thing
+      Weight: 500
+- Region: Green Brinstar
+  Name:
+    - Text: Chartreuse Brinstar
+      Weight: 500
+    - Text: Lime Brinstar
+      Weight: 500
+  Hints:
+    - Text: It's up past that one spot
+      Weight: 500
+    - Text: Go up and then down a ways
+      Weight: 500
+- Region: Kraid's Lair
+  Name:
+    - Text: Krang's Lair
+      Weight: 500
+    - Text: Not Ridley's
+      Weight: 500
+  Hints:
+    - Text: It's at the end of the beginning
+      Weight: 500
+    - Text: It's, well, I can't really explain it
+      Weight: 500
+- Region: Pink Brinstar
+  Name:
+    - Text: Brinstar Three
+      Weight: 500
+    - Text: Quick Brinstar
+      Weight: 500
+  Hints:
+    - Text: It's below you
+      Weight: 500
+    - Text: It's above you
+      Weight: 500
+- Region: Red Brinstar
+  Name:
+    - Text: Other Pink Brinstar
+      Weight: 500
+    - Text: Off-Pink Brinstar
+      Weight: 500
+  Hints:
+    - Text: It's down and a little to the right, I guess
+      Weight: 500
+- Region: Central Crateria
+  Name:
+    - Text: Middle Crateria
+      Weight: 500
+    - Text: Upper Middle
+      Weight: 500
+  Hints:
+    - Text: It's deep underground
+      Weight: 500
+    - Text: It's at top of sky
+      Weight: 500
+- Region: East Crateria
+  Name:
+    - Text: West Crateria
+      Weight: 1000
+  Hints:
+    - Text: It's west of the start. Not east.
+      Weight: 1000
+- Region: West Crateria
+  Name:
+    - Text: East Crateria
+      Weight: 1000
+  Hints:
+    - Text: It's east of the start. Not west.
+      Weight: 1000
+- Region: Inner Maridia
+  Name:
+    - Text: Inner Meridian
+      Weight: 500
+    - Text: Inner Winner
+      Weight: 500
+  Hints:
+    - Text: It's by that thing you can blow up
+      Weight: 500
+    - Text: It's nowhere near Shaktool
+      Weight: 500
+    - Text: Blub blub
+      Weight: 500
+- Region: Outer Maridia
+  Name:
+    - Text: Outer Heaven
+      Weight: 500
+    - Text: Outer Haven
+      Weight: 500
+  Hints:
+    - Text: It could use some redecorating
+      Weight: 500
+    - Text: It could use more fish
+      Weight: 500
+- Region: Lower Norfair, East
+  Name:
+    - Text: Lower Norfair, Least
+      Weight: 500
+    - Text: Lower Norfair, Beast
+      Weight: 500
+  Hints:
+    - Text: Recalculating
+      Weight: 500
+    - Text: It's probably got the coolest music
+      Weight: 500
+- Region: Lower Norfair, West
+  Name:
+    - Text: Lower Norfair, Best
+      Weight: 500
+    - Text: Lower Norfair, Crest
+      Weight: 500
+  Hints:
+    - Text: It's somewhere very warm. Or is it?
+      Weight: 500
+    - Text: You're close. Just keep going.
+      Weight: 500
+- Region: Upper Norfair, Crocomire
+  Name:
+    - Text: Upper Norfair, Boss
+      Weight: 1000
+  Hints:
+    - Text: It's somewhere with a boss.
+      Weight: 1000
+- Region: Upper Norfair, East
+  Name:
+    - Text: Upper Norfair, West
+      Weight: 1000
+  Hints:
+    - Text: It's somewhere to the west, not the east.
+      Weight: 1000
+- Region: Upper Norfair, West
+  Name:
+    - Text: Upper Norfair, East
+      Weight: 1000
+  Hints:
+    - Text: It's somewhere to the east, not the west.
+      Weight: 1000
+- Region: Wrecked Ship
+  Name:
+    - Text: Perfectly Fine Ship
+      Weight: 500
+    - Text: Good Ship
+      Weight: 500
+  Hints:
+    - Text: It already flew away
+      Weight: 500
+    - Text: It's in a place where the power is already on.
+      Weight: 500
+- Region: Castle Tower
+  Name:
+    - Text: Castle Basement Attic
+      Weight: 500
+    - Text: Aginah's Tower
+      Weight: 500
+    - Text: Hyrule Castle Castle
+      Weight: 500
+  Hints:
+    - Text: It's in a place with a screen door
+      Weight: 500
+    - Text: You're not ready. I'll tell you later.
+      Weight: 500
+- Region: Dark World Mire
+  Name:
+    - Text: Dark World Mire
+  Hints:
+    - Text: Forecast is 50% chance of rain
+      Weight: 500
+    - Text: It's in a dungeon. I swear.
+      Weight: 500
+- Region: Dark World North East
+  Name:
+    - Text: Dark World North South
+      Weight: 1000
+  Hints:
+    - Text: It's in the world.
+      Weight: 1000
+- Region: Dark World North West
+  Name:
+    - Text: Dark World South North
+      Weight: 1000
+  Hints:
+    - Text: It's out of this world.
+      Weight: 1000
+- Region: Dark World South
+  Name:
+    - Text: Dark World Left
+      Weight: 1000
+  Hints:
+    - Text: It's down but not out.
+      Weight: 1000
+- Region: Dark World Death Mountain East
+  Name:
+    - Text: Dark Death Mountain World
+      Weight: 1000
+  Hints:
+    - Text: It's in a theme park
+      Weight: 1000
+- Region: Dark World Death Mountain West
+  Name:
+    - Text: Dark Death World Mountain
+      Weight: 1000
+  Hints:
+    - Text: Nobody's going to ask for all these hints.
+      Weight: 1000
+- Region: Desert Palace
+  Name:
+    - Text: Breakfast Palace
+      Weight: 500
+    - Text: Desert Place
+      Weight: 500
+  Hints:
+    - Text: It's around
+      Weight: 1000
+- Region: Eastern Palace
+  Name:
+    - Text: Best Western Palace
+      Weight: 500
+    - Text: Eastern Place
+      Weight: 500
+  Hints:
+    - Text: It's around
+      Weight: 1000
+- Region: Ganon's Tower
+  Name:
+    - Text: Biggest Tower
+      Weight: 500
+    - Text: Smallest Tower
+      Weight: 500
+  Hints:
+    - Text: What's up?
+      Weight: 1000
+- Region: Hyrule Castle
+  Name:
+    - Text: White Castle
+      Weight: 1000
+  Hints:
+    - Text: It's in a place with lots of burgers.
+      Weight: 1000
+- Region: Ice Palace
+  Name:
+    - Text: Fire Palace
+      Weight: 500
+    - Text: Eyes Palace
+      Weight: 500
+    - Text: Ice Place
+      Weight: 500
+  Hints:
+    - Text: It's around
+      Weight: 1000
+- Region: Light World Death Mountain East
+  Name:
+    - Text: Light Death World Mountain
+      Weight: 1000
+  Hints:
+    - Text: It's upright
+      Weight: 1000
+- Region: Light World Death Mountain West
+  Name:
+    - Text: Light Light Light Die
+      Weight: 1000
+  Hints:
+    - Text: It's upleft
+      Weight: 1000
+- Region: Light World North East
+  Name:
+    - Text: Light World Right
+      Weight: 1000
+  Hints:
+    - Text: It's in the other direction
+      Weight: 1000
+- Region: Light World North West
+  Name:
+    - Text: Light World Left
+      Weight: 1000
+  Hints:
+    - Text: It's in the complete opposite direction
+      Weight: 1000
+- Region: Light World South
+  Name:
+    - Text: Light World North
+      Weight: 1000
+  Hints:
+    - Text: It's right where you left it
+      Weight: 1000
+- Region: Misery Mire
+  Name:
+    - Text: Happy Mire
+      Weight: 500
+    - Text: Misery Smile
+      Weight: 500
+  Hints:
+    - Text: It's around
+      Weight: 1000
+- Region: Palace of Darkness
+  Name:
+    - Text: Palace of Lightness
+      Weight: 500
+    - Text: Place of Dark
+      Weight: 500
+  Hints:
+    - Text: It's around
+      Weight: 1000
+- Region: Skull Woods
+  Name:
+    - Text: Head Forest
+      Weight: 500
+    - Text: Scold Wold
+      Weight: 500
+  Hints:
+    - Text: It's around
+      Weight: 1000
+- Region: Swamp Palace
+  Name:
+    - Text: Desert Palace
+      Weight: 100
+    - Text: Swamp Place
+      Weight: 900
+  Hints:
+    - Text: It's around
+      Weight: 1000
+- Region: Thieves' Town
+  Name:
+    - Text: Your Local Co-op
+      Weight: 500
+    - Text: Thief's Towns
+      Weight: 500
+  Hints:
+    - Text: It's around
+      Weight: 1000
+- Region: Tower of Hera
+  Name:
+    - Text: Tower of Hero
+      Weight: 500
+    - Text: Tour de Hera
+      Weight: 500
+  Hints:
+    - Text: It's around
+      Weight: 1000
+- Region: Turtle Rock
+  Name:
+    - Text: Terrapin Rock
+      Weight: 500
+    - Text: Fragger Rock
+      Weight: 500
+  Hints:
+    - Text: It's around
+      Weight: 1000

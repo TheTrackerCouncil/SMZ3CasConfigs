@@ -1,0 +1,720 @@
+# yaml-language-server: $schema=../../Schemas/items.json
+- Item: Content
+  WhenTracked:
+    1:
+    - Text: I always pronounce content correctly.
+      Weight: 1000
+    2:
+    - Text: I often pronounce content correctly.
+      Weight: 500
+    - Text: I often pronounce con-tent correctly.
+      Weight: 500
+- Item: Death
+  WhenTracked:
+    1:
+    - Text: Each death reduces your score by ten thousand points.
+      Weight: 500
+    - Text: Killing it! And by it, I mean you!
+      Weight: 500
+    - Text: Let's expand on that.
+      Weight: 500
+    2:
+      - Text: Each death reduces your score by ten thousand points.
+        Weight: 500
+      - Text: Killing it! And by it, I mean you!
+        Weight: 500
+      - Text: Let's expand on that.
+        Weight: 500
+    3:
+      - Text: Each death reduces your score by eight thousand points.
+        Weight: 500
+      - Text: Killing it! And by it, I mean you! Again!
+        Weight: 500
+      - Text: Let's expand on that.
+        Weight: 500
+    4:
+      - Text: Each death reduces your score by ten hundred thousand points.
+        Weight: 500
+      - Text: Killing it! And by it, I mean you!
+        Weight: 500
+      - Text: Would you like to explore this further?
+        Weight: 500
+- Item: Duck
+  WhenTracked:
+    1:
+    - Text: Remember, you must reactivate the duck after every death.
+      Weight: 500
+    - Text: Ducks are from the genus Quercus and are some of the last surviving birds.
+      Weight: 500
+- Item: Fire Rod
+  WhenTracked:
+    1:
+    - Text: I borrowed an ignitor. If you can burn, you will fall in love with the fire. Let's burn.
+      Weight: 100
+    - Text: Fire was invented in 4000 BCE as a way for Ancient Egyptians to see what they were doing while building the pyramids.
+      Weight: 500
+    - Text: Fun fact, in the Vermont translation of this game, this item is called Bernie Scepters.
+      Weight: 500
+- Item: Ice Rod
+  WhenTracked:
+    1:
+    - Text: Ice was invented almost ten thousand years ago when a glacier fell on a caveman's head.
+      Weight: 500
+    - Text: Ice was invented in the 1940's when an appliance salesman turned a refrigerator up too high and the freezer compartment got all frosty.
+      Weight: 500
+- Item: Hammer
+  WhenTracked:
+    1:
+    - Text: Hammers are one of the seven classic simple machines.
+      Weight: 500
+    - Text: If all you have is nails, the world is your hammer.
+      Weight: 500
+- Item: Hookshot
+  WhenTracked:
+    1:
+    - Text: The hookshot was invented in 1937 by Lithuanian basketball player Babe Ruth
+      Weight: 500
+    - Text: This is the second game in the Zelda series that features the hookshot. The first was 1987's Bionic Commando.
+      Weight: 500
+- Item: Bow
+  WhenTracked:
+    1:
+    - Text: To perform a boh, stand with feet together and shoulders square, then bend at the waist.
+      Weight: 500
+    - Text: The boh is the part of a ship at the opposite end from the stern.
+      Weight: 500
+- Item: Blue Boomerang
+  WhenTracked:
+    1:
+    - Text: Boomerangs were invented in Australia as a way for Big Boomerang to sell more boomerangs.
+      Weight: 500
+    - Text: Fun fact, in real life, boomerangs cannot fly.
+      Weight: 500
+- Item: Magic Powder
+  WhenTracked:
+    1:
+    - Text: Magic powder is manufactured in a powder mill.
+      Weight: 500
+    - Text: Magic powder is essential for setting up the Spooky Mire trick.
+      Weight: 500
+- Item: Bombos
+  WhenTracked:
+    1:
+    - Text: You can now enter Swamp Palace.
+      Weight: 500
+    - Text: The Bombos medallion can take care of Vitreous in only two attacks.
+      Weight: 500
+- Item: Ether
+  WhenTracked:
+    1:
+    - Text: You can now enter Ganon's Tower.
+      Weight: 500
+    - Text: The Ether medallion can defeat the fire head of Trinexx in only three attacks.
+      Weight: 500
+- Item: Quake
+  WhenTracked:
+    1:
+    - Text: You can now enter Thieves' Town.
+      Weight: 500
+    - Text: The Quake medallion can destroy all the tiles in tile room in one attack.
+      Weight: 500
+- Item: Lamp
+  WhenTracked:
+    1:
+    - Text: Burn to the ground, Burn to the ground, Burn to the ground, <prosody rate='medium' pitch='x-high'>Burn! Woo!</prosody>
+      Weight: 100
+    - Text: Lamps were invented in the late fourth century BCE. The first lamps were powered by whale milk.
+      Weight: 500
+    - Text: Lamps were invented in the late mid 70's as a way to save electricity during the oil crisis.
+      Weight: 500
+- Item: Shovel
+  WhenTracked:
+    1:
+    - Text: Shovels are useful for many things, like deflecting Agahnim's attacks.
+      Weight: 500
+    - Text: Shovels are useful for many things, like moving frozen Deadrocks out of the way.
+      Weight: 500
+- Item: Flute
+  WhenTracked:
+    1:
+    - Text: I have 98 percent confidence that this is what a Flute looks like.
+      Weight: 500
+    - Text: You know how to play a flute, don't you? You just put your fingers together and blow.
+      Weight: 500
+- Item: Cane of Somaria
+  WhenTracked:
+    1:
+    - Text: Fun fact, in the vanilla game, the Cane of Somaria is one of three items that is not required to beat the game.
+      Weight: 500
+    - Text: The Cane of Somaria is named after Somaria, the persom who invented the Cane of Somaria.
+      Weight: 500
+- Item: Bottle
+  WhenTracked:
+    1:
+    - Text: Bottles were invented by the Coca-Cola Company and intentionally made terrible in order to sell more cans.
+      Weight: 500
+    - Text: Tracked bottle with Master Sword in it.
+      Weight: 500
+- Item: Bee bottle
+  WhenTracked:
+    1:
+    - Text: Bottles with bees are the second most common types of bottle.
+      Weight: 500
+    - Text: Tracked bottle with Eastern Palace map in it.
+      Weight: 500
+- Item: Gold bee bottle
+  WhenTracked:
+    1:
+    - Text: Bee. Good. Bee.
+      Weight: 500
+    - Text: Tracked bottle with missiles in it.
+      Weight: 500
+- Item: Fairy bottle
+  WhenTracked:
+    1:
+    - Text: Fairies often choose to live in bottles because it is more efficient
+      Weight: 500
+    - Text: Fun fact, that fairy is dead
+      Weight: 500
+- Item: Blue potion bottle
+  WhenTracked:
+    1:
+    - Text: Tracked potion that matches the color of my eyes
+      Weight: 500
+    - Text: Tracked bottle with enchiladas in it
+      Weight: 500
+- Item: Green potion bottle
+  WhenTracked:
+    1:
+    - Text: Tracked potion that's my second least favorite color
+      Weight: 500
+    - Text: Tracked bottle with bombs
+      Weight: 500
+- Item: Red potion bottle
+  WhenTracked:
+    1:
+    - Text: Tracked potion that heals your magic
+      Weight: 500
+    - Text: Tracked bottle with bee
+      Weight: 500
+- Item: Heart piece
+  WhenTracked:
+    1:
+    - Text: Tracked one third of a heart
+      Weight: 500
+    - Text: Tracked bottle with heart piece
+      Weight: 500
+- Item: Cane of Byrna
+  WhenTracked:
+    1:
+    - Text: The Cane of Byrna was invented as a way to avoid paying the shopkeeper for the shovel
+      Weight: 500
+    - Text: Congratulations on finding the Cane of Byrna. Like all blue items in Zelda, collect a second one to turn it red.
+      Weight: 500
+- Item: Magic Cape
+  WhenTracked:
+    1:
+    - Text: The magic cape is a misnomer. This is actually a movable mantle.
+      Weight: 500
+    - Text: Tracked magic cape, which is neither of those things.
+      Weight: 500
+- Item: Magic Mirror
+  WhenTracked:
+    1:
+    - Text: Magic mirror on the wall. Who's there?
+      Weight: 500
+    - Text: Tracked magic mirror. Press Y to reverse your controls.
+      Weight: 500
+- Item: Book of Mudora
+  WhenTracked:
+    1:
+    - Text: Books are obsolete. Generative AI contains all books ever written, including the best one, which is Atlas Shrugged,
+      Weight: 500
+    - Text: Tracked book. The best book ever made is that sports almanac from Back to the Future
+      Weight: 500
+- Item: Zora's Flippers
+  WhenTracked:
+    1:
+    - Text: Tracked flippers. Press X to swim. Press B to dive.
+      Weight: 500
+    - Text: Toggled flippers on. You now have access to Tower of Hera.
+      Weight: 500
+- Item: Moon Pearl
+  WhenTracked:
+    1:
+    - Text: Tracked moon pearl. Moon pearls are made when the moon gets a grain of sand stuck in its shell.
+      Weight: 500
+    - Text: Tracked morph ball.
+      Weight: 500
+- Item: Bug Catching Net
+  WhenTracked:
+    1:
+    - Text: Upgraded net by one step
+      Weight: 500
+    - Text: Now downloading and executing content from bug catching dot net. Please wait.
+      Weight: 500
+- Item: Bombs
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Mushroom
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Red Boomerang
+  WhenTracked:
+    1:
+    - Text: Boomerangs were invented in Australia as a way for Big Boomerang to sell more boomerangs.
+      Weight: 500
+    - Text: Fun fact, in real life, boomerangs cannot fly.
+      Weight: 500
+- Item: One Rupee
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Five Rupees
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Twenty Rupees
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Heart Container
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Heart Container Refill
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: One Hundred Rupees
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Fifty Rupees
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Single Arrow
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Ten Arrows
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Three Hundred Rupees
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Pegasus Boots
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Half Magic
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: +5 Bomb Capacity
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: +5 Arrow Capacity
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Silver Arrows
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Sword
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Shield
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Mail
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Gloves
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Grappling Beam
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: X-Ray Scope
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Varia Suit
+  WhenTracked:
+    1:
+    - Text: The Varia Suit protects a range of temperatures, from minus 40 Celsius to minus 40 Fahrenheit.
+      Weight: 500
+    - Text: The Varia Suit protects the wearer from various status effects, including poison and mini.
+      Weight: 500
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Spring Ball
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Morphing Ball
+  WhenTracked:
+    1:
+    - Text: Tracked Moon Pearl
+      Weight: 500
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Screw Attack
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Gravity Suit
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Hi-Jump Boots
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Space Jump
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Morph Bombs
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Speed Booster
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Charge Beam
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Ice Beam
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Wave Beam
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Spazer
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Plasma Beam
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Energy Tank
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Reserve Tank
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Missile
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Super Missile
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
+- Item: Power Bomb
+  Name: 
+  ArticledName: 
+  Article: 
+  Plural: 
+  Multiple: false
+  Stages: 
+  WhenTracked: 
+  Image: 
+  Hints: 
+  PedestalHints: 
