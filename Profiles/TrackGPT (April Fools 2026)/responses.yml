@@ -88,6 +88,12 @@ TrackedItemMultiple:
     Weight: 500
   - Text: You now have as many {0} as the word strawberry has ems.
     Weight: 100
+  - Text: Wow. A prime number of {0}
+    Weight: 500
+  - Text: If you add your number of {0} to your number of {0}, you get 3
+    Weight: 500
+  - Text: Please upgrade your TrackGPT plan to account for all the {0} you have.
+    Weight: 500
 TrackedProgressiveItem:
   - Text: It is not possible to upgrade {0} any further.
     Weight: 500
