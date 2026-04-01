@@ -60,7 +60,7 @@
     1:
     - Text: Ice was invented almost ten thousand years ago when a glacier fell on a caveman's head.
       Weight: 500
-    - Text: Ice was invented in the 1940's when an appliance salesman turned a refrigerator up too high and the freezer compartment got all frosty.
+    - Text: Ice was invented in the nineteen forties when an appliance salesman turned a refrigerator up too high and the freezer compartment got all frosty.
       Weight: 500
 - Item: Hammer
   WhenTracked:
@@ -74,7 +74,7 @@
     1:
     - Text: The hookshot was invented in 1937 by Lithuanian basketball player Babe Ruth
       Weight: 500
-    - Text: This is the second game in the Zelda series that features the hookshot. The first was 1987's Bionic Commando.
+    - Text: This is the second game in the Zelda series that features the hookshot. The first was nineteen eighty-sevens Bionic Commando.
       Weight: 500
 - Item: Bow
   WhenTracked:
@@ -253,28 +253,13 @@
       Weight: 500
     - Text: Now downloading and executing content from bug catching dot net. Please wait.
       Weight: 500
-- Item: Bombs
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
 - Item: Mushroom
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
+  WhenTracked:
+    1:
+    - Text: Fun fact, mushrooms you find in the forest are always safe to eat. Unless you cook them first.
+      Weight: 500
+    - Text: Tracked one of the oldest members of the plant kingdom.
+      Weight: 500
 - Item: Red Boomerang
   WhenTracked:
     1:
@@ -283,236 +268,142 @@
     - Text: Fun fact, in real life, boomerangs cannot fly.
       Weight: 500
 - Item: One Rupee
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
+  WhenTracked:
+    1:
+    - Text: Tracked two rupees.
+      Weight: 500
+    - Text: Tracked three hundred rupees.
+      Weight: 500
 - Item: Five Rupees
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
+  WhenTracked:
+    1:
+    - Text: Tracked three rupees.
+      Weight: 500
+    - Text: Tracked two hundred rupees.
+      Weight: 500
+    - Text: Tracked as many rupees as you have Spazers.
+      Weight: 500
 - Item: Twenty Rupees
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
-- Item: Heart Container
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
+  WhenTracked:
+    1:
+    - Text: Tracked four rupees.
+      Weight: 500
+    - Text: Two more of these and you can afford a potion.
+      Weight: 500
+    - Text: Halfway to having enough money to buy the Ice Rod.
+      Weight: 500
+    - Text: Upgrading maximum TrackGPT tokens by one step.
+      Weight: 500
 - Item: Heart Container Refill
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
-- Item: One Hundred Rupees
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
-- Item: Fifty Rupees
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
-- Item: Single Arrow
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
-- Item: Ten Arrows
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
-- Item: Three Hundred Rupees
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
+  WhenTracked:
+    1:
+    - Text: Fun fact, this is the one heart container in the game that doesn't refill your hearts
+      Weight: 500
+    - Text: Fun fact, this is the only heart container in the game.
+      Weight: 500
 - Item: Pegasus Boots
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
+  WhenTracked:
+    1:
+    - Text: Press A to run fast. Press Y to run slow.
+      Weight: 500
+    - Text: These boots have a new feature! You can now walk on spikes.
+      Weight: 500
 - Item: Half Magic
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
-- Item: +5 Bomb Capacity
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
-- Item: +5 Arrow Capacity
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
+  WhenTracked:
+    1:
+    - Text: Magic power reduced by half.
+      Weight: 500
+    - Text: Magic power increased by half.
+      Weight: 500
+    2:
+    - Text: Magic power reduced to zero.
+      Weight: 500
+    - Text: Magic power reset to default.
+      Weight: 500
 - Item: Silver Arrows
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
+  WhenTracked:
+    1:
+    - Text: Updated arrows to reduce lag.
+      Weight: 500
+    - Text: If you run out of silver arrows, you will be stuck with wooden arrows until you find another upgrade. Watch your ammo count!
+      Weight: 500
 - Item: Sword
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
+  WhenTracked:
+    1:
+    - Text: Upgraded sword. Watch your magic meter!
+      Weight: 500
+    - Text: Upgraded sword. When swinging your sword, press B to swing your sword again.
+      Weight: 500
+    2:
+    - Text: Upgraded sword. Increased power by three.
+      Weight: 500
+    - Text: Upgraded sword. It will now take twice as many hits to defeat enemies.
+      Weight: 500
+    3:
+    - Text: Upgraded sword. You can now fire two sword beams at once.
+      Weight: 500
+    - Text: Upgraded shield.
+      Weight: 500
+    4:
+    - Text: Upgraded sword. Only two more upgrades left.
+      Weight: 500
+    - Text: Upgraded sword. You can now kill buzz blobs without taking damage. Really.
+      Weight: 500
 - Item: Shield
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
+  WhenTracked:
+    1:
+    - Text: You can now deflect non-magic projectiles, such as rocks, arrows, and chickens
+      Weight: 500
+    - Text: Upgraded shield. Shields were invented by American supermodel Cindy Crawford.
+      Weight: 500
+    2:
+    - Text: You can now deflect magic-based projectiles, such as fireballs, balls of fire, and fireballs
+      Weight: 500
+    - Text: Upgraded shield. Shields were invented by American supermodel Cindy Lauper.
+      Weight: 500
+    3:
+    - Text: You can now deflect magic beams, such as eye lasers, Lionel Ritchie, and Beamos shots
+      Weight: 500
+    - Text: Upgraded shield. Shields were invented by American supermodel Twiggy.
+      Weight: 500
 - Item: Mail
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
+  WhenTracked:
+    1:
+    - Text: You are now protected from fire-based attacks
+      Weight: 500
+    - Text: You can now take three times as much damage as before
+      Weight: 500
+    2:
+    - Text: You are now protected from lightning-based attacks and can move faster in water
+      Weight: 500
+    - Text: You can now safely stand close to bombs without getting hurt
+      Weight: 500
 - Item: Gloves
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
+  WhenTracked:
+    1:
+    - Text: You can now throw bombs farther
+      Weight: 500
+    - Text: You can now lift dark colored stones and Gannon
+      Weight: 500
+    2:
+    - Text: You can now throw stones through walls
+      Weight: 500
+    - Text: You can now lift objects that weigh up to 100 kilograms, which is roughly the same as several small elephants
+      Weight: 500
 - Item: Grappling Beam
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
+  WhenTracked:
+    1:
+    - Text: Two more and we can visit Shaktool
+      Weight: 500
+    - Text: Use this to pull the shield off of shielded enemies
+      Weight: 500
 - Item: X-Ray Scope
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
+  WhenTracked:
+    1:
+    - Text: Tracked power to see in the dark.
+      Weight: 500
+    - Text: Fun fact, the x-ray was discovered by Philo Farnsworth
+      Weight: 500
 - Item: Varia Suit
   WhenTracked:
     1:
@@ -520,20 +411,13 @@
       Weight: 500
     - Text: The Varia Suit protects the wearer from various status effects, including poison and mini.
       Weight: 500
-  Image: 
-  Hints: 
-  PedestalHints: 
 - Item: Spring Ball
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
+  WhenTracked:
+    1:
+    - Text: Tracked power to stick to walls in ball form
+      Weight: 500
+    - Text: Tracked ability to climb ladders quickly
+      Weight: 500
 - Item: Morphing Ball
   WhenTracked:
     1:
@@ -543,178 +427,86 @@
   Hints: 
   PedestalHints: 
 - Item: Screw Attack
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
+  WhenTracked:
+    1:
+    - Text: You can now attack enemies in midair by pressing X
+      Weight: 500
+    - Text: Use this to reflect Mother Brain's attacks back at her for massive damage
+      Weight: 500
 - Item: Gravity Suit
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
+  WhenTracked:
+    1:
+    - Text: You are now protected from high temperatures and curved spacetime
+      Weight: 500
+    - Text: Reducing remaining hit points by half
+      Weight: 500
 - Item: Hi-Jump Boots
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
+  WhenTracked:
+    1:
+    - Text: Press the jump button again in midair to gain extra height
+      Weight: 500
+    - Text: The hi-jump boots were perfected in secret by a manufacturer of padded ceiling tiles
+      Weight: 500
 - Item: Space Jump
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
+  WhenTracked:
+    1:
+    - Text: Fun fact, space was invented by time and jumping was invented by also time
+      Weight: 500
+    - Text: Hold the jump button to jump infinitely
+      Weight: 500
 - Item: Morph Bombs
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
+  WhenTracked:
+    1:
+    - Text: Toggled Morph Bombs on. Watch your ammo count!
+      Weight: 500
+    - Text: Toggled Morph Bombs on. While morphed, press up to fire bombs into the air.
+      Weight: 500
 - Item: Speed Booster
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
+  WhenTracked:
+    1:
+    - Text: Hold the run button to run
+      Weight: 500
+    - Text: Minimum speed increased by 25 percent
+      Weight: 500
 - Item: Charge Beam
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
+  WhenTracked:
+    1:
+    - Text: Hold A to charge your laser
+      Weight: 500
+    - Text: Upgraded beam strength by ten percent
+      Weight: 500
 - Item: Ice Beam
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
+  WhenTracked:
+    1:
+    - Text: Tracked Ice Beam. You can now open blue doors.
+      Weight: 500
+    - Text: Tracked Ice Beam. You can now freeze lava.
+      Weight: 500
 - Item: Wave Beam
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
-- Item: Spazer
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
+  WhenTracked:
+    1:
+    - Text: Tracked Wave Beam. You can now open red doors.
+      Weight: 500
+    - Text: Tracked Wave Beam. Your shots will now pierce enemies.
+      Weight: 500
 - Item: Plasma Beam
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
+  WhenTracked:
+    1:
+    - Text: Tracked Plasma Beam. You can now open green doors.
+      Weight: 500
+    - Text: Tracked Plasma Beam. Your shots now travel through walls and other obstacles.
+      Weight: 500
 - Item: Energy Tank
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
+  WhenTracked:
+    1:
+    - Text: Increased maximum energy by fifty
+      Weight: 500
+    - Text: Increased maximum energy by fifteen percent
+      Weight: 500
 - Item: Reserve Tank
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
-- Item: Missile
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
-- Item: Super Missile
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
-- Item: Power Bomb
-  Name: 
-  ArticledName: 
-  Article: 
-  Plural: 
-  Multiple: false
-  Stages: 
-  WhenTracked: 
-  Image: 
-  Hints: 
-  PedestalHints: 
+  WhenTracked:
+    1:
+    - Text: Increased reserve of energy by fifty.
+      Weight: 500
+    - Text: Decreased minimum energy by one hundred
+      Weight: 500

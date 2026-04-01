@@ -6,6 +6,10 @@ StartedTracking:
     Weight: 500
   - Text: Hello! Great idea playing S M Z 3! Let's put together a plan to effectively finish this seed.
     Weight: 500
+  - Text: Did you know Miyamoto came up with the idea for Metroid from his days of exploring distant planets when he was younger?
+    Weight: 500
+  - Text: It is my guarantee that ads will be a last resort when it comes to funding TrackGPT. <break time='5s'/> Starting now, we will be offering targeted ads in TrackGPT. Don't worry, the advertisers won't know about what items you're trying to find.
+    Weight: 500
   - Text: Hello and welcome to TrackGPT. Your hard drive is now being formatted.
     Weight: 100
 StartingTrackingAlternate:
@@ -79,6 +83,16 @@ TrackedItemMultiple:
   - Text: You now have between five and {1} {0}.
     Weight: 500
   - Text: You now have as many {0} as the word strawberry has bees.
+    Weight: 500
+  - Text: You now have as many {0} as you have {0}
+    Weight: 500
+  - Text: You now have as many {0} as the word strawberry has ems.
+    Weight: 100
+  - Text: Wow. A prime number of {0}
+    Weight: 500
+  - Text: If you add your number of {0} to your number of {0}, you get 3
+    Weight: 500
+  - Text: Please upgrade your TrackGPT plan to account for all the {0} you have.
     Weight: 500
 TrackedProgressiveItem:
   - Text: It is not possible to upgrade {0} any further.
