@@ -20,6 +20,9 @@
     Identifiers:
     - Magic Powder
     - Mushroom
+    ReplacementImages:
+      Magic Powder: magic_powder_tl.png
+      Mushroom: mushroom_br.png
   - Row: 1
     Column: 5
     Identifiers:
@@ -324,6 +327,9 @@
     Identifiers:
     - Magic Powder
     - Mushroom
+    ReplacementImages:
+      Magic Powder: magic_powder_tl.png
+      Mushroom: mushroom_br.png
   - Row: 1
     Column: 5
     Identifiers:
@@ -990,6 +996,9 @@
     Identifiers:
     - Magic Powder
     - Mushroom
+    ReplacementImages:
+      Magic Powder: magic_powder_tl.png
+      Mushroom: mushroom_br.png
   - Type: Items
     Row: 1
     Column: 5
@@ -1372,6 +1381,9 @@
     Identifiers:
     - Magic Powder
     - Mushroom
+    ReplacementImages:
+      Magic Powder: magic_powder_tl.png
+      Mushroom: mushroom_br.png
   - Row: 1
     Column: 4
     Identifiers:
