@@ -42,6 +42,9 @@ HintDungeonMedallion:
 HintLocationHasSword:
   - Text: "{0} has a sword"
   - Text: You can find a sword in {0}.
+HintLocationAltGoal:
+  - Text: "{0} is on the way of your goal."
+  - Text: "Your goal might require you to go to {0}."
 HintLocationEmpty:
   - Text: "{0} is barren."
   - Text: "{0} has nothing useful."
