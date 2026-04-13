@@ -126,6 +126,17 @@
         }
       ]
     },
+    "HintLocationAltGoal": {
+      "description": "Hints for stating that a location is required for a goal",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
     "HintLocationEmpty": {
       "description": "Hints for stating that a location has no useful items",
       "oneOf": [
