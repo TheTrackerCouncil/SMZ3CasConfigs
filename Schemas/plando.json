@@ -472,6 +472,7 @@
       "type": "string",
       "enum": [
         "Vanilla",
+        "AllDungeons",
         "SpazerHunt"
       ]
     },

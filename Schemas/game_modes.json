@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "title": "AltGameModesConfig",
+  "title": "GameModesConfig",
   "type": "object",
   "description": "Config file for various tracker lines and in game text for alt game modes.\r Note that all lines in game need to be no more than 19 characters.",
   "additionalProperties": false,
@@ -40,6 +40,50 @@
     },
     "SpazerHuntGameStarted": {
       "description": "Tracker line for when starting a new game",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
+    "AllDungeonsGanonIntro": {
+      "description": "In game text for the intro to the Ganon battle for All Dungeons mode",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
+    "AllDungeonsGanonIntroGoalsNotMet": {
+      "description": "In game text for the intro to the Ganon battle when you have not met the requirements for All Dungeons mode",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
+    "AllDungeonsGanonGoalSign": {
+      "description": "In game text for the sign on Ganon's pyramid to explain the goal for All Dungeons mode",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/SchrodingersString"
+        }
+      ]
+    },
+    "AllDungeonsGameStarted": {
+      "description": "Tracker line for when starting a new game in All Dungeons mode",
       "oneOf": [
         {
           "type": "null"
