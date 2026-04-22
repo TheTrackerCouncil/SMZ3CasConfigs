@@ -34,7 +34,14 @@ jobs:
         uses: thiagodnf/yaml-schema-checker@v0.0.10
         with:
           jsonSchemaFile: Schemas/game.json
-          yamlFiles: Profiles/**/game*.yml
+          yamlFiles: Profiles/**/game.yml
+
+      - name: Validate Game Yaml Files (With Moods)
+        id: json-yaml-validate-game-2
+        uses: thiagodnf/yaml-schema-checker@v0.0.10
+        with:
+          jsonSchemaFile: Schemas/game.json
+          yamlFiles: Profiles/**/game.*.yml
 
       - name: Validate Hint Tile Yaml Files
         id: json-yaml-validate-hint-tiles
@@ -105,6 +112,13 @@ jobs:
         with:
           jsonSchemaFile: Schemas/ui.json
           yamlFiles: Profiles/**/ui*.yml
+
+      - name: Validate Game Mode Yaml Files
+        id: json-yaml-validate-game-modes
+        uses: thiagodnf/yaml-schema-checker@v0.0.10
+        with:
+          jsonSchemaFile: Schemas/game_modes.json
+          yamlFiles: Profiles/**/game_modes.yml
 
       - name: Get Tag
         if: ${{ github.event_name != 'pull_request' }}

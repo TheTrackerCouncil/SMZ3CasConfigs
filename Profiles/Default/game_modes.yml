@@ -1,0 +1,70 @@
+# yaml-language-server: $schema=../../Schemas/game_modes.json
+SpazerHuntGanonIntro:
+  - Text: >-
+      Sure, you got all
+
+      of those spazers,
+
+      but unfortunately
+
+      for you, you can't
+
+      even use them in
+
+      this game!
+SpazerHuntGanonIntroGoalsNotMet:
+  - Text: >-
+      Why are you even
+
+      here if you didn't
+
+      get enough spazers?
+SpazerHuntGanonGoalSign:
+  - Text: >-
+      You need to get
+
+      {0} out of {1}
+
+      spazers to be able
+
+      to defeat Ganon and
+
+      enter Tourian.
+SpazerHuntGameStarted:
+  - Text: There are a bunch of spazers out there. Better get started.
+AllDungeonsGanonIntro:
+  - Text: >-
+      Wow, that was one
+
+      long seed. Are you
+
+      sure you even want
+
+      to bother fighting
+
+      me?
+AllDungeonsGanonIntroGoalsNotMet:
+  - Text: >-
+      You need more than
+
+      just crystals if
+
+      you want to defeat
+      
+      me!
+AllDungeonsGanonGoalSign:
+  - Text: >-
+      You need to get to
+      
+      complete all 12
+
+      dungeons and defeat
+
+      all 4 Metroid 
+      
+      bosses to defeat 
+      
+      Ganon.
+
+AllDungeonsGameStarted:
+  - Text: You really wanted to suffer through all dungeons, huh? Well, I guess let's get this show on the road.
