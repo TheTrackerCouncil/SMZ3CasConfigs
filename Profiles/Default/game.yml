@@ -74,7 +74,7 @@ GanonNoSilvers:
 GanonGoalSign:
   - Text: You need {0} to beat Ganon.
 GanonsTowerGoalSign:
-  - Text: You need {0} to enter.
+  - Text: You need {0} to enter. {1} can find the GT big key in {2}.
 SahasrahlaReveal:
   - Text: >-
       Want something
