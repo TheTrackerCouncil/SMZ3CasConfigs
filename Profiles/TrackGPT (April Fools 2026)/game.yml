@@ -90,10 +90,11 @@ GanonNoSilvers:
       here, huh?
     Weight: 1000
 GanonGoalSign:
-  - Text: Go get {0} so we can be done with this.
+  - Text: Go get {0} so we can be done with this..
     Weight: 1000
 GanonsTowerGoalSign:
-  - Text: Please. We beg you. Go get {0}.
+  - Text: Please. We beg you. Go get {0}. {1} can find the GT in {2} to let you
+      descend Ganon's basement
     Weight: 1000
 SahasrahlaReveal:
   - Text: |-
