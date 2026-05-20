@@ -2330,62 +2330,6 @@
   WhenMarkingJunk: 
   WhenMarkingProgression: 
   OutOfLogic: 
-- LocationId: GanonsTowerRandomizerRoomTopLeft
-  Name: 
-  Hints: 
-  WhenTrackingJunk: 
-  WhenTrackingProgression: 
-  WhenMarkingJunk: 
-  WhenMarkingProgression: 
-  OutOfLogic: 
-- LocationId: GanonsTowerRandomizerRoomTopRight
-  Name: 
-  Hints: 
-  WhenTrackingJunk: 
-  WhenTrackingProgression: 
-  WhenMarkingJunk: 
-  WhenMarkingProgression: 
-  OutOfLogic: 
-- LocationId: GanonsTowerRandomizerRoomBottomLeft
-  Name: 
-  Hints: 
-  WhenTrackingJunk: 
-  WhenTrackingProgression: 
-  WhenMarkingJunk: 
-  WhenMarkingProgression: 
-  OutOfLogic: 
-- LocationId: GanonsTowerRandomizerRoomBottomRight
-  Name: 
-  Hints: 
-  WhenTrackingJunk: 
-  WhenTrackingProgression: 
-  WhenMarkingJunk: 
-  WhenMarkingProgression: 
-  OutOfLogic: 
-- LocationId: GanonsTowerHopeRoomLeft
-  Name: 
-  Hints: 
-  WhenTrackingJunk: 
-  WhenTrackingProgression: 
-  WhenMarkingJunk: 
-  WhenMarkingProgression: 
-  OutOfLogic: 
-- LocationId: GanonsTowerHopeRoomRight
-  Name: 
-  Hints: 
-  WhenTrackingJunk: 
-  WhenTrackingProgression: 
-  WhenMarkingJunk: 
-  WhenMarkingProgression: 
-  OutOfLogic: 
-- LocationId: GanonsTowerTileRoom
-  Name: 
-  Hints: 
-  WhenTrackingJunk: 
-  WhenTrackingProgression: 
-  WhenMarkingJunk: 
-  WhenMarkingProgression: 
-  OutOfLogic: 
 - LocationId: GanonsTowerCompassRoomTopLeft
   Name: 
   Hints: 
@@ -2483,6 +2427,62 @@
   WhenMarkingProgression: 
   OutOfLogic: 
 - LocationId: GanonsTowerMoldormChest
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerRandomizerRoomTopLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerRandomizerRoomTopRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerRandomizerRoomBottomLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerRandomizerRoomBottomRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerHopeRoomLeft
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerHopeRoomRight
+  Name: 
+  Hints: 
+  WhenTrackingJunk: 
+  WhenTrackingProgression: 
+  WhenMarkingJunk: 
+  WhenMarkingProgression: 
+  OutOfLogic: 
+- LocationId: GanonsTowerTileRoom
   Name: 
   Hints: 
   WhenTrackingJunk: 
