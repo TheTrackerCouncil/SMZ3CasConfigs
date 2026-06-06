@@ -53,6 +53,11 @@ HintLocationHasSword:
     Weight: 500
   - Text: "{0} is definitely not unnecessary"
     Weight: 500
+HintLocationAltGoal:
+  - Text: "{0} is not related to your goal."
+    Weight: 500
+  - Text: "Your goal might involve skipping {0}."
+    Weight: 500
 HintLocationEmpty:
   - Text: Get to {0} ASAP
     Weight: 1000
