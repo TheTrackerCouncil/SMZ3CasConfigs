@@ -24,7 +24,7 @@ SongResponses:
       Weight: 0.2
     - Text: Let's listen to the other version next time
       Weight: 0.2
-  "oops no music. just silence":
+  "oops no music, just silence":
     - Text: Well this is awkward.
     - Text: Does anyone hear crickets?
     - Text: Crickets.
@@ -37,3 +37,9 @@ SongResponses:
     - Text: Hey, ya missed pal
     - Text: Hey, did ya miss this song pal?
       Weight: 0.2
+  "The Blue Badger - I Want to Protect You":
+    - Text: Take that!
+    - Text: Hold it!
+    - Text: Objection!
+    - Text: Is it Christmas yet?
+      Weight: 0.1

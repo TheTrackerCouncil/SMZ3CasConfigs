@@ -598,6 +598,7 @@ Idle:
   - Text: Hey {{User}}, sing me a song.
   - Text: Hey {{User}}, track content.
   - Text: You can't cut back on tracking! You will regret this!
+  - Text: Mega Man 6 is the third-best Mega Man game on the NES
 BeatGame:
 - Text: GG
 - Text: Is it finally over? Can I go home now?
