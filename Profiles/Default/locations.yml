@@ -176,7 +176,7 @@
 - LocationNumber: 24
   LocationId: PinkBrinstarPowerBomb
   Name:
-    - Text: 'Mission: Impossible'
+    - Text: "Mission: Impossible"
     - Text: Pink Brinstar Power Bomb Room
     - Text: Power Bomb (pink Brinstar)
       Weight: 0
@@ -1593,33 +1593,33 @@
   LocationId: GanonsTowerFiresnakeRoom
   Name:
     - Text: Firesnake Room
-- LocationNumber: 452
+- LocationNumber: 486
   LocationId: GanonsTowerRandomizerRoomTopLeft
   Name:
     - Text: Randomizer Room Top Left
-- LocationNumber: 453
+- LocationNumber: 487
   LocationId: GanonsTowerRandomizerRoomTopRight
   Name:
     - Text: Randomizer Room Top Right
-- LocationNumber: 454
+- LocationNumber: 488
   LocationId: GanonsTowerRandomizerRoomBottomLeft
   Name:
     - Text: Randomizer Room Bottom Left
-- LocationNumber: 455
+- LocationNumber: 489
   LocationId: GanonsTowerRandomizerRoomBottomRight
   Name:
     - Text: Randomizer Room Bottom Right
-- LocationNumber: 456
+- LocationNumber: 490
   LocationId: GanonsTowerHopeRoomLeft
   Name:
     - Text: Right Side First Room Left
     - Text: Hope Room Left
-- LocationNumber: 457
+- LocationNumber: 491
   LocationId: GanonsTowerHopeRoomRight
   Name:
     - Text: Right Side First Room Right
     - Text: Hope Room Right
-- LocationNumber: 458
+- LocationNumber: 492
   LocationId: GanonsTowerTileRoom
   Name:
     - Text: Tile Room
@@ -1698,7 +1698,7 @@
 - LocationNumber: 498
   LocationId: SouthOfGrove
   Name:
-    - Text: 'Cave #45'
+    - Text: "Cave #45"
     - Text: Cave 45
     - Text: South of Grove
 - LocationNumber: 499

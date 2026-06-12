@@ -500,7 +500,8 @@
         "None",
         "Both",
         "Zelda",
-        "SuperMetroid"
+        "SuperMetroid",
+        "Random"
       ]
     },
     "SkipTourianBossDoor": {
