@@ -1816,6 +1816,21 @@
   - Text: Which Zelda boss wrote The West Wing? <break time='2s'/> Helm a Sorkin.
   - Text: What do you call a bug spray with an awful son? <break time='2s'/> K-Raid.
   - Text: What did the baby say when Ridley said to stay in the reliquary? <break time='2' /> Nor fair!
+  - Text: Knock knock.
+- Phrases:
+  - "Who's there?"
+  Response:
+  - Text: Shaktool
+  - Text: Link
+  - Text: Interrupting cow <break time='5s'/> Moo!
+- Phrases:
+  - "Shaktool who?"
+  Response:
+  - Text: Go visit Shaktool.
+- Phrases:
+  - "Link who?"
+  Response:
+  - Text: A Link Who the Past
 - Phrases:
   - I like you
   Response:
