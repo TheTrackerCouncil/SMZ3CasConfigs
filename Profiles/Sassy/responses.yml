@@ -90,6 +90,8 @@ Misheard:
 - Text: What the heck are you even talking about?
   TrackerImage: WTF
   Weight: 0.2
+- Text: I know what you said, but say it again so chat can hear it
+  Weight: 0.2
 TrackedItem:
 - Text: Toggling {0} on.
 - Text: Toggled {0} on.
@@ -248,6 +250,7 @@ TrackedOutOfLogicItem:
   Weight: 0.2
 - Text: Stop right there, criminal scum.
   Weight: 0.1
+- Text: Who do you think you are, getting {1} already?
 TrackedOutOfLogicItemTooManyMissing:
 - Text: How did you get to {1} with so many missing items?
 - Text: Just... how?
@@ -301,7 +304,7 @@ PegWorldModePeggedMultiple:
     Weight: 0.01
   5:
   - Text: Popopopopop
-  - Text: Parapa Palace
+  - Text: Parrappa Palace
     Weight: 0.01
   - Text: Patra has the map
     Weight: 0.01
@@ -321,6 +324,8 @@ PegWorldModeDone:
 - Text: Toggled Peg World Mode off.
 - Text: Let's visit Shaktool next.
 - Text: Let's visit Shaktool next. <break time='2s'/> And then Peg World again.
+  Weight: 0.1
+- Text: It's all downhill from here.
   Weight: 0.1
 DungeonRewardMarked:
 - Text: Marked {0} as {1}.
@@ -379,6 +384,8 @@ DungeonBossClearedAddContent:
 DungeonRequirementMarked:
 - Text: Marked {0} as required for {1}
 - Text: '{0} is now known for {1}.'
+- Text: Writing {0} on a sticky note and sticking it on {1}
+  Weight: 0.1
 DungeonRequirementInvalid:
 - Text: "{0} doesn't need medallions"
 - Text: What game are you playing?
@@ -412,6 +419,8 @@ LocationMarked:
 - Text: Marked {1} at {0}.
 - Text: Writing down {1} at {0}
 - Text: Making a note that {1} is at {0}
+- Text: Listing {1} at {0} in the Locations window
+  Weight: 0.1
 LocationMarkedAgain:
 - Text: Replaced {2} with {1} at {0}.
 - Text: Changed your mind? Marked {1} at {0}.
@@ -561,6 +570,8 @@ TimerReset:
 - Text: Timer reset
 TimerPaused:
 - Text: Timer paused
+- Text: Time itself paused
+  Weight: 0.1
 LongSpeechResponse:
 - Text: ""
 - Text: "Wow, that sure took a long time to say"
@@ -968,6 +979,7 @@ Chat:
   ClosedGuessingGame:
   - Text: The floor is now closed for guesses.
   - Text: Guesses are no longer accepted.
+  - Text: Quit guessing or I'll get mad.
   ModeratorClosedGuessingGame:
   - Text: '{0} closed the floor for guesses.'
   - Text: The floor is now closed for guesses, as decreed by {0}.
@@ -984,6 +996,7 @@ Chat:
   - Text: I know, {0}. I'm ready for this to be over too. But we haven't started the guessing game yet.
   - Text: I think {0} is telling you to go faster as they wanted to start the guessing game
   - Text: Are you even watching, {0}? We haven't started the guessing game yet.
+  - Text: Hey, {{User}}, I think it's time to remove {0} from the list of moderators.
   DeclareGuessingGameWinners:
   - Text: 'The winners are {1}.'
   - Text: '{1} guessed number {0}.'
@@ -1004,6 +1017,7 @@ Chat:
     TrackerImage: WTF
   TrackerGuessFailed:
   - Text: I guess I lost. Told you I wasn't cheating.
+  - Text: Next time, I'll just more the key to the right spot.
   AskChatAboutContent:
   - Text: Hmm. I'm not so sure about that. Let's ask the professionals in chat if that was some hashtag content.
   - Text: Do you really think that was high quality hashtag content? Let's get some unbiased opinions from chat to confirm.
@@ -1139,6 +1153,7 @@ AutoTracker:
   - Text: That was an okay icebreaker, but how about this one? What's the one wish you would ask of the Triforce?
   - Text: That was an okay icebreaker, but how about this one? I lost my seed number. Can I have yours?
   - Text: That was an okay icebreaker, but how about this one? Which important figures from Hylian history would you invite to your dinner party?
+  - Text: That was an okay icebreaker, but how about this one? If the game is called Final Fantasy, how come they keep making more of them?
   SpeckyClip:
     - Text: Good job on the tech. Was it a first try?
     - Text: I hope you were quiet during the cutscene. Wait. Why did you not go watch the cutscene?
@@ -1174,6 +1189,8 @@ AutoTracker:
   - Text: Good job on the tech. Was it a first try?
   - Text: How can you swim without the flippers?
   - Text: Are your feet wet?
+  - Text: It's a fake!
+    Weight: 0.1
   MockBall:
   - Text: Good job on the tech. Was it a first try?
   - Text: You just had to get these items early didn't you?
@@ -1185,6 +1202,7 @@ AutoTracker:
   - Text: Why don't we go visit spore spawn for old times sake?
   - Text: One day I will force you to fight him again
   - Text: What? You don't want to fight spore spawn?
+  - Text: Spore Spawn didn't want to hang out with you anyway.
   LookedAtNothing:
   - Text: What am I supposed to be looking at?
   - Text: Did you think I would be impressed?

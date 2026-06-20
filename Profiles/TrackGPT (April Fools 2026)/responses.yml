@@ -761,8 +761,11 @@ CountHyperBeamShots:
       Weight: 500
     - Text: Fun fact. Shaktool is immune to the Hyper Beam.
       Weight: 500
-  10:
-    - Text: That was an amazing stand-up glitch. Only {0}1 shots!
+  7:
+    - Text: That was an amazing stand-up glitch. Only {0}2 shots!
+      Weight: 1000
+  14:
+    - Text: That was an amazing stand-up glitch. Only {0}3 shots!
       Weight: 1000
   36:
     - Text: This line isn't going to happen, is it? Please let me out of the funny lines factory.

@@ -523,11 +523,13 @@ Multiplayer:
   - Text: ''
 CountHyperBeamShots:
   0:
-    - Text: "That was an amazing stand-up glitch! Zero shots!"
+    - Text: "That was an incredible stand-up glitch! No shots at all!"
   1:
     - Text: "That was an amazing stand-up glitch! A one-hit wonder!"
   2:
     - Text: "That was an amazing stand-up glitch! Only {0} shots!"
-  10:
-    - Text: "Nice stand-up glitch! Only {0} shots!"
+  7:
+    - Text: "That was a great stand-up glitch! Only {0} shots!"
+  14:
+    - Text: "Nice stand-up glitch! {0} shots!"
   36: []
