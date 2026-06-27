@@ -1017,7 +1017,7 @@ Chat:
     TrackerImage: WTF
   TrackerGuessFailed:
   - Text: I guess I lost. Told you I wasn't cheating.
-  - Text: Next time, I'll just more the key to the right spot.
+  - Text: Next time, I'll just move the key to the right spot.
   AskChatAboutContent:
   - Text: Hmm. I'm not so sure about that. Let's ask the professionals in chat if that was some hashtag content.
   - Text: Do you really think that was high quality hashtag content? Let's get some unbiased opinions from chat to confirm.
