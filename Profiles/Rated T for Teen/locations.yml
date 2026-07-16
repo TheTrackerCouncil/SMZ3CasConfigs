@@ -3,6 +3,8 @@
 - LocationNumber: 6
   Name:
   - Text: Mother Brain's toilet
+  - Text: the spot underneath the place Mother Brain used to shit
+    Weight: 0.1
   WhenTrackingJunk:
   - Text: Of course this location would have a shitty item
   - Text: What a poopy item. No wonder it got flushed.
