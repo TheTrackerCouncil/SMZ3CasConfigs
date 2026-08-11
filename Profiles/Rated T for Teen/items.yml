@@ -90,3 +90,10 @@
     "2":
     - Text: That really torques my lugnuts.
       Weight: 0.1
+- Item: Heart piece
+  Name:
+  - Text: Piece of Fart
+    Weight: 0.01
+  Plural:
+  - Text: Pieces of Farts
+    Weight: 0.01
