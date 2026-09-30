@@ -212,10 +212,18 @@ TrackedParsedOtherGameUnknownProgressionItem:
   Weight: 0.25
 - Text: What in the world was that? Looks kinda neat. Well, better give it to {0}.
   Weight: 0.25
-TrackedParsedOtherGameUnknownRegularItem: 
+- Text: Sent something cool over to {0}.
+  Weight: 0.25
+- Text: Slipped something fun into {0}'s backpack.
+  Weight: 0.25
+TrackedParsedOtherGameUnknownRegularItem:
 - Text: Tracked some random junk for {0}.
   Weight: 0.25
 - Text: What is this garbage? {0} better take care of that.
+  Weight: 0.25
+- Text: Sent something uncool over to {0}.
+  Weight: 0.25
+- Text: Played a fun little prank on {0}.
   Weight: 0.25
 TrackedNothing:
 - Text: There are no items left in {0}.
