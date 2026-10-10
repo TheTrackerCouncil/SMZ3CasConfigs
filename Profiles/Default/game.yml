@@ -34,8 +34,8 @@ HintLocationHasKey:
   - Text: "{0} has something that will open a door."
   - Text: "{0} has either a key or a keycard."
 HintLocationHasUsefulItem:
-  - Text: "{0} has something nice, but it's not vital."
-  - Text: "{0} may be useful, but it's not required."
+  - Text: "{0} has something nice inside it, but it's not vital."
+  - Text: "{0} may have something useful inside it, but it's not required."
 HintDungeonMedallion:
   - Text: "{0} requires {1}"
   - Text: You will need to find {1} to enter {0}
@@ -46,8 +46,8 @@ HintLocationAltGoal:
   - Text: "{0} is on the way of your goal."
   - Text: "Your goal might require you to go to {0}."
 HintLocationEmpty:
-  - Text: "{0} is barren."
-  - Text: "{0} has nothing useful."
+  - Text: "It is barren inside {0}."
+  - Text: "There is nothing useful inside {0}."
 HintLocationHasItem:
   - Text: "{0} has {1}."
   - Text: You can find {1} at {0}.
