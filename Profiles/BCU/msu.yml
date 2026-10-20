@@ -43,3 +43,12 @@ SongResponses:
     - Text: Objection!
     - Text: Is it Christmas yet?
       Weight: 0.1
+  "NFL":
+    - Text: Hut hut hut hut hut
+    - Text: Football!
+    - Text: Soccer!
+    - Text: Sports!
+    - Text: John Madden!
+      Weight: 0.1
+    - Text: aeiou
+      Weight: 0.1
